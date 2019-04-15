@@ -1,5 +1,5 @@
 
-const mongoose = require('../db/mongoose')
+const mongoose = require('../mongoose')
 
 //创建一个schema
 let Schema = {

@@ -1,0 +1,591 @@
+[2019-04-15T10:33:29.154] [INFO] default - 用户登录参数： { username: 'liqiang', password: '123456' }
+[2019-04-15T10:33:29.168] [INFO] default - 用户不存在
+[2019-04-15T10:33:35.071] [INFO] default - 用户登录参数： { username: 'liqiang', password: '123456' }
+[2019-04-15T10:33:35.073] [INFO] default - 用户不存在
+[2019-04-15T10:33:41.093] [INFO] default - 用户登录参数： { username: 'liqiang', password: '123456' }
+[2019-04-15T10:33:41.095] [INFO] default - 用户不存在
+[2019-04-15T10:35:27.133] [INFO] default - 用户登录参数： { username: '1111111', password: '111111' }
+[2019-04-15T10:35:27.135] [INFO] default - 用户不存在
+[2019-04-15T10:36:37.609] [INFO] default - 用户登录参数： { username: '1111111', password: '11' }
+[2019-04-15T10:36:37.610] [INFO] default - 用户不存在
+[2019-04-15T10:37:56.499] [INFO] default - 用户登录参数： { username: 'licumt217', password: '123456' }
+[2019-04-15T10:38:53.721] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T10:38:58.474] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T10:39:07.294] [INFO] default - 新增用户参数： { username: 'helloworld',
+  name: 'jt',
+  type: '0',
+  studentNumber: '6666' }
+[2019-04-15T10:39:07.296] [INFO] default - 用户已存在！
+[2019-04-15T10:39:22.166] [INFO] default - 新增用户参数： { username: 'helloworld',
+  name: 'jt',
+  type: '0',
+  studentNumber: '6666' }
+[2019-04-15T10:39:22.168] [INFO] default - 用户已存在！
+[2019-04-15T10:58:23.977] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T10:58:31.770] [INFO] default - 修改用户信息参数： { username: 'helloworld',
+  name: 'jt',
+  type: '0',
+  studentNumber: '111',
+  _id: '5cac558035e75b7ea96dd503' }
+[2019-04-15T10:58:31.816] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T10:58:44.909] [INFO] default - 新增用户参数： { username: 'nimeia',
+  name: 'nimeia',
+  type: '0',
+  studentNumber: 'fsjlsfsf',
+  jobNumber: '' }
+[2019-04-15T10:58:44.956] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T10:58:54.777] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T10:59:02.670] [INFO] default - 删除用户参数： { _id: '5cac63b2ea3715863e2aa569' }
+[2019-04-15T10:59:02.692] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T10:59:05.809] [INFO] default - 删除用户参数： { _id: '5cad619005157c0af0993040' }
+[2019-04-15T10:59:05.819] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T10:59:18.583] [INFO] default - 删除用户参数： { _id: '5cad6e27b623c80c75a3b50c' }
+[2019-04-15T10:59:18.593] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T11:44:20.794] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T11:44:40.874] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T11:45:02.268] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T11:45:05.128] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T11:47:25.631] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T11:47:51.417] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T11:48:07.425] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T11:49:17.442] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T11:50:12.340] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T13:56:07.393] [INFO] default - 新增用户参数： { username: 'frontend11', password: '123456' }
+[2019-04-15T13:56:09.763] [INFO] default - 删除用户参数： { _id: '5cad640720802d0c1c1566a9' }
+[2019-04-15T13:56:09.766] [INFO] default - 用户不存在！
+[2019-04-15T13:56:12.222] [INFO] default - 修改用户信息参数： { username: 'helloworld',
+  name: 'jt',
+  _id: '5cac558035e75b7ea96dd503' }
+[2019-04-15T13:56:14.601] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T13:58:02.700] [INFO] default - 新增用户参数： { name: '7天速成h5', author: 'ds' }
+[2019-04-15T13:58:02.717] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: username: Path `username` is required.
+    at ValidationError.inspect (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validation.js:59:24)
+    at formatValue (internal/util/inspect.js:490:31)
+    at inspect (internal/util/inspect.js:191:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/layouts.js:65:57)
+    at app (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/appenders/dateFile.js:30:19)
+    at categoryAppenders.forEach (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:45:12)
+  errors:
+   { username:
+      { ValidatorError: Path `username` is required.
+          at new ValidatorError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validator.js:29:11)
+          at validate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:945:13)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:998:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:954:19)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/document.js:2106:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `username` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'username',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2019-04-15T13:58:02.720] [INFO] default - 新增用户异常！
+[2019-04-15T13:58:49.172] [INFO] default - 新增书籍参数： { name: '7天速成h5', author: 'ds' }
+[2019-04-15T13:58:54.074] [INFO] default - 新增书籍参数： { name: '7天速成h5', author: 'ds' }
+[2019-04-15T13:58:54.079] [INFO] default - 书籍已存在！
+[2019-04-15T13:58:56.087] [INFO] default - 新增书籍参数： { name: '7天速成h5', author: 'ds' }
+[2019-04-15T13:58:56.089] [INFO] default - 书籍已存在！
+[2019-04-15T13:59:30.071] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T13:59:33.415] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T13:59:58.131] [INFO] default - 删除书籍参数： { _id: '5cb41d99a7b8c50c7cb005a5' }
+[2019-04-15T13:59:59.925] [INFO] default - 删除书籍参数： { _id: '5cb41d99a7b8c50c7cb005a5' }
+[2019-04-15T13:59:59.927] [INFO] default - 书籍不存在！
+[2019-04-15T14:00:03.481] [INFO] default - 删除书籍参数： { _id: '5cb41d99a7b8c50c7cbfssf005a5' }
+[2019-04-15T14:00:03.482] [INFO] default - 根据条件查询书籍异常！ { CastError: Cast to ObjectId failed for value "5cb41d99a7b8c50c7cbfssf005a5" at path "_id" for model "Book"
+    at new CastError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/cast.js:29:11)
+    at ObjectId.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schema/objectid.js:242:11)
+    at ObjectId.SchemaType.applySetters (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:864:12)
+    at ObjectId.SchemaType._castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1267:15)
+    at ObjectId.SchemaType.castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1257:15)
+    at ObjectId.SchemaType.castForQueryWrapper (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1236:15)
+    at cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/cast.js:307:32)
+    at model.Query.Query.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:4433:12)
+    at model.Query.Query._castConditions (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1762:10)
+    at model.Query.<anonymous> (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1789:8)
+    at model.Query._wrappedThunk [as _find] (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at process.nextTick (/Users/licumt217/Documents/projects/li/library_back/node_modules/kareem/index.js:369:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  message:
+   'Cast to ObjectId failed for value "5cb41d99a7b8c50c7cbfssf005a5" at path "_id" for model "Book"',
+  name: 'CastError',
+  stringValue: '"5cb41d99a7b8c50c7cbfssf005a5"',
+  kind: 'ObjectId',
+  value: '5cb41d99a7b8c50c7cbfssf005a5',
+  path: '_id',
+  reason: undefined,
+  model:
+   { [Function: model]
+     hooks: Kareem { _pres: [Map], _posts: [Map] },
+     base:
+      Mongoose {
+        connections: [Array],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        _pluralize: [Function: pluralize],
+        Schema: [Function],
+        model: [Function],
+        plugins: [Array] },
+     modelName: 'Book',
+     model: [Function: model],
+     db:
+      NativeConnection {
+        base: [Mongoose],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        options: null,
+        otherDbs: [],
+        relatedDbs: {},
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        plugins: [],
+        '$internalEmitter': [EventEmitter],
+        _listening: false,
+        _connectionOptions: [Object],
+        name: 'library',
+        host: 'localhost',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        client: [MongoClient],
+        '$initialConnection': [Promise],
+        db: [Db] },
+     discriminators: undefined,
+     events:
+      EventEmitter {
+        _events: [Object: null prototype] {},
+        _eventsCount: 0,
+        _maxListeners: undefined },
+     '$appliedMethods': true,
+     '$appliedHooks': true,
+     _middleware: Kareem { _pres: [Map], _posts: [Map] },
+     '$__insertMany': [Function],
+     schema:
+      Schema {
+        obj: [Object],
+        paths: [Object],
+        aliases: {},
+        subpaths: {},
+        virtuals: [Object],
+        singleNestedPaths: {},
+        nested: {},
+        inherits: {},
+        callQueue: [],
+        _indexes: [],
+        methods: {},
+        methodOptions: {},
+        statics: {},
+        tree: [Object],
+        query: {},
+        childSchemas: [],
+        plugins: [Array],
+        '$id': 2,
+        s: [Object],
+        _userProvidedOptions: {},
+        options: [Object],
+        '$globalPluginsApplied': true,
+        _requiredpaths: [Array],
+        [Symbol(Mongoose.helpers.setParentPointers)]: true },
+     collection:
+      NativeCollection {
+        collection: [Collection],
+        opts: [Object],
+        name: 'books',
+        collectionName: 'books',
+        conn: [NativeConnection],
+        queue: [],
+        buffer: false,
+        emitter: [EventEmitter] },
+     Query: { [Function] base: [Query] },
+     '$init': Promise { [Circular] },
+     '$caught': true,
+     [Symbol(mongoose#Model)]: true } }
+[2019-04-15T14:00:03.488] [INFO] default - 根据条件查询书籍异常！
+[2019-04-15T14:01:09.884] [INFO] default - 删除书籍参数： { _id: '5cb41d99a7b8c50c7cbfssf005a5' }
+[2019-04-15T14:01:09.885] [INFO] default - 根据条件查询书籍异常！ { CastError: Cast to ObjectId failed for value "5cb41d99a7b8c50c7cbfssf005a5" at path "_id" for model "Book"
+    at new CastError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/cast.js:29:11)
+    at ObjectId.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schema/objectid.js:242:11)
+    at ObjectId.SchemaType.applySetters (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:864:12)
+    at ObjectId.SchemaType._castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1267:15)
+    at ObjectId.SchemaType.castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1257:15)
+    at ObjectId.SchemaType.castForQueryWrapper (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1236:15)
+    at cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/cast.js:307:32)
+    at model.Query.Query.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:4433:12)
+    at model.Query.Query._castConditions (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1762:10)
+    at model.Query.<anonymous> (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1789:8)
+    at model.Query._wrappedThunk [as _find] (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at process.nextTick (/Users/licumt217/Documents/projects/li/library_back/node_modules/kareem/index.js:369:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  message:
+   'Cast to ObjectId failed for value "5cb41d99a7b8c50c7cbfssf005a5" at path "_id" for model "Book"',
+  name: 'CastError',
+  stringValue: '"5cb41d99a7b8c50c7cbfssf005a5"',
+  kind: 'ObjectId',
+  value: '5cb41d99a7b8c50c7cbfssf005a5',
+  path: '_id',
+  reason: undefined,
+  model:
+   { [Function: model]
+     hooks: Kareem { _pres: [Map], _posts: [Map] },
+     base:
+      Mongoose {
+        connections: [Array],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        _pluralize: [Function: pluralize],
+        Schema: [Function],
+        model: [Function],
+        plugins: [Array] },
+     modelName: 'Book',
+     model: [Function: model],
+     db:
+      NativeConnection {
+        base: [Mongoose],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        options: null,
+        otherDbs: [],
+        relatedDbs: {},
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        plugins: [],
+        '$internalEmitter': [EventEmitter],
+        _listening: false,
+        _connectionOptions: [Object],
+        name: 'library',
+        host: 'localhost',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        client: [MongoClient],
+        '$initialConnection': [Promise],
+        db: [Db] },
+     discriminators: undefined,
+     events:
+      EventEmitter {
+        _events: [Object: null prototype] {},
+        _eventsCount: 0,
+        _maxListeners: undefined },
+     '$appliedMethods': true,
+     '$appliedHooks': true,
+     _middleware: Kareem { _pres: [Map], _posts: [Map] },
+     '$__insertMany': [Function],
+     schema:
+      Schema {
+        obj: [Object],
+        paths: [Object],
+        aliases: {},
+        subpaths: {},
+        virtuals: [Object],
+        singleNestedPaths: {},
+        nested: {},
+        inherits: {},
+        callQueue: [],
+        _indexes: [],
+        methods: {},
+        methodOptions: {},
+        statics: {},
+        tree: [Object],
+        query: {},
+        childSchemas: [],
+        plugins: [Array],
+        '$id': 2,
+        s: [Object],
+        _userProvidedOptions: {},
+        options: [Object],
+        '$globalPluginsApplied': true,
+        _requiredpaths: [Array],
+        [Symbol(Mongoose.helpers.setParentPointers)]: true },
+     collection:
+      NativeCollection {
+        collection: [Collection],
+        opts: [Object],
+        name: 'books',
+        collectionName: 'books',
+        conn: [NativeConnection],
+        queue: [],
+        buffer: false,
+        emitter: [EventEmitter] },
+     Query: { [Function] base: [Query] },
+     '$init': Promise { [Circular] },
+     '$caught': true,
+     [Symbol(mongoose#Model)]: true } }
+[2019-04-15T14:01:09.888] [INFO] default - 根据条件查询书籍异常！
+[2019-04-15T14:01:35.923] [INFO] default - 删除书籍参数： { _id: 'fsfsfs' }
+[2019-04-15T14:01:35.924] [INFO] default - 根据条件查询书籍异常！ { CastError: Cast to ObjectId failed for value "fsfsfs" at path "_id" for model "Book"
+    at new CastError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/cast.js:29:11)
+    at ObjectId.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schema/objectid.js:242:11)
+    at ObjectId.SchemaType.applySetters (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:864:12)
+    at ObjectId.SchemaType._castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1267:15)
+    at ObjectId.SchemaType.castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1257:15)
+    at ObjectId.SchemaType.castForQueryWrapper (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1236:15)
+    at cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/cast.js:307:32)
+    at model.Query.Query.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:4433:12)
+    at model.Query.Query._castConditions (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1762:10)
+    at model.Query.<anonymous> (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1789:8)
+    at model.Query._wrappedThunk [as _find] (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at process.nextTick (/Users/licumt217/Documents/projects/li/library_back/node_modules/kareem/index.js:369:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  message:
+   'Cast to ObjectId failed for value "fsfsfs" at path "_id" for model "Book"',
+  name: 'CastError',
+  stringValue: '"fsfsfs"',
+  kind: 'ObjectId',
+  value: 'fsfsfs',
+  path: '_id',
+  reason: undefined,
+  model:
+   { [Function: model]
+     hooks: Kareem { _pres: [Map], _posts: [Map] },
+     base:
+      Mongoose {
+        connections: [Array],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        _pluralize: [Function: pluralize],
+        Schema: [Function],
+        model: [Function],
+        plugins: [Array] },
+     modelName: 'Book',
+     model: [Function: model],
+     db:
+      NativeConnection {
+        base: [Mongoose],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        options: null,
+        otherDbs: [],
+        relatedDbs: {},
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        plugins: [],
+        '$internalEmitter': [EventEmitter],
+        _listening: false,
+        _connectionOptions: [Object],
+        name: 'library',
+        host: 'localhost',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        client: [MongoClient],
+        '$initialConnection': [Promise],
+        db: [Db] },
+     discriminators: undefined,
+     events:
+      EventEmitter {
+        _events: [Object: null prototype] {},
+        _eventsCount: 0,
+        _maxListeners: undefined },
+     '$appliedMethods': true,
+     '$appliedHooks': true,
+     _middleware: Kareem { _pres: [Map], _posts: [Map] },
+     '$__insertMany': [Function],
+     schema:
+      Schema {
+        obj: [Object],
+        paths: [Object],
+        aliases: {},
+        subpaths: {},
+        virtuals: [Object],
+        singleNestedPaths: {},
+        nested: {},
+        inherits: {},
+        callQueue: [],
+        _indexes: [],
+        methods: {},
+        methodOptions: {},
+        statics: {},
+        tree: [Object],
+        query: {},
+        childSchemas: [],
+        plugins: [Array],
+        '$id': 2,
+        s: [Object],
+        _userProvidedOptions: {},
+        options: [Object],
+        '$globalPluginsApplied': true,
+        _requiredpaths: [Array],
+        [Symbol(Mongoose.helpers.setParentPointers)]: true },
+     collection:
+      NativeCollection {
+        collection: [Collection],
+        opts: [Object],
+        name: 'books',
+        collectionName: 'books',
+        conn: [NativeConnection],
+        queue: [],
+        buffer: false,
+        emitter: [EventEmitter] },
+     Query: { [Function] base: [Query] },
+     '$init': Promise { [Circular] },
+     '$caught': true,
+     [Symbol(mongoose#Model)]: true } }
+[2019-04-15T14:01:35.928] [INFO] default - 根据条件查询书籍异常！
+[2019-04-15T14:01:48.924] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T14:02:01.256] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T14:02:04.678] [INFO] default - 新增书籍参数： { name: '7天速成h5', author: 'ds' }
+[2019-04-15T14:02:07.081] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T14:02:17.230] [INFO] default - 删除书籍参数： { _id: '5cb41e5ca7b8c50c7cb005a1' }
+[2019-04-15T14:02:17.231] [INFO] default - 书籍不存在！
+[2019-04-15T14:02:18.770] [INFO] default - 删除书籍参数： { _id: '5cb41e5ca7b8c50c7cb005a1' }
+[2019-04-15T14:02:18.772] [INFO] default - 书籍不存在！
+[2019-04-15T14:02:29.393] [INFO] default - 修改用户信息参数： { username: 'helloworld',
+  name: 'jt',
+  _id: '5cac558035e75b7ea96dd503' }
+[2019-04-15T14:03:10.748] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T14:03:17.170] [INFO] default - 修改书籍信息参数： { name: 'helloworld',
+  author: 'jt',
+  _id: '5cb41e5ca7b8c50c7cb005a6' }
+[2019-04-15T14:03:20.562] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T14:10:49.663] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T14:11:07.613] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T14:12:06.535] [INFO] default - 新增书籍参数： { name: '西游记', author: '吴承恩' }
+[2019-04-15T14:12:06.591] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T14:12:17.498] [INFO] default - 新增书籍参数： { name: '红楼梦', author: '曹雪芹' }
+[2019-04-15T14:12:17.525] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T14:12:41.033] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T14:12:42.091] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T14:12:44.581] [INFO] default - 删除书籍参数： { _id: '5cb41e5ca7b8c50c7cb005a6' }
+[2019-04-15T14:12:44.595] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T14:12:57.074] [INFO] default - 修改书籍信息参数： { name: '西游记后传', author: '吴承恩', _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-15T14:12:57.103] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T14:13:08.231] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:44:24.481] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T18:44:42.921] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T18:45:14.751] [INFO] default - 新增书籍参数： { name: '三国演义', author: '罗贯中' }
+[2019-04-15T18:45:14.776] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T18:45:27.034] [INFO] default - 新增书籍参数： { name: '水浒传', author: '施耐庵' }
+[2019-04-15T18:45:27.062] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T18:45:41.043] [INFO] default - 新增书籍参数： { name: '大唐双龙传', author: '黄易' }
+[2019-04-15T18:45:41.080] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T18:45:44.826] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:47:24.524] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:47:26.309] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:47:31.308] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:47:53.673] [INFO] default - 修改用户信息参数： { username: 'qiang.li',
+  name: '李强',
+  type: '0',
+  studentNumber: '09064214',
+  _id: '5cac558035e75b7ea96dd503' }
+[2019-04-15T18:47:53.724] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:48:16.516] [INFO] default - 修改用户信息参数： { username: 'shuaijun.zhang',
+  name: '张帅军',
+  type: '0',
+  studentNumber: '09064213',
+  jobNumber: '',
+  _id: '5cadc7a6fc0e55294c70d611' }
+[2019-04-15T18:48:16.547] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:48:37.876] [INFO] default - 修改用户信息参数： { username: 'jiajun.li',
+  name: '李佳俊',
+  type: '1',
+  studentNumber: 'sfs',
+  jobNumber: '100001',
+  _id: '5cadc7e2fc0e55294c70d612' }
+[2019-04-15T18:48:37.905] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:48:48.564] [INFO] default - 修改用户信息参数： { username: 'jiajun.li',
+  name: '李佳俊',
+  type: '1',
+  studentNumber: 'sfs',
+  jobNumber: '100001',
+  _id: '5cadc7e2fc0e55294c70d612' }
+[2019-04-15T18:48:48.589] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:48:57.818] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T18:49:01.519] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:50:10.885] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:50:29.403] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:50:55.725] [INFO] default - 修改用户信息参数： { username: 'xinwei.zhang',
+  name: '张鑫伟',
+  type: '0',
+  studentNumber: '012225455',
+  jobNumber: '',
+  _id: '5cadd5fffc0e55294c70d613' }
+[2019-04-15T18:50:55.751] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:51:14.972] [INFO] default - 修改用户信息参数： { username: 'qi.liu',
+  name: '刘齐',
+  type: '0',
+  studentNumber: '09064211',
+  jobNumber: '',
+  _id: '5cb3f364f7690cf5a7f59183' }
+[2019-04-15T18:51:14.998] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T18:51:33.489] [INFO] default - 修改用户信息参数： { username: 'wei.han',
+  name: '韩伟',
+  type: '0',
+  studentNumber: '09064212',
+  _id: '5cb41cf7c8bb3400c7bc1cf5' }
+[2019-04-15T18:51:33.517] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T19:29:23.900] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T19:29:29.005] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T19:29:49.540] [INFO] default - 新增用户参数： { username: 'zhe.shen',
+  name: '申哲',
+  type: '0',
+  studentNumber: '09064201',
+  jobNumber: '' }
+[2019-04-15T19:29:49.587] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T19:29:59.483] [INFO] default - 修改用户信息参数： { password: '123456',
+  type: '0',
+  _id: '5cb46b2d44224c2d16a4175e',
+  username: 'zhe.shen',
+  name: '申哲',
+  studentNumber: '09064202',
+  jobNumber: '',
+  __v: 0,
+  _index: 6,
+  _rowKey: 13 }
+[2019-04-15T19:29:59.520] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T19:30:04.419] [INFO] default - 删除用户参数： { _id: '5cb46b2d44224c2d16a4175e' }
+[2019-04-15T19:30:04.434] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T19:30:13.611] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T19:30:17.870] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T19:30:18.581] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T19:30:20.856] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T19:30:22.526] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T19:30:24.112] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T19:30:27.701] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T19:30:29.164] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T19:30:30.698] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T19:30:32.013] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T19:30:33.557] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T19:30:34.747] [INFO] default - 获取用户列表的参数： {}
+[2019-04-15T19:30:35.876] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T19:31:54.490] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T19:31:59.703] [INFO] default - 新增书籍参数： { name: '2323', author: '2323' }
+[2019-04-15T19:31:59.736] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T19:32:04.943] [INFO] default - 修改书籍信息参数： { _id: '5cb46baf44224c2d16a4175f',
+  name: '2323',
+  author: '322222222222',
+  __v: 0,
+  _index: 5,
+  _rowKey: 11 }
+[2019-04-15T19:32:04.971] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-15T19:32:08.806] [INFO] default - 删除书籍参数： { _id: '5cb46baf44224c2d16a4175f' }
+[2019-04-15T19:32:08.819] [INFO] default - 获取书籍列表的参数： {}

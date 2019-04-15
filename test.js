@@ -1,4 +1,4 @@
-const User=require('./models/User')
+const User=require('./dao/models/User')
 
 User.create({
     username:'33333333323232323',

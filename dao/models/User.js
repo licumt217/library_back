@@ -1,5 +1,5 @@
 
-const mongoose = require('../db/mongoose')
+const mongoose = require('../mongoose')
 
 //创建一个schema
 let Schema = {
@@ -12,14 +12,15 @@ let Schema = {
 
     "password": {
         type:String,
-        required: true
+        required: true,
+        default: "123456"
     },
 
     "name": String,
 
-    "student_number": String,
+    "studentNumber": String,
 
-    "job_number": String,
+    "jobNumber": String,
 
     "type": {
         type:Number,

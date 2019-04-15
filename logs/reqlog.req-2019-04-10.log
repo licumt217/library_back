@@ -1,0 +1,405 @@
+[2019-04-10T11:00:10.387] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T11:00:10.422] [INFO] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:158:21)
+    at UserService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/users.js:15:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-10T11:00:29.554] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T11:00:29.566] [INFO] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:158:21)
+    at UserService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/users.js:15:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-10T11:00:30.045] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T11:00:30.054] [INFO] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:158:21)
+    at UserService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/users.js:15:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-10T11:00:30.821] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T11:00:30.829] [INFO] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:158:21)
+    at UserService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/users.js:15:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-10T11:00:36.294] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T11:22:56.349] [INFO] default - 新增用户参数： { username: 'frontend', password: '123456' }
+[2019-04-10T11:25:00.950] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2019-04-10T11:25:04.570] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2019-04-10T11:25:56.421] [INFO] default - 修改用户信息参数： { username: 'liqiangxxxxxxxxx',
+  password: 'xx',
+  _id: '5c04d8571c56017128fd84e7' }
+[2019-04-10T11:26:57.360] [INFO] default - 用户登录参数： { username: 'liqiang', password: '123456' }
+[2019-04-10T11:26:57.362] [INFO] default - 
+[2019-04-10T11:27:55.876] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T11:28:23.535] [INFO] default - 新增用户参数： { username: 'frontend', password: '123456' }
+[2019-04-10T11:28:23.539] [INFO] default - 用户已存在！
+[2019-04-10T11:28:24.697] [INFO] default - 新增用户参数： { username: 'frontend', password: '123456' }
+[2019-04-10T11:28:24.699] [INFO] default - 用户已存在！
+[2019-04-10T11:28:25.659] [INFO] default - 新增用户参数： { username: 'frontend', password: '123456' }
+[2019-04-10T11:28:25.661] [INFO] default - 用户已存在！
+[2019-04-10T11:28:30.778] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2019-04-10T11:28:31.960] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2019-04-10T11:28:32.669] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2019-04-10T11:29:22.865] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2019-04-10T11:30:05.320] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2019-04-10T11:33:13.811] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2019-04-10T11:33:13.821] [INFO] default - 用户不存在！
+[2019-04-10T11:33:15.405] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2019-04-10T11:33:15.411] [INFO] default - 用户不存在！
+[2019-04-10T11:33:16.352] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2019-04-10T11:33:16.354] [INFO] default - 用户不存在！
+[2019-04-10T11:33:17.233] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2019-04-10T11:33:17.235] [INFO] default - 用户不存在！
+[2019-04-10T11:33:22.778] [INFO] default - 新增用户参数： { username: 'frontend', password: '123456' }
+[2019-04-10T11:33:22.786] [INFO] default - 用户已存在！
+[2019-04-10T11:33:27.541] [INFO] default - 新增用户参数： { username: 'frontend11', password: '123456' }
+[2019-04-10T11:33:32.866] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2019-04-10T11:33:32.868] [INFO] default - 用户不存在！
+[2019-04-10T11:33:33.582] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2019-04-10T11:33:33.583] [INFO] default - 用户不存在！
+[2019-04-10T11:33:37.244] [INFO] default - 删除用户参数： { _id: '5cad640720802d0c1c1566a9' }
+[2019-04-10T11:33:38.304] [INFO] default - 删除用户参数： { _id: '5cad640720802d0c1c1566a9' }
+[2019-04-10T11:33:38.306] [INFO] default - 用户不存在！
+[2019-04-10T11:36:36.246] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T11:37:00.176] [INFO] default - 修改用户信息参数： { username: 'helloworld',
+  password: 'xx',
+  _id: '5cac558035e75b7ea96dd503' }
+[2019-04-10T11:37:01.320] [INFO] default - 修改用户信息参数： { username: 'helloworld',
+  password: 'xx',
+  _id: '5cac558035e75b7ea96dd503' }
+[2019-04-10T11:37:05.302] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T11:37:36.177] [INFO] default - 修改用户信息参数： { username: 'helloworld',
+  name: 'jt',
+  _id: '5cac558035e75b7ea96dd503' }
+[2019-04-10T11:37:40.445] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T11:37:49.951] [INFO] default - 用户登录参数： { username: 'liqiang', password: '123456' }
+[2019-04-10T11:37:49.952] [INFO] default - 
+[2019-04-10T11:37:55.304] [INFO] default - 用户登录参数： { username: 'liqiang', password: '123452226' }
+[2019-04-10T11:37:55.306] [INFO] default - 
+[2019-04-10T11:37:59.525] [INFO] default - 用户登录参数： { username: 'liqiang', password: '123452226' }
+[2019-04-10T11:37:59.526] [INFO] default - 
+[2019-04-10T11:38:00.242] [INFO] default - 用户登录参数： { username: 'liqiang', password: '123452226' }
+[2019-04-10T11:38:00.243] [INFO] default - 
+[2019-04-10T11:38:32.420] [INFO] default - 用户登录参数： { username: 'liqiang3', password: '123452226' }
+[2019-04-10T11:38:32.422] [INFO] default - 
+[2019-04-10T11:38:36.768] [INFO] default - 用户登录参数： { username: 'liqiang3333', password: '123452226' }
+[2019-04-10T11:38:36.770] [INFO] default - 
+[2019-04-10T11:39:13.086] [INFO] default - 用户登录参数： { username: 'liqiang3333', password: '123452226' }
+[2019-04-10T11:39:13.098] [INFO] default - 用户不存在
+[2019-04-10T11:39:14.505] [INFO] default - 用户登录参数： { username: 'liqiang3333', password: '123452226' }
+[2019-04-10T11:39:14.509] [INFO] default - 用户不存在
+[2019-04-10T11:39:16.793] [INFO] default - 用户登录参数： { username: 'liqiang3333', password: '123452226' }
+[2019-04-10T11:39:16.795] [INFO] default - 用户不存在
+[2019-04-10T11:39:26.067] [INFO] default - 用户登录参数： { username: 'liqiang', password: '123452226' }
+[2019-04-10T11:39:26.069] [INFO] default - 用户不存在
+[2019-04-10T11:39:27.257] [INFO] default - 用户登录参数： { username: 'liqiang', password: '123452226' }
+[2019-04-10T11:39:27.259] [INFO] default - 用户不存在
+[2019-04-10T11:39:40.981] [INFO] default - 用户登录参数： { username: 'helloworld', password: '123452226' }
+[2019-04-10T11:39:40.990] [INFO] default - 密码不正确！
+[2019-04-10T11:39:42.715] [INFO] default - 用户登录参数： { username: 'helloworld', password: '123452226' }
+[2019-04-10T11:39:42.719] [INFO] default - 密码不正确！
+[2019-04-10T11:40:12.908] [INFO] default - 用户登录参数： { username: 'helloworld', password: '123456' }
+[2019-04-10T11:40:12.911] [INFO] default - 密码不正确！
+[2019-04-10T11:40:14.100] [INFO] default - 用户登录参数： { username: 'helloworld', password: '123456' }
+[2019-04-10T11:40:14.103] [INFO] default - 密码不正确！
+[2019-04-10T11:40:26.739] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T12:15:49.375] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T12:15:56.522] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T12:15:59.442] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xxx' }
+[2019-04-10T12:15:59.444] [INFO] default - 密码不正确！
+[2019-04-10T12:16:39.975] [INFO] default - 新增用户参数： { username: 'frontend11', password: '123456' }
+[2019-04-10T12:16:45.192] [INFO] default - 新增用户参数： { username: 'frontend11', password: '123456' }
+[2019-04-10T12:16:45.194] [INFO] default - 用户已存在！
+[2019-04-10T12:16:46.495] [INFO] default - 新增用户参数： { username: 'frontend11', password: '123456' }
+[2019-04-10T12:16:46.498] [INFO] default - 用户已存在！
+[2019-04-10T12:16:47.614] [INFO] default - 新增用户参数： { username: 'frontend11', password: '123456' }
+[2019-04-10T12:16:47.616] [INFO] default - 用户已存在！
+[2019-04-10T14:25:59.652] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:25:59.653] [INFO] default - 用户不存在
+[2019-04-10T14:26:09.451] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:26:09.452] [INFO] default - 用户不存在
+[2019-04-10T14:26:37.404] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:26:37.405] [INFO] default - 用户不存在
+[2019-04-10T14:27:25.943] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:27:25.945] [INFO] default - 用户不存在
+[2019-04-10T14:28:07.469] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:28:07.472] [INFO] default - 用户不存在
+[2019-04-10T14:28:38.536] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:28:38.538] [INFO] default - 用户不存在
+[2019-04-10T14:29:24.666] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:29:24.667] [INFO] default - 用户不存在
+[2019-04-10T14:29:26.454] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:29:26.455] [INFO] default - 用户不存在
+[2019-04-10T14:36:50.549] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:36:50.551] [INFO] default - 用户不存在
+[2019-04-10T14:36:52.162] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:36:52.164] [INFO] default - 用户不存在
+[2019-04-10T14:36:53.060] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:36:53.061] [INFO] default - 用户不存在
+[2019-04-10T14:37:47.336] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:37:47.338] [INFO] default - 用户不存在
+[2019-04-10T14:37:49.489] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:37:49.491] [INFO] default - 用户不存在
+[2019-04-10T14:37:50.847] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T14:37:50.848] [INFO] default - 用户不存在
+[2019-04-10T15:03:52.169] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T15:03:52.173] [INFO] default - 用户不存在
+[2019-04-10T15:03:53.764] [INFO] default - 用户登录参数： { username: '', password: '' }
+[2019-04-10T15:03:53.765] [INFO] default - 用户不存在
+[2019-04-10T15:04:37.707] [INFO] default - 用户登录参数： { username: 'liqnag', password: 'fsfs' }
+[2019-04-10T15:04:37.709] [INFO] default - 用户不存在
+[2019-04-10T15:19:44.457] [INFO] default - 用户登录参数： { username: 'fsfffsfsfs', password: 'fsfsf' }
+[2019-04-10T15:19:44.459] [INFO] default - 用户不存在
+[2019-04-10T15:19:46.692] [INFO] default - 用户登录参数： { username: 'fsfffsfsfs', password: 'fsfsf' }
+[2019-04-10T15:19:46.694] [INFO] default - 用户不存在
+[2019-04-10T15:19:48.756] [INFO] default - 用户登录参数： { username: 'fsfffsfsfs', password: 'fsfsf' }
+[2019-04-10T15:19:48.757] [INFO] default - 用户不存在
+[2019-04-10T15:20:38.784] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'fsfsf' }
+[2019-04-10T15:20:38.788] [INFO] default - 密码不正确！
+[2019-04-10T15:44:42.975] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T15:47:46.958] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T15:48:24.220] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T15:49:04.355] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T15:49:21.633] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T15:49:46.611] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T15:51:21.783] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T15:54:04.403] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T15:54:58.607] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T15:57:09.953] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T15:59:13.196] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T15:59:33.699] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:01:10.280] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:01:32.087] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:02:00.175] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:04:51.088] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:11:27.117] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:13:49.716] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:16:53.990] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:26:03.338] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:26:47.137] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:27:30.175] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:30:31.111] [INFO] default - 用户登录参数： { username: 'hellowrold', password: 'xx' }
+[2019-04-10T16:30:31.113] [INFO] default - 用户不存在
+[2019-04-10T16:30:37.816] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:36:48.456] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:37:15.138] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:38:09.491] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:39:24.946] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:46:08.797] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:46:58.084] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:48:39.962] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:49:28.951] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:54:03.133] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:55:16.592] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:55:55.313] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:57:30.140] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T16:59:46.742] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T17:00:25.276] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T17:10:28.549] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:10:31.648] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:14:04.528] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:14:23.868] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:14:33.482] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:15:06.116] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:15:09.834] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:15:16.401] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:15:19.312] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:15:22.356] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:15:38.577] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:15:42.357] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:15:45.425] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:16:09.541] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:16:12.610] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:16:15.643] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:16:55.329] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:17:00.089] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:17:09.533] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:17:29.404] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:18:02.109] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:18:11.941] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:18:41.859] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:18:53.890] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:19:33.495] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:19:41.936] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:20:48.071] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:21:49.754] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:22:41.178] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-10T17:22:46.060] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:25:39.241] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:25:48.842] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:25:55.968] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T17:26:08.804] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T18:34:04.357] [INFO] default - 新增用户参数： {}
+[2019-04-10T18:34:04.360] [INFO] default - 用户已存在！
+[2019-04-10T18:34:15.544] [INFO] default - 新增用户参数： {}
+[2019-04-10T18:34:15.546] [INFO] default - 用户已存在！
+[2019-04-10T18:36:18.609] [INFO] default - 新增用户参数： {}
+[2019-04-10T18:36:18.611] [INFO] default - 用户已存在！
+[2019-04-10T18:36:58.677] [INFO] default - 新增用户参数： {}
+[2019-04-10T18:36:58.679] [INFO] default - 用户已存在！
+[2019-04-10T18:37:15.769] [INFO] default - 新增用户参数： { username: '1111111',
+  name: '111111',
+  type: '0',
+  studentNumber: '111',
+  jobNumber: '' }
+[2019-04-10T18:37:15.773] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: password: Path `password` is required.
+    at ValidationError.inspect (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validation.js:59:24)
+    at formatValue (internal/util/inspect.js:490:31)
+    at inspect (internal/util/inspect.js:191:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/layouts.js:65:57)
+    at app (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/appenders/dateFile.js:30:19)
+    at categoryAppenders.forEach (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:45:12)
+  errors:
+   { password:
+      { ValidatorError: Path `password` is required.
+          at new ValidatorError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validator.js:29:11)
+          at validate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:945:13)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:998:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:954:19)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/document.js:2106:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `password` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'password',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2019-04-10T18:37:15.778] [INFO] default - 新增用户异常！
+[2019-04-10T18:37:23.180] [INFO] default - 新增用户参数： { username: '1111111',
+  name: '111111',
+  type: '0',
+  studentNumber: '111',
+  jobNumber: '' }
+[2019-04-10T18:37:23.181] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: password: Path `password` is required.
+    at ValidationError.inspect (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validation.js:59:24)
+    at formatValue (internal/util/inspect.js:490:31)
+    at inspect (internal/util/inspect.js:191:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/layouts.js:65:57)
+    at app (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/appenders/dateFile.js:30:19)
+    at categoryAppenders.forEach (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:45:12)
+  errors:
+   { password:
+      { ValidatorError: Path `password` is required.
+          at new ValidatorError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validator.js:29:11)
+          at validate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:945:13)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:998:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:954:19)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/document.js:2106:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `password` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'password',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2019-04-10T18:37:23.183] [INFO] default - 新增用户异常！
+[2019-04-10T18:38:30.391] [INFO] default - 新增用户参数： { username: 'licumt217',
+  name: '李强',
+  type: '0',
+  studentNumber: '09064214',
+  jobNumber: '' }
+[2019-04-10T18:39:30.321] [INFO] default - 新增用户参数： { username: 'fsfsfs',
+  name: 'fssfs',
+  type: '0',
+  studentNumber: 'sfs',
+  jobNumber: '' }
+[2019-04-10T18:39:30.386] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T18:45:36.707] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:17:58.958] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:18:13.203] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:18:22.378] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:18:29.868] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:18:33.517] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:18:44.335] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:19:07.777] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:19:59.838] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:20:39.633] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:20:47.282] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:21:40.988] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:22:58.170] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:24:27.292] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:24:46.735] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:24:49.159] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:25:26.609] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:28:59.168] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:29:38.184] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:29:44.527] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:32:15.445] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:32:41.198] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:32:44.526] [INFO] default - 删除用户参数： { _id: '5cac5588e7fb7f7eb9a8d10f' }
+[2019-04-10T19:32:44.539] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:32:47.406] [INFO] default - 删除用户参数： { _id: '5cac5f634915b583a9a4cdf8' }
+[2019-04-10T19:32:47.416] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:34:50.911] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:34:54.433] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:35:05.658] [INFO] default - 删除用户参数： { _id: '5cac5f786a4bdf83bf531076' }
+[2019-04-10T19:35:05.671] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:35:13.137] [INFO] default - 删除用户参数： { _id: '5cac61a0fd667284cd4cb194' }
+[2019-04-10T19:35:13.150] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:35:15.056] [INFO] default - 删除用户参数： { _id: '5cac61a5f4e7d384e948deba' }
+[2019-04-10T19:35:15.067] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:35:17.617] [INFO] default - 删除用户参数： { _id: '5cac61abd663e98504beed08' }
+[2019-04-10T19:35:17.625] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:37:51.344] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:38:07.213] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:38:11.785] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:38:20.825] [INFO] default - 删除用户参数： { _id: '5cac63a55356eb86289ae97a' }
+[2019-04-10T19:38:20.838] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:39:43.142] [INFO] default - 新增用户参数： { username: 'xiaoming',
+  name: 'xia',
+  type: '0',
+  studentNumber: '012225455',
+  jobNumber: '' }
+[2019-04-10T19:39:43.194] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:41:37.482] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:43:03.798] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:43:48.247] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:43:53.240] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:45:03.769] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:45:07.140] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:46:26.947] [INFO] default - 获取用户列表的参数： {}
+[2019-04-10T19:46:46.031] [INFO] default - 新增用户参数： { username: 'licumt217',
+  name: '李强',
+  type: '2',
+  studentNumber: '09064214',
+  jobNumber: '' }
+[2019-04-10T19:46:46.033] [INFO] default - 用户已存在！
