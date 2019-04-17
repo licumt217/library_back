@@ -29,7 +29,10 @@ let MainService={
             if(!whereObj){
                 whereObj={}
             }
-            MainEntity.find(whereObj).then(data=>{
+            MainEntity.find(whereObj)
+                .populate('book')
+                .populate('user')
+                .then(data=>{
                 console.log('.......',data)
                 resolve(data)
             }).catch(err=>{

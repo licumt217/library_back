@@ -6,6 +6,8 @@ const logger = require('morgan');
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const booksRouter = require('./routes/books');
+const borrowsRouter = require('./routes/borrows');
+const borrowRecordsRouter = require('./routes/borrowRecords');
 
 const app = express();
 
@@ -18,5 +20,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/books', booksRouter);
+app.use('/borrows', borrowsRouter);
+app.use('/borrowRecords', borrowRecordsRouter);
 
 module.exports = app;

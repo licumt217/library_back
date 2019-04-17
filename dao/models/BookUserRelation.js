@@ -4,16 +4,6 @@ const mongoose = require('../mongoose')
 //创建一个schema
 let Schema = {
 
-    "bookId": {
-        type:String,
-        required:true,
-    },
-
-    "userId": {
-        type:String,
-        required: true
-    },
-
 
     "startTime": Date,
 
@@ -26,7 +16,10 @@ let Schema = {
     "isRenew":{  //是否续借
         type:Boolean,
         default: false
-    }
+    },              //还书日期
+    "backTime":Date,
+    "book":{type:mongoose.Schema.Types.ObjectId,ref:'Book'},
+    "user":{type:mongoose.Schema.Types.ObjectId,ref:'User'},
 
 }
 

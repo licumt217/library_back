@@ -1,0 +1,1228 @@
+[2019-04-17T10:23:14.612] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-17T10:23:15.642] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-17T10:23:30.889] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-17T10:23:56.756] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-17T10:23:58.814] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-17T10:23:59.880] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-17T10:24:00.608] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-17T10:24:05.585] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-17T10:25:02.986] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-17T10:25:54.865] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-17T10:25:54.963] [INFO] default - 获取用户列表的参数： {}
+[2019-04-17T10:25:58.425] [INFO] default - 获取用户列表的参数： {}
+[2019-04-17T10:26:07.512] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T10:26:11.946] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:26:22.986] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T10:26:23.045] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:28:17.889] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:28:25.738] [INFO] default - 新增借阅参数： { _id: '5cb420b6a7b8c50c7cb005a7',
+  name: '西游记后传',
+  author: '吴承恩',
+  __v: 0,
+  endTime: '2019-04-23T16:00:00.000Z' }
+[2019-04-17T10:28:25.810] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:28:49.549] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:28:52.999] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T10:28:53.067] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:29:03.375] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:29:14.740] [INFO] default - 新增借阅参数： { _id: '5cb420b6a7b8c50c7cb005a7',
+  name: '西游记后传',
+  author: '吴承恩',
+  __v: 0,
+  endTime: '2019-04-24T16:00:00.000Z' }
+[2019-04-17T10:29:14.743] [INFO] default - 借阅已存在！
+[2019-04-17T10:29:29.494] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:29:34.203] [INFO] default - 新增借阅参数： { _id: '5cb420b6a7b8c50c7cb005a7',
+  name: '西游记后传',
+  author: '吴承恩',
+  __v: 0,
+  endTime: '2019-04-29T16:00:00.000Z' }
+[2019-04-17T10:29:34.206] [INFO] default - 借阅已存在！
+[2019-04-17T10:29:41.652] [INFO] default - 新增借阅参数： { _id: '5cb420b6a7b8c50c7cb005a7',
+  name: '西游记后传',
+  author: '吴承恩',
+  __v: 0,
+  endTime: '2019-04-29T16:00:00.000Z' }
+[2019-04-17T10:29:41.654] [INFO] default - 借阅已存在！
+[2019-04-17T10:29:44.985] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:29:48.578] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T10:29:48.613] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:29:52.052] [INFO] default - 新增借阅参数： { _id: '5cb420b6a7b8c50c7cb005a7',
+  name: '西游记后传',
+  author: '吴承恩',
+  __v: 0,
+  endTime: '2019-04-29T16:00:00.000Z' }
+[2019-04-17T10:29:52.054] [INFO] default - 借阅已存在！
+[2019-04-17T10:29:53.336] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:29:54.793] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T10:29:57.334] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T10:29:58.932] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T10:29:58.972] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:30:03.103] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:30:04.983] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-17T10:30:07.146] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T10:30:09.229] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-17T10:30:10.666] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T10:30:14.940] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:30:16.094] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T10:30:16.156] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:30:18.056] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:30:19.863] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T10:30:19.900] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:30:21.487] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:30:23.490] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T10:30:25.824] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-17T10:30:26.935] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T10:30:30.093] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T10:30:44.313] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T10:30:44.354] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T10:31:05.292] [INFO] default - 新增借阅参数： { _id: '5cb420b6a7b8c50c7cb005a7',
+  name: '西游记后传',
+  author: '吴承恩',
+  __v: 0,
+  endTime: '2019-04-24T16:00:00.000Z' }
+[2019-04-17T10:31:05.294] [INFO] default - 借阅已存在！
+[2019-04-17T11:48:23.604] [INFO] default - 新增借阅参数： { _id: '5cb420b6a7b8c50c7cb005a7',
+  name: '西游记后传',
+  author: '吴承恩',
+  __v: 0,
+  endTime: '2019-04-24T16:00:00.000Z' }
+[2019-04-17T11:48:23.605] [INFO] default - 借阅已存在！
+[2019-04-17T11:48:43.062] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T11:48:45.191] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-17T11:48:48.901] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T11:49:45.164] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T11:49:45.208] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T11:59:43.973] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T11:59:44.954] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T11:59:47.448] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:00:12.302] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:00:12.389] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:00:14.073] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:00:15.206] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:00:15.254] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:00:16.200] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:00:17.062] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T12:00:17.107] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:00:18.032] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:00:19.199] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-17T12:00:19.240] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:00:20.316] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:00:22.497] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T12:00:22.533] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:00:23.788] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:00:24.872] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T12:00:41.603] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T12:01:05.381] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:01:06.811] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:01:06.870] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:01:11.411] [INFO] default - 新增借阅参数： { _id: '5cb420b6a7b8c50c7cb005a7',
+  name: '西游记后传',
+  author: '吴承恩',
+  __v: 0,
+  endTime: '2019-04-29T16:00:00.000Z' }
+[2019-04-17T12:02:18.497] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:02:20.061] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:02:20.964] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T12:02:28.784] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:02:31.368] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:02:32.221] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T12:02:35.073] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:02:39.328] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T12:02:40.094] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:02:40.817] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T12:02:44.496] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:02:46.055] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:02:46.093] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:02:49.537] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:04:05.248] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T12:04:46.695] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:04:48.705] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:04:48.756] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:04:54.092] [INFO] default - 新增借阅参数： { _id: '5cb420b6a7b8c50c7cb005a7',
+  name: '西游记后传',
+  author: '吴承恩',
+  __v: 0,
+  endTime: '2019-04-22T16:00:00.000Z' }
+[2019-04-17T12:04:54.094] [INFO] default - 借阅已存在！
+[2019-04-17T12:04:58.968] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:05:02.386] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T12:05:05.284] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:05:06.619] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T12:05:07.834] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:05:09.837] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-17T12:05:09.875] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:05:16.456] [INFO] default - 新增借阅参数： { _id: '5cb420b6a7b8c50c7cb005a7',
+  name: '西游记后传',
+  author: '吴承恩',
+  __v: 0,
+  endTime: '2019-04-28T16:00:00.000Z' }
+[2019-04-17T12:05:16.458] [INFO] default - 借阅已存在！
+[2019-04-17T12:05:25.553] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T12:05:28.962] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:05:31.085] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T12:05:31.122] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:05:36.026] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:05:38.672] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:05:38.710] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:05:40.732] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:05:54.792] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:05:54.828] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:06:31.470] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:06:32.944] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:06:32.979] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:06:35.565] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:06:37.886] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:06:37.922] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:06:40.961] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:06:42.184] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:06:42.216] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:06:43.997] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:06:45.295] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:06:45.325] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:06:47.565] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:06:51.617] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:06:51.651] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:07:57.287] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:08:03.010] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:08:03.042] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:09:24.233] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:09:31.416] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:09:36.359] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:11:03.125] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:11:07.305] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:11:08.379] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T12:11:09.904] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:11:13.845] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:11:13.884] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:11:18.137] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:11:19.600] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:11:19.640] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:11:25.900] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:12:13.049] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:12:14.459] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:12:14.509] [INFO] default - 获取书籍列表的参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T12:12:15.955] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:12:16.970] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:12:17.018] [INFO] default - 获取书籍列表的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T12:12:18.630] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:12:19.671] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T12:12:19.709] [INFO] default - 获取书籍列表的参数： { _id: '5cb460baa7b8c50c7cb005a9' }
+[2019-04-17T12:12:20.991] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:12:21.760] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-17T12:12:21.795] [INFO] default - 获取书籍列表的参数： { _id: '5cb460c7a7b8c50c7cb005aa' }
+[2019-04-17T12:12:23.055] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:12:23.868] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T12:12:23.904] [INFO] default - 获取书籍列表的参数： { _id: '5cb460d5a7b8c50c7cb005ab' }
+[2019-04-17T12:12:25.056] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:12:27.252] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:12:27.291] [INFO] default - 获取书籍列表的参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T12:12:31.104] [INFO] default - 新增借阅参数： { _id: '5cb420b6a7b8c50c7cb005a7',
+  name: '西游记后传',
+  author: '吴承恩',
+  __v: 0,
+  endTime: '2019-04-22T16:00:00.000Z' }
+[2019-04-17T12:12:31.116] [INFO] default - 借阅已存在！
+[2019-04-17T12:12:33.204] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:12:34.917] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:12:34.955] [INFO] default - 获取书籍列表的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T12:12:38.611] [INFO] default - 新增借阅参数： { _id: '5cb420c1a7b8c50c7cb005a8',
+  name: '红楼梦',
+  author: '曹雪芹',
+  __v: 0,
+  endTime: '2019-04-22T16:00:00.000Z' }
+[2019-04-17T12:12:38.614] [INFO] default - 借阅已存在！
+[2019-04-17T12:12:41.789] [INFO] default - 新增借阅参数： { _id: '5cb420c1a7b8c50c7cb005a8',
+  name: '红楼梦',
+  author: '曹雪芹',
+  __v: 0,
+  endTime: '2019-04-22T16:00:00.000Z' }
+[2019-04-17T12:12:41.791] [INFO] default - 借阅已存在！
+[2019-04-17T12:12:45.003] [INFO] default - 新增借阅参数： { _id: '5cb420c1a7b8c50c7cb005a8',
+  name: '红楼梦',
+  author: '曹雪芹',
+  __v: 0,
+  endTime: '2019-04-22T16:00:00.000Z' }
+[2019-04-17T12:12:45.007] [INFO] default - 借阅已存在！
+[2019-04-17T12:23:02.581] [INFO] default - 获取书籍列表的参数： { book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T12:23:05.729] [INFO] default - 获取书籍列表的参数： { book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T12:23:06.442] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:23:08.671] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:23:08.712] [INFO] default - 获取书籍列表的参数： { book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T12:23:13.034] [INFO] default - 获取书籍列表的参数： { book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T12:23:48.302] [INFO] default - 获取书籍列表的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T12:23:50.868] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:23:52.377] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:23:52.420] [INFO] default - 获取书籍列表的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T12:23:58.911] [INFO] default - 新增借阅参数： { _id: '5cb420c1a7b8c50c7cb005a8',
+  name: '红楼梦',
+  author: '曹雪芹',
+  __v: 0,
+  endTime: '2019-04-23T16:00:00.000Z' }
+[2019-04-17T12:23:58.914] [INFO] default - 借阅已存在！
+[2019-04-17T12:25:45.361] [INFO] default - 获取书籍列表的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T12:27:11.450] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:27:14.373] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:27:14.443] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:27:19.874] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:27:23.064] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:27:23.165] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:27:32.837] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:27:32.907] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:27:59.424] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:28:00.788] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:28:00.886] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:28:03.300] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T12:28:03.356] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:28:18.263] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:28:19.243] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:28:19.307] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:28:21.532] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:28:24.293] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:28:24.337] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:28:27.933] [INFO] default - 新增借阅参数： { _id: '5cb420b6a7b8c50c7cb005a7',
+  name: '西游记后传',
+  author: '吴承恩',
+  __v: 0,
+  book: '5cb420b6a7b8c50c7cb005a7',
+  endTime: '2019-04-23T16:00:00.000Z' }
+[2019-04-17T12:28:27.949] [INFO] default - 新增借阅关系异常！ { MongoError: E11000 duplicate key error collection: library.bookuserrelations index: _id_ dup key: { : ObjectId('5cb420b6a7b8c50c7cb005a7') }
+    at Function.create (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb/lib/utils.js:149:22)
+    at coll.s.topology.insert (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb/lib/operations/collection_ops.js:859:39)
+    at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg:
+   'E11000 duplicate key error collection: library.bookuserrelations index: _id_ dup key: { : ObjectId(\'5cb420b6a7b8c50c7cb005a7\') }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-04-17T12:28:27.950] [INFO] default - 新增借阅关系异常！
+[2019-04-17T12:30:39.498] [INFO] default - 新增借阅参数： { _id: '5cb420b6a7b8c50c7cb005a7',
+  name: '西游记后传',
+  author: '吴承恩',
+  __v: 0,
+  book: '5cb420b6a7b8c50c7cb005a7',
+  endTime: '2019-04-23T16:00:00.000Z' }
+[2019-04-17T12:30:39.502] [INFO] default - 新增借阅关系异常！ { MongoError: E11000 duplicate key error collection: library.bookuserrelations index: _id_ dup key: { : ObjectId('5cb420b6a7b8c50c7cb005a7') }
+    at Function.create (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb/lib/utils.js:149:22)
+    at coll.s.topology.insert (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb/lib/operations/collection_ops.js:859:39)
+    at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg:
+   'E11000 duplicate key error collection: library.bookuserrelations index: _id_ dup key: { : ObjectId(\'5cb420b6a7b8c50c7cb005a7\') }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-04-17T12:30:39.503] [INFO] default - 新增借阅关系异常！
+[2019-04-17T12:32:58.720] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:33:02.597] [INFO] default - 新增借阅参数： { name: '西游记后传',
+  author: '吴承恩',
+  endTime: '2019-04-28T16:00:00.000Z',
+  book: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T12:33:02.657] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T12:33:07.178] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:33:08.840] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:33:08.886] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:33:11.995] [INFO] default - 新增借阅参数： { name: '西游记后传',
+  author: '吴承恩',
+  endTime: '2019-04-24T16:00:00.000Z',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T12:33:12.031] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T12:33:14.456] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:33:15.496] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T12:33:17.423] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T12:33:17.461] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:33:19.096] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:33:22.219] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T12:33:24.342] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T12:33:24.380] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:33:26.609] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:33:28.814] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T12:33:28.850] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:33:32.466] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T12:33:35.079] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T12:33:35.116] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T14:03:18.289] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T14:03:20.889] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:03:24.227] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T14:03:33.070] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T14:03:35.994] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T14:03:37.887] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T14:03:37.930] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T14:03:45.564] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T14:06:29.373] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:06:32.593] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:07:47.740] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:07:51.005] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T14:07:52.843] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:07:54.064] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T14:07:55.063] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T14:07:56.312] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T14:07:57.647] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T14:07:57.689] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:08:01.775] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:08:25.657] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:08:49.251] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:08:52.747] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:10:40.341] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:12:23.539] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-17T14:12:23.620] [INFO] default - 获取用户列表的参数： {}
+[2019-04-17T14:12:27.526] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:12:31.357] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T14:12:32.503] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T14:12:33.533] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T14:12:37.021] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T14:12:37.073] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:12:37.080] [INFO] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:267:15)
+    at ServerResponse.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:158:21)
+    at mainService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/books.js:111:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-17T14:12:46.563] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:12:46.566] [INFO] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:158:21)
+    at mainService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/books.js:111:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-17T14:13:17.580] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:13:17.584] [INFO] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:158:21)
+    at mainService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/books.js:111:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-17T14:13:21.497] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:13:21.500] [INFO] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:158:21)
+    at mainService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/books.js:111:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-17T14:13:32.426] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:13:32.430] [INFO] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:158:21)
+    at mainService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/books.js:111:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-17T14:14:53.938] [INFO] default - 获取书籍实例的参数： {}
+[2019-04-17T14:14:53.943] [INFO] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/express/lib/response.js:158:21)
+    at mainService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/books.js:111:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-17T14:15:30.662] [INFO] default - 获取书籍实例的参数： { _id: '5cb460baa7b8c50c7cb005a9' }
+[2019-04-17T14:15:50.342] [INFO] default - 新增借阅参数： { name: '三国演义',
+  author: '罗贯中',
+  endTime: '2019-04-23T16:00:00.000Z' }
+[2019-04-17T14:15:50.345] [INFO] default - 借阅已存在！
+[2019-04-17T14:15:55.294] [INFO] default - 新增借阅参数： { name: '三国演义',
+  author: '罗贯中',
+  endTime: '2019-04-23T16:00:00.000Z' }
+[2019-04-17T14:15:55.296] [INFO] default - 借阅已存在！
+[2019-04-17T14:18:02.659] [INFO] default - 获取书籍实例的参数： { _id: '5cb460baa7b8c50c7cb005a9' }
+[2019-04-17T14:18:05.149] [INFO] default - 新增借阅参数： { name: '三国演义',
+  author: '罗贯中',
+  endTime: '2019-04-17T06:18:02.623Z',
+  book: '5cb460baa7b8c50c7cb005a9' }
+[2019-04-17T14:18:05.218] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:18:12.759] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T14:18:16.354] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T14:18:17.256] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T14:18:17.938] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T14:18:18.856] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-17T14:18:18.895] [INFO] default - 获取书籍实例的参数： { _id: '5cb460c7a7b8c50c7cb005aa' }
+[2019-04-17T14:18:23.175] [INFO] default - 新增借阅参数： { name: '水浒传',
+  author: '施耐庵',
+  endTime: '2019-04-24T16:00:00.000Z',
+  book: '5cb460c7a7b8c50c7cb005aa' }
+[2019-04-17T14:18:23.209] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:18:27.414] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T14:18:28.351] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T14:18:28.895] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T14:18:29.496] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T14:18:30.170] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-17T14:18:31.966] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T14:18:32.001] [INFO] default - 获取书籍实例的参数： { _id: '5cb460d5a7b8c50c7cb005ab' }
+[2019-04-17T14:18:35.750] [INFO] default - 新增借阅参数： { name: '大唐双龙传',
+  author: '黄易',
+  endTime: '2019-04-25T16:00:00.000Z',
+  book: '5cb460d5a7b8c50c7cb005ab' }
+[2019-04-17T14:18:35.783] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:18:37.500] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T14:18:38.685] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T14:18:39.215] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T14:18:39.434] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T14:18:39.668] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T14:18:40.222] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T14:18:40.435] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T14:18:40.656] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T14:18:41.204] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T14:19:00.505] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:19:29.969] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:19:32.033] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T14:19:33.519] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T14:19:33.575] [INFO] default - 获取书籍实例的参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T14:19:38.092] [INFO] default - 新增借阅参数： { name: '西游记后传',
+  author: '吴承恩',
+  endTime: '2019-04-22T16:00:00.000Z',
+  book: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T14:19:38.125] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:22:53.586] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:24:02.668] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:26:37.155] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:28:01.991] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:29:16.636] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:29:35.366] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:30:01.860] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:32:13.881] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:32:39.456] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:32:57.826] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:32:59.409] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:34:48.598] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:35:06.573] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:36:35.681] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T14:37:45.552] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:08:50.447] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:15:31.187] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:18:22.835] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:18:26.339] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:18:31.389] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:18:32.629] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:18:33.620] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:18:34.402] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:19:04.252] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:19:05.730] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:19:10.577] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:19:12.428] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:19:53.933] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:19:56.785] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:19:59.700] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:20:11.775] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:20:12.423] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-17T15:20:37.287] [INFO] default - 获取借阅列表的参数： { userId: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:20:40.072] [INFO] default - 获取借阅列表的参数： { userId: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:20:41.688] [INFO] default - 获取借阅列表的参数： { userId: '5cadc7a6fc0e55294c70d611', state: '1' }
+[2019-04-17T15:20:42.846] [INFO] default - 获取借阅列表的参数： { userId: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:21:47.873] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:21:54.853] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:21:56.413] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '1' }
+[2019-04-17T15:21:57.492] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:22:21.460] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '1' }
+[2019-04-17T15:23:22.493] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:23:26.010] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:23:27.181] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T15:23:28.698] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T15:23:28.761] [INFO] default - 获取书籍实例的参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T15:23:30.043] [INFO] default - 新增借阅参数： { name: '西游记后传',
+  author: '吴承恩',
+  endTime: '2019-04-17T07:23:28.715Z',
+  book: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T15:23:30.089] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:24:17.151] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T15:24:18.583] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T15:24:21.480] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T15:24:21.530] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:24:27.733] [INFO] default - 新增借阅参数： { name: '红楼梦',
+  author: '曹雪芹',
+  endTime: '2019-04-17T07:24:21.490Z',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:24:27.788] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:25:27.315] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:25:31.270] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T15:25:32.708] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-17T15:25:32.771] [INFO] default - 获取书籍实例的参数： { _id: '5cb460c7a7b8c50c7cb005aa' }
+[2019-04-17T15:25:33.710] [INFO] default - 新增借阅参数： { name: '水浒传',
+  author: '施耐庵',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-17T07:25:32.727Z',
+  book: '5cb460c7a7b8c50c7cb005aa' }
+[2019-04-17T15:25:33.756] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:25:49.047] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '1' }
+[2019-04-17T15:25:50.229] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:28:03.785] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:28:19.464] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:33:06.963] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:34:26.426] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:36:18.596] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:36:26.821] [INFO] default - 归还借阅信息参数： { _id: '5cb6d4ed53ed350ae527f537' }
+[2019-04-17T15:36:26.839] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:36:30.484] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:36:31.276] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '1' }
+[2019-04-17T15:36:36.827] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:36:39.890] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T15:36:42.084] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T15:36:45.163] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:36:45.945] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '1' }
+[2019-04-17T15:36:48.903] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T15:36:49.814] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:36:51.352] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '1' }
+[2019-04-17T15:37:25.165] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:37:25.696] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '1' }
+[2019-04-17T15:37:27.744] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T15:37:28.867] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T15:37:28.930] [INFO] default - 获取书籍实例的参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T15:37:30.067] [INFO] default - 新增借阅参数： { name: '西游记后传',
+  author: '吴承恩',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-17T07:37:28.884Z',
+  book: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T15:37:30.113] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:37:31.848] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T15:37:32.883] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T15:37:32.919] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:37:34.035] [INFO] default - 新增借阅参数： { name: '红楼梦',
+  author: '曹雪芹',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-17T07:37:32.891Z',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:37:34.075] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:37:35.486] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T15:37:36.895] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T15:37:36.933] [INFO] default - 获取书籍实例的参数： { _id: '5cb460baa7b8c50c7cb005a9' }
+[2019-04-17T15:37:38.017] [INFO] default - 新增借阅参数： { name: '三国演义',
+  author: '罗贯中',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-17T07:37:36.905Z',
+  book: '5cb460baa7b8c50c7cb005a9' }
+[2019-04-17T15:37:38.057] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:37:40.837] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '1' }
+[2019-04-17T15:37:41.354] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:37:44.809] [INFO] default - 归还借阅信息参数： { _id: '5cb6d7ba53ed350ae527f539' }
+[2019-04-17T15:37:44.823] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:37:47.180] [INFO] default - 归还借阅信息参数： { _id: '5cb6d7c253ed350ae527f53d' }
+[2019-04-17T15:37:47.193] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:37:48.351] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '1' }
+[2019-04-17T15:37:51.810] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:37:53.924] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T15:37:55.866] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T15:37:55.899] [INFO] default - 获取书籍实例的参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T15:37:58.229] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T15:38:00.450] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T15:38:01.312] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T15:38:01.350] [INFO] default - 获取书籍实例的参数： { _id: '5cb460baa7b8c50c7cb005a9' }
+[2019-04-17T15:38:02.315] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T15:38:03.339] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-17T15:38:03.374] [INFO] default - 获取书籍实例的参数： { _id: '5cb460c7a7b8c50c7cb005aa' }
+[2019-04-17T15:38:04.373] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T15:38:05.723] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-17T15:38:05.757] [INFO] default - 获取书籍实例的参数： { _id: '5cb460d5a7b8c50c7cb005ab' }
+[2019-04-17T15:38:07.400] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T15:38:29.835] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:42:50.667] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:46:47.896] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:46:50.359] [INFO] default - 获取书籍实例的参数： { _id:
+   '{"_id":"5cb420c1a7b8c50c7cb005a8","name":"红楼梦","author":"曹雪芹","__v":0}' }
+[2019-04-17T15:46:50.361] [INFO] default - 根据条件查询书籍异常！ { CastError: Cast to ObjectId failed for value "{"_id":"5cb420c1a7b8c50c7cb005a8","name":"红楼梦","author":"曹雪芹","__v":0}" at path "_id" for model "Book"
+    at new CastError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/cast.js:29:11)
+    at ObjectId.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schema/objectid.js:242:11)
+    at ObjectId.SchemaType.applySetters (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:864:12)
+    at ObjectId.SchemaType._castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1267:15)
+    at ObjectId.SchemaType.castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1257:15)
+    at ObjectId.SchemaType.castForQueryWrapper (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1236:15)
+    at cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/cast.js:307:32)
+    at model.Query.Query.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:4433:12)
+    at model.Query.Query._castConditions (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1762:10)
+    at model.Query.<anonymous> (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1789:8)
+    at model.Query._wrappedThunk [as _find] (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at process.nextTick (/Users/licumt217/Documents/projects/li/library_back/node_modules/kareem/index.js:369:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  message:
+   'Cast to ObjectId failed for value "{"_id":"5cb420c1a7b8c50c7cb005a8","name":"红楼梦","author":"曹雪芹","__v":0}" at path "_id" for model "Book"',
+  name: 'CastError',
+  stringValue:
+   '"{"_id":"5cb420c1a7b8c50c7cb005a8","name":"红楼梦","author":"曹雪芹","__v":0}"',
+  kind: 'ObjectId',
+  value:
+   '{"_id":"5cb420c1a7b8c50c7cb005a8","name":"红楼梦","author":"曹雪芹","__v":0}',
+  path: '_id',
+  reason: undefined,
+  model:
+   { [Function: model]
+     hooks: Kareem { _pres: [Map], _posts: [Map] },
+     base:
+      Mongoose {
+        connections: [Array],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        _pluralize: [Function: pluralize],
+        Schema: [Function],
+        model: [Function],
+        plugins: [Array] },
+     modelName: 'Book',
+     model: [Function: model],
+     db:
+      NativeConnection {
+        base: [Mongoose],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        options: null,
+        otherDbs: [],
+        relatedDbs: {},
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        plugins: [],
+        '$internalEmitter': [EventEmitter],
+        _listening: false,
+        _connectionOptions: [Object],
+        name: 'library',
+        host: 'localhost',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        client: [MongoClient],
+        '$initialConnection': [Promise],
+        db: [Db] },
+     discriminators: undefined,
+     events:
+      EventEmitter {
+        _events: [Object: null prototype] {},
+        _eventsCount: 0,
+        _maxListeners: undefined },
+     '$appliedMethods': true,
+     '$appliedHooks': true,
+     _middleware: Kareem { _pres: [Map], _posts: [Map] },
+     '$__insertMany': [Function],
+     schema:
+      Schema {
+        obj: [Object],
+        paths: [Object],
+        aliases: {},
+        subpaths: {},
+        virtuals: [Object],
+        singleNestedPaths: {},
+        nested: {},
+        inherits: {},
+        callQueue: [],
+        _indexes: [],
+        methods: {},
+        methodOptions: {},
+        statics: {},
+        tree: [Object],
+        query: {},
+        childSchemas: [],
+        plugins: [Array],
+        '$id': 2,
+        s: [Object],
+        _userProvidedOptions: {},
+        options: [Object],
+        '$globalPluginsApplied': true,
+        _requiredpaths: [Array],
+        [Symbol(Mongoose.helpers.setParentPointers)]: true },
+     collection:
+      NativeCollection {
+        collection: [Collection],
+        opts: [Object],
+        name: 'books',
+        collectionName: 'books',
+        conn: [NativeConnection],
+        queue: [],
+        buffer: false,
+        emitter: [EventEmitter] },
+     Query: { [Function] base: [Query] },
+     '$init': Promise { [Circular] },
+     '$caught': true,
+     [Symbol(mongoose#Model)]: true } }
+[2019-04-17T15:46:50.366] [INFO] default - 根据条件查询书籍异常！
+[2019-04-17T15:46:55.646] [INFO] default - 获取书籍实例的参数： { _id: '[object Object]' }
+[2019-04-17T15:46:55.647] [INFO] default - 根据条件查询书籍异常！ { CastError: Cast to ObjectId failed for value "[object Object]" at path "_id" for model "Book"
+    at new CastError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/cast.js:29:11)
+    at ObjectId.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schema/objectid.js:242:11)
+    at ObjectId.SchemaType.applySetters (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:864:12)
+    at ObjectId.SchemaType._castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1267:15)
+    at ObjectId.SchemaType.castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1257:15)
+    at ObjectId.SchemaType.castForQueryWrapper (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1236:15)
+    at cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/cast.js:307:32)
+    at model.Query.Query.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:4433:12)
+    at model.Query.Query._castConditions (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1762:10)
+    at model.Query.<anonymous> (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1789:8)
+    at model.Query._wrappedThunk [as _find] (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at process.nextTick (/Users/licumt217/Documents/projects/li/library_back/node_modules/kareem/index.js:369:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  message:
+   'Cast to ObjectId failed for value "[object Object]" at path "_id" for model "Book"',
+  name: 'CastError',
+  stringValue: '"[object Object]"',
+  kind: 'ObjectId',
+  value: '[object Object]',
+  path: '_id',
+  reason: undefined,
+  model:
+   { [Function: model]
+     hooks: Kareem { _pres: [Map], _posts: [Map] },
+     base:
+      Mongoose {
+        connections: [Array],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        _pluralize: [Function: pluralize],
+        Schema: [Function],
+        model: [Function],
+        plugins: [Array] },
+     modelName: 'Book',
+     model: [Function: model],
+     db:
+      NativeConnection {
+        base: [Mongoose],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        options: null,
+        otherDbs: [],
+        relatedDbs: {},
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        plugins: [],
+        '$internalEmitter': [EventEmitter],
+        _listening: false,
+        _connectionOptions: [Object],
+        name: 'library',
+        host: 'localhost',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        client: [MongoClient],
+        '$initialConnection': [Promise],
+        db: [Db] },
+     discriminators: undefined,
+     events:
+      EventEmitter {
+        _events: [Object: null prototype] {},
+        _eventsCount: 0,
+        _maxListeners: undefined },
+     '$appliedMethods': true,
+     '$appliedHooks': true,
+     _middleware: Kareem { _pres: [Map], _posts: [Map] },
+     '$__insertMany': [Function],
+     schema:
+      Schema {
+        obj: [Object],
+        paths: [Object],
+        aliases: {},
+        subpaths: {},
+        virtuals: [Object],
+        singleNestedPaths: {},
+        nested: {},
+        inherits: {},
+        callQueue: [],
+        _indexes: [],
+        methods: {},
+        methodOptions: {},
+        statics: {},
+        tree: [Object],
+        query: {},
+        childSchemas: [],
+        plugins: [Array],
+        '$id': 2,
+        s: [Object],
+        _userProvidedOptions: {},
+        options: [Object],
+        '$globalPluginsApplied': true,
+        _requiredpaths: [Array],
+        [Symbol(Mongoose.helpers.setParentPointers)]: true },
+     collection:
+      NativeCollection {
+        collection: [Collection],
+        opts: [Object],
+        name: 'books',
+        collectionName: 'books',
+        conn: [NativeConnection],
+        queue: [],
+        buffer: false,
+        emitter: [EventEmitter] },
+     Query: { [Function] base: [Query] },
+     '$init': Promise { [Circular] },
+     '$caught': true,
+     [Symbol(mongoose#Model)]: true } }
+[2019-04-17T15:46:55.651] [INFO] default - 根据条件查询书籍异常！
+[2019-04-17T15:47:34.445] [INFO] default - 获取书籍实例的参数： { _id: '[object Object]' }
+[2019-04-17T15:47:34.445] [INFO] default - 根据条件查询书籍异常！ { CastError: Cast to ObjectId failed for value "[object Object]" at path "_id" for model "Book"
+    at new CastError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/cast.js:29:11)
+    at ObjectId.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schema/objectid.js:242:11)
+    at ObjectId.SchemaType.applySetters (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:864:12)
+    at ObjectId.SchemaType._castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1267:15)
+    at ObjectId.SchemaType.castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1257:15)
+    at ObjectId.SchemaType.castForQueryWrapper (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1236:15)
+    at cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/cast.js:307:32)
+    at model.Query.Query.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:4433:12)
+    at model.Query.Query._castConditions (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1762:10)
+    at model.Query.<anonymous> (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1789:8)
+    at model.Query._wrappedThunk [as _find] (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at process.nextTick (/Users/licumt217/Documents/projects/li/library_back/node_modules/kareem/index.js:369:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  message:
+   'Cast to ObjectId failed for value "[object Object]" at path "_id" for model "Book"',
+  name: 'CastError',
+  stringValue: '"[object Object]"',
+  kind: 'ObjectId',
+  value: '[object Object]',
+  path: '_id',
+  reason: undefined,
+  model:
+   { [Function: model]
+     hooks: Kareem { _pres: [Map], _posts: [Map] },
+     base:
+      Mongoose {
+        connections: [Array],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        _pluralize: [Function: pluralize],
+        Schema: [Function],
+        model: [Function],
+        plugins: [Array] },
+     modelName: 'Book',
+     model: [Function: model],
+     db:
+      NativeConnection {
+        base: [Mongoose],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        options: null,
+        otherDbs: [],
+        relatedDbs: {},
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        plugins: [],
+        '$internalEmitter': [EventEmitter],
+        _listening: false,
+        _connectionOptions: [Object],
+        name: 'library',
+        host: 'localhost',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        client: [MongoClient],
+        '$initialConnection': [Promise],
+        db: [Db] },
+     discriminators: undefined,
+     events:
+      EventEmitter {
+        _events: [Object: null prototype] {},
+        _eventsCount: 0,
+        _maxListeners: undefined },
+     '$appliedMethods': true,
+     '$appliedHooks': true,
+     _middleware: Kareem { _pres: [Map], _posts: [Map] },
+     '$__insertMany': [Function],
+     schema:
+      Schema {
+        obj: [Object],
+        paths: [Object],
+        aliases: {},
+        subpaths: {},
+        virtuals: [Object],
+        singleNestedPaths: {},
+        nested: {},
+        inherits: {},
+        callQueue: [],
+        _indexes: [],
+        methods: {},
+        methodOptions: {},
+        statics: {},
+        tree: [Object],
+        query: {},
+        childSchemas: [],
+        plugins: [Array],
+        '$id': 2,
+        s: [Object],
+        _userProvidedOptions: {},
+        options: [Object],
+        '$globalPluginsApplied': true,
+        _requiredpaths: [Array],
+        [Symbol(Mongoose.helpers.setParentPointers)]: true },
+     collection:
+      NativeCollection {
+        collection: [Collection],
+        opts: [Object],
+        name: 'books',
+        collectionName: 'books',
+        conn: [NativeConnection],
+        queue: [],
+        buffer: false,
+        emitter: [EventEmitter] },
+     Query: { [Function] base: [Query] },
+     '$init': Promise { [Circular] },
+     '$caught': true,
+     [Symbol(mongoose#Model)]: true } }
+[2019-04-17T15:47:34.449] [INFO] default - 根据条件查询书籍异常！
+[2019-04-17T15:47:38.977] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:47:41.252] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:47:42.704] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:50:23.653] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:55:55.704] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:55:55.937] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:56:01.749] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:56:05.266] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:56:09.571] [INFO] default - 修改书籍信息参数： { name: '红楼梦',
+  author: '曹雪芹',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-29T16:00:00.000Z',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:56:09.641] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:56:14.602] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:56:20.258] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:56:27.017] [INFO] default - 修改书籍信息参数： { name: '红楼梦',
+  author: '曹雪芹',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-17T16:00:00.000Z',
+  _id: '5cb6d7be53ed350ae527f53b',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:56:27.064] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:56:46.393] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:56:52.510] [INFO] default - 修改书籍信息参数： { name: '红楼梦',
+  author: '曹雪芹',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-23T16:00:00.000Z',
+  _id: '5cb6d7be53ed350ae527f53b',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:56:52.557] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:58:17.237] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T15:58:18.472] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:58:21.857] [INFO] default - 修改借阅信息参数： { name: '红楼梦',
+  author: '曹雪芹',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-18T16:00:00.000Z',
+  _id: '5cb6d7be53ed350ae527f53b',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:58:21.860] [INFO] default - 新增借阅记录异常！ { ValidationError: BorrowRecord validation failed: startTime: Path `startTime` is required.
+    at ValidationError.inspect (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validation.js:59:24)
+    at formatValue (internal/util/inspect.js:490:31)
+    at inspect (internal/util/inspect.js:191:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/layouts.js:65:57)
+    at app (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/appenders/dateFile.js:30:19)
+    at categoryAppenders.forEach (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:45:12)
+  errors:
+   { startTime:
+      { ValidatorError: Path `startTime` is required.
+          at new ValidatorError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validator.js:29:11)
+          at validate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:945:13)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:998:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:954:19)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/document.js:2106:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `startTime` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'startTime',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'BorrowRecord validation failed',
+  name: 'ValidationError' }
+[2019-04-17T15:58:21.863] [INFO] default - 新增借阅记录异常！
+[2019-04-17T15:58:26.119] [INFO] default - 修改借阅信息参数： { name: '红楼梦',
+  author: '曹雪芹',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-18T16:00:00.000Z',
+  _id: '5cb6d7be53ed350ae527f53b',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:58:26.121] [INFO] default - 新增借阅记录异常！ { ValidationError: BorrowRecord validation failed: startTime: Path `startTime` is required.
+    at ValidationError.inspect (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validation.js:59:24)
+    at formatValue (internal/util/inspect.js:490:31)
+    at inspect (internal/util/inspect.js:191:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/layouts.js:65:57)
+    at app (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/appenders/dateFile.js:30:19)
+    at categoryAppenders.forEach (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:45:12)
+  errors:
+   { startTime:
+      { ValidatorError: Path `startTime` is required.
+          at new ValidatorError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validator.js:29:11)
+          at validate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:945:13)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:998:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:954:19)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/document.js:2106:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `startTime` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'startTime',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'BorrowRecord validation failed',
+  name: 'ValidationError' }
+[2019-04-17T15:58:26.122] [INFO] default - 新增借阅记录异常！
+[2019-04-17T15:58:37.792] [INFO] default - 修改借阅信息参数： { name: '红楼梦',
+  author: '曹雪芹',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-18T16:00:00.000Z',
+  _id: '5cb6d7be53ed350ae527f53b',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T15:58:37.794] [INFO] default - 新增借阅记录异常！ { ValidationError: BorrowRecord validation failed: startTime: Path `startTime` is required.
+    at ValidationError.inspect (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validation.js:59:24)
+    at formatValue (internal/util/inspect.js:490:31)
+    at inspect (internal/util/inspect.js:191:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/layouts.js:65:57)
+    at app (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/appenders/dateFile.js:30:19)
+    at categoryAppenders.forEach (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:45:12)
+  errors:
+   { startTime:
+      { ValidatorError: Path `startTime` is required.
+          at new ValidatorError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validator.js:29:11)
+          at validate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:945:13)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:998:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:954:19)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/document.js:2106:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `startTime` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'startTime',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'BorrowRecord validation failed',
+  name: 'ValidationError' }
+[2019-04-17T15:58:37.796] [INFO] default - 新增借阅记录异常！
+[2019-04-17T16:04:42.760] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T16:04:44.348] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:04:46.883] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T16:04:51.494] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:04:54.207] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:04:57.879] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T16:07:05.005] [INFO] default - 修改借阅信息参数： { name: '红楼梦',
+  author: '曹雪芹',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-29T16:00:00.000Z',
+  _id: '5cb6d7be53ed350ae527f53b',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T16:07:05.015] [INFO] default - ReferenceError: startTime is not defined
+    at mainService.update.then (/Users/licumt217/Documents/projects/li/library_back/routes/borrows.js:77:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-17T16:08:04.126] [INFO] default - 修改借阅信息参数： { name: '红楼梦',
+  author: '曹雪芹',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-29T16:00:00.000Z',
+  _id: '5cb6d7be53ed350ae527f53b',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T16:08:04.213] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:08:07.827] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:08:08.965] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '1' }
+[2019-04-17T16:08:10.759] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:08:13.471] [INFO] default - 归还借阅信息参数： { _id: '5cb6d7be53ed350ae527f53b' }
+[2019-04-17T16:08:13.490] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:08:14.671] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T16:08:15.570] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T16:08:15.630] [INFO] default - 获取书籍实例的参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T16:08:17.183] [INFO] default - 新增借阅参数： { name: '西游记后传',
+  author: '吴承恩',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-17T08:08:15.586Z',
+  book: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T16:08:17.237] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:08:18.824] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T16:08:20.186] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T16:08:20.232] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T16:08:21.499] [INFO] default - 新增借阅参数： { name: '红楼梦',
+  author: '曹雪芹',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-17T08:08:20.196Z',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-17T16:08:21.543] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:08:23.019] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T16:08:24.402] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T16:08:24.440] [INFO] default - 获取书籍实例的参数： { _id: '5cb460baa7b8c50c7cb005a9' }
+[2019-04-17T16:08:25.371] [INFO] default - 新增借阅参数： { name: '三国演义',
+  author: '罗贯中',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-17T08:08:24.410Z',
+  book: '5cb460baa7b8c50c7cb005a9' }
+[2019-04-17T16:08:25.426] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:08:27.672] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T16:08:28.649] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-17T16:08:29.197] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-17T16:08:29.770] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-17T16:08:31.015] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-17T16:08:31.056] [INFO] default - 获取书籍实例的参数： { _id: '5cb460c7a7b8c50c7cb005aa' }
+[2019-04-17T16:08:32.359] [INFO] default - 新增借阅参数： { name: '水浒传',
+  author: '施耐庵',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-17T08:08:31.022Z',
+  book: '5cb460c7a7b8c50c7cb005aa' }
+[2019-04-17T16:08:32.406] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:08:35.647] [INFO] default - 归还借阅信息参数： { _id: '5cb6df00856c740de79c8efb' }
+[2019-04-17T16:08:35.666] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:08:37.554] [INFO] default - 归还借阅信息参数： { _id: '5cb6def9856c740de79c8ef9' }
+[2019-04-17T16:08:37.568] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:08:39.516] [INFO] default - 归还借阅信息参数： { _id: '5cb6def5856c740de79c8ef7' }
+[2019-04-17T16:08:39.533] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:08:40.791] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '1' }
+[2019-04-17T16:08:58.329] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:09:01.007] [INFO] default - 获取书籍实例的参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T16:09:04.469] [INFO] default - 修改借阅信息参数： { name: '西游记后传',
+  author: '吴承恩',
+  user: '5cadc7a6fc0e55294c70d611',
+  endTime: '2019-04-28T16:00:00.000Z',
+  _id: '5cb6def1856c740de79c8ef5',
+  book: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-17T16:09:04.517] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-17T16:09:10.437] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-17T16:09:13.190] [INFO] default - 获取用户列表的参数： {}
+[2019-04-17T16:09:18.396] [INFO] default - 删除用户参数： { _id: '5cb53f6c44224c2d16a41760' }
+[2019-04-17T16:09:18.411] [INFO] default - 获取用户列表的参数： {}

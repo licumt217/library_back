@@ -1,0 +1,250 @@
+[2019-04-16T10:16:34.128] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T10:16:37.321] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T10:35:24.227] [INFO] default - 新增用户参数： { username: 'frontend11', password: '123456' }
+[2019-04-16T10:35:27.839] [INFO] default - 获取用户列表的参数： {}
+[2019-04-16T10:35:30.829] [INFO] default - 修改用户信息参数： { username: 'helloworld',
+  name: 'jt',
+  _id: '5cac558035e75b7ea96dd503' }
+[2019-04-16T10:49:34.619] [INFO] default - 获取用户列表的参数： {}
+[2019-04-16T10:49:56.994] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T10:50:06.611] [INFO] default - 新增借阅参数： { bookId: '5cb420b6a7b8c50c7cb005a7',
+  userId: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T10:50:25.964] [INFO] default - 新增借阅参数： { bookId: '5cb420b6a7b8c50c7cb005a7',
+  userId: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T10:50:25.969] [INFO] default - 借阅已存在！
+[2019-04-16T10:50:27.945] [INFO] default - 新增借阅参数： { bookId: '5cb420b6a7b8c50c7cb005a7',
+  userId: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T10:50:27.950] [INFO] default - 借阅已存在！
+[2019-04-16T10:52:45.249] [INFO] default - 修改借阅信息参数： { bookId: '5cb420b6a7b8c50c7cb005a7',
+  userId: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382899798',
+  endTime: '1555484869798' }
+[2019-04-16T10:52:45.258] [INFO] default - 新增借阅记录异常！ { ValidationError: BorrowRecord validation failed: bookUserRelationId: Path `bookUserRelationId` is required.
+    at ValidationError.inspect (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validation.js:59:24)
+    at formatValue (internal/util/inspect.js:490:31)
+    at inspect (internal/util/inspect.js:191:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/layouts.js:65:57)
+    at app (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/appenders/dateFile.js:30:19)
+    at categoryAppenders.forEach (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:45:12)
+  errors:
+   { bookUserRelationId:
+      { ValidatorError: Path `bookUserRelationId` is required.
+          at new ValidatorError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validator.js:29:11)
+          at validate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:945:13)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:998:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:954:19)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/document.js:2106:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `bookUserRelationId` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'bookUserRelationId',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'BorrowRecord validation failed',
+  name: 'ValidationError' }
+[2019-04-16T10:52:45.261] [INFO] default - 新增借阅记录异常！
+[2019-04-16T10:54:45.617] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T10:54:59.494] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T10:56:11.230] [INFO] default - 修改借阅信息参数： { _id: '5cb542de7af3857ded56f50b',
+  bookId: '5cb420b6a7b8c50c7cb005a7',
+  userId: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382899798',
+  endTime: '1555484869798' }
+[2019-04-16T10:56:17.409] [INFO] default - 修改借阅信息参数： { _id: '5cb542de7af3857ded56f50b',
+  bookId: '5cb420b6a7b8c50c7cb005a7',
+  userId: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382899798',
+  endTime: '1555484869798' }
+[2019-04-16T10:56:31.892] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T10:59:18.397] [INFO] default - 获取借阅记录列表的参数： {}
+[2019-04-16T11:03:08.700] [INFO] default - 修改借阅信息参数： { _id: '5cb542de7af3857ded56f50b',
+  bookId: '5cb420b6a7b8c50c7cb005a7',
+  userId: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382899798',
+  endTime: '1555484869798' }
+[2019-04-16T11:03:16.673] [INFO] default - 新增借阅参数： { bookId: '5cb420b6a7b8c50c7cb005a7',
+  userId: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T11:03:16.683] [INFO] default - 借阅已存在！
+[2019-04-16T11:05:07.743] [INFO] default - 归还借阅信息参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-16T11:05:08.813] [INFO] default - 归还借阅信息参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-16T11:05:11.554] [INFO] default - 归还借阅信息参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-16T11:06:58.956] [INFO] default - 归还借阅信息参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-16T11:06:58.967] [INFO] default - 借阅不存在！
+[2019-04-16T11:07:01.085] [INFO] default - 归还借阅信息参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-16T11:07:01.088] [INFO] default - 借阅不存在！
+[2019-04-16T11:07:11.278] [INFO] default - 归还借阅信息参数： { _id: '5cb542de7af3857ded56f50b' }
+[2019-04-16T11:07:12.257] [INFO] default - 归还借阅信息参数： { _id: '5cb542de7af3857ded56f50b' }
+[2019-04-16T11:07:14.418] [INFO] default - 归还借阅信息参数： { _id: '5cb542de7af3857ded56f50b' }
+[2019-04-16T11:07:46.678] [INFO] default - 归还借阅信息参数： { _id: '5cb542de7af3857ded56f50b' }
+[2019-04-16T11:07:46.694] [INFO] default - 借阅不存在！
+[2019-04-16T11:07:47.747] [INFO] default - 归还借阅信息参数： { _id: '5cb542de7af3857ded56f50b' }
+[2019-04-16T11:07:47.749] [INFO] default - 借阅不存在！
+[2019-04-16T11:07:48.940] [INFO] default - 归还借阅信息参数： { _id: '5cb542de7af3857ded56f50b' }
+[2019-04-16T11:07:48.941] [INFO] default - 借阅不存在！
+[2019-04-16T11:10:10.144] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T11:14:45.761] [INFO] default - 用户登录参数： { username: 'helloworld', password: 'xx' }
+[2019-04-16T11:17:20.102] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T11:17:43.332] [INFO] default - 用户登录参数： { username: 'qiang.li', password: '123456' }
+[2019-04-16T11:17:43.334] [INFO] default - 用户不存在
+[2019-04-16T11:17:49.019] [INFO] default - 用户登录参数： { username: 'liqiang', password: '123456' }
+[2019-04-16T11:17:49.020] [INFO] default - 用户不存在
+[2019-04-16T11:18:20.076] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-16T11:18:20.144] [INFO] default - 获取用户列表的参数： {}
+[2019-04-16T11:19:55.711] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:29:50.245] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:30:41.637] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:31:00.571] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:33:12.188] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:33:19.435] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:33:29.625] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:37:01.225] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:40:21.365] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:46:29.005] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:46:32.021] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:46:51.942] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:47:49.567] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:48:42.460] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:48:46.283] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:48:59.360] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T11:49:22.723] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T12:15:30.801] [INFO] default - 新增借阅参数： { bookId: '5cb420b6a7b8c50c7cb005a7',
+  userId: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T12:15:30.824] [INFO] default - 借阅已存在！
+[2019-04-16T12:15:45.330] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T12:15:52.963] [INFO] default - 新增借阅参数： { bookId: '5cb460baa7b8c50c7cb005a9',
+  userId: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T12:15:52.966] [INFO] default - 借阅已存在！
+[2019-04-16T12:16:05.112] [INFO] default - 新增借阅参数： { bookId: '5cb460c7a7b8c50c7cb005aa',
+  userId: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T12:16:05.114] [INFO] default - 借阅已存在！
+[2019-04-16T12:16:22.988] [INFO] default - 新增借阅参数： { bookId: '5cb460d5a7b8c50c7cb005ab',
+  userId: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T12:16:22.990] [INFO] default - 借阅已存在！
+[2019-04-16T12:17:33.943] [INFO] default - 新增借阅参数： { bookId: '5cb460d5a7b8c50c7cb005ab',
+  userId: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T12:17:50.835] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T12:21:39.832] [INFO] default - 新增借阅参数： { book: '5cb460d5a7b8c50c7cb005ab',
+  user: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T12:21:39.861] [INFO] default - 借阅已存在！
+[2019-04-16T12:21:42.649] [INFO] default - 新增借阅参数： { book: '5cb460d5a7b8c50c7cb005ab',
+  user: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T12:21:42.653] [INFO] default - 借阅已存在！
+[2019-04-16T12:21:52.990] [INFO] default - 新增借阅参数： { book: '5cb460c7a7b8c50c7cb005aa',
+  user: '5cadc7a6fc0e55294c70d611',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T12:22:05.619] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T12:23:46.285] [INFO] default - 新增借阅参数： { book: '5cb460c7a7b8c50c7cb005aa',
+  user: '5cadc7e2fc0e55294c70d612',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T12:23:46.289] [INFO] default - 借阅已存在！
+[2019-04-16T12:23:57.904] [INFO] default - 新增借阅参数： { book: '5cb460baa7b8c50c7cb005a9',
+  user: '5cadc7e2fc0e55294c70d612',
+  startTime: '1555382869798',
+  endTime: '1555384869798',
+  state: 0,
+  isRenew: false }
+[2019-04-16T12:24:03.075] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T12:26:50.602] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T14:52:24.292] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T14:53:28.809] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T14:53:45.049] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T14:54:38.484] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T14:57:19.599] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T14:57:22.438] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T14:58:02.469] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T14:58:14.844] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T15:05:26.662] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T15:06:31.492] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T15:06:34.054] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T15:07:50.215] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T15:08:31.221] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T15:08:33.224] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T15:09:15.406] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T15:11:34.138] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T15:11:37.706] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T15:13:30.549] [INFO] default - 获取借阅列表的参数： {}
+[2019-04-16T15:14:21.464] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T15:14:28.979] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T15:14:30.634] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-16T15:14:35.526] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-16T15:14:36.847] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-16T15:14:37.520] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-16T15:14:38.168] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-16T15:16:08.295] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T15:16:11.120] [INFO] default - 获取借阅列表的参数： { book: '5cb460d5a7b8c50c7cb005ab', state: '0' }
+[2019-04-16T15:16:13.486] [INFO] default - 获取借阅列表的参数： { book: '5cb460c7a7b8c50c7cb005aa', state: '0' }
+[2019-04-16T15:16:14.477] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-16T15:16:15.657] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-16T16:03:02.120] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T16:03:04.851] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-16T16:05:21.263] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T16:05:24.265] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T16:06:54.532] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T16:08:29.331] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T16:11:10.542] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T16:11:17.069] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-16T16:12:12.279] [INFO] default - 获取书籍列表的参数： {}

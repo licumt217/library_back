@@ -84,9 +84,9 @@ router.post('/update', function (req, res) {
 
 router.get('/list', function (req, res, next) {
 
-    logger.info(`获取${entityName}列表的参数：`, req.body)
+    logger.info(`获取${entityName}列表的参数：`, req.query)
 
-    mainService.find().then(data => {
+    mainService.find(req.query).then(data => {
 
         res.send(Response.success(data));
 
@@ -96,5 +96,31 @@ router.get('/list', function (req, res, next) {
     })
 
 });
+
+router.get('/get', function (req, res, next) {
+
+    logger.info(`获取${entityName}实例的参数：`, req.query)
+
+    let bookId=req.query._id;
+    if(!bookId){
+        res.send(Response.businessException('书籍ID不能为空！'))
+    }
+
+    mainService.find(req.query).then(data => {
+        if(data && data.length>0){
+            res.send(Response.success(data[0]));
+        }else{
+            res.send(Response.businessException('未找到对应书籍'))
+        }
+
+
+    }).catch(err => {
+        logger.info(err)
+        res.send(Response.businessException(err))
+    })
+
+});
+
+
 
 module.exports = router;
