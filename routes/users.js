@@ -1,4 +1,5 @@
 const express = require('express');
+require('../utils/datePrototypeUtils')
 const router = express.Router();
 const Response = require('../config/response')
 const User = require('../dao/models/User')
@@ -176,7 +177,7 @@ router.post('/modifyPassword', function (req, res) {
 
         UserService.update(whereObj,{
             password:updateObj.newPassword,
-            passwordUptTime: new Date()
+            passwordUptTime: new Date().toLocalDate()
         }).then(()=>{
             res.send(Response.success());
         }).catch(err=>{
