@@ -26,6 +26,9 @@ let Schema = {
         type:Number,
         default:0  //0 学生；1：教师；2：管理员
     },
+    "passwordUptTime":{//密码修改时间，记录用户改密码的时间
+        type:Date
+    }
 
 }
 
