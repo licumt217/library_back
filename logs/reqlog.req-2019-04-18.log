@@ -298,3 +298,31 @@
   password: '1',
   newPassword: '12',
   confirmPassword: '12' }
+[2019-04-18T20:26:32.946] [INFO] default - 用户登录参数： { username: '177539@HYS', password: '12' }
+[2019-04-18T20:26:32.959] [INFO] default - 用户不存在
+[2019-04-18T20:26:43.457] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '12' }
+[2019-04-18T20:26:43.535] [INFO] default - 获取用户列表的参数： {}
+[2019-04-18T20:26:58.403] [INFO] default - 更改用户密码参数： { _id: '5cadc7a6fc0e55294c70d611',
+  password: '12',
+  newPassword: '123456',
+  confirmPassword: '123456' }
+[2019-04-18T20:27:09.469] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-18T20:27:09.514] [INFO] default - 获取用户列表的参数： {}
+[2019-04-18T20:27:22.255] [INFO] default - 获取用户列表的参数： {}
+[2019-04-18T20:28:21.522] [INFO] default - 获取用户列表的参数： {}
+[2019-04-18T20:28:25.300] [INFO] default - 获取用户列表的参数： {}
+[2019-04-18T20:28:28.527] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-18T20:28:50.552] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-18T20:28:52.105] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-18T20:28:56.364] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-18T20:29:00.058] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-18T20:29:01.871] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-18T20:29:01.924] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-18T20:29:46.999] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-18T20:29:51.500] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-18T20:29:54.065] [INFO] default - 获取书籍实例的参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-18T20:30:07.656] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-18T20:30:12.722] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-18T20:30:14.429] [INFO] default - 获取书籍实例的参数： { _id: '5cb420b6a7b8c50c7cb005a7' }
+[2019-04-18T20:30:49.106] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-18T20:30:53.667] [INFO] default - 获取书籍实例的参数： { _id: '5cb420b6a7b8c50c7cb005a7' }

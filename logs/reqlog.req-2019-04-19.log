@@ -1,0 +1,62 @@
+[2019-04-19T11:33:25.158] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-19T11:33:25.913] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T11:47:34.865] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T11:49:54.387] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T11:52:28.330] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T11:52:52.699] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T11:53:45.957] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T11:54:57.577] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T12:04:50.729] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T12:06:38.655] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T12:07:19.253] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T12:07:23.714] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-19T12:07:24.310] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-19T12:07:24.774] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T12:08:43.073] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T12:08:48.516] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-19T12:08:48.552] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T12:09:32.158] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T12:09:35.271] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T12:10:18.551] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-19T12:10:18.618] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T12:11:19.506] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T12:11:23.325] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-19T12:11:23.378] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T12:13:15.246] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T12:14:02.699] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T14:19:07.459] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T14:22:11.511] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T14:22:14.460] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T14:33:22.533] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-19T14:33:22.600] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T14:34:32.989] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-19T14:34:33.056] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T14:36:06.618] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-19T14:36:07.471] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T14:36:10.767] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-19T14:36:11.250] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-19T14:37:36.772] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang', password: '123456' }
+[2019-04-19T15:24:46.338] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T15:48:22.015] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-19T15:48:22.037] [INFO] default - 密码不正确！
+[2019-04-19T15:48:29.465] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T15:48:36.193] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T15:48:59.352] [INFO] default - 新增用户参数： { username: 'licumt217',
+  name: 'qiang',
+  type: '0',
+  studentNumber: '2323',
+  jobNumber: '' }
+[2019-04-19T15:48:59.400] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T15:57:41.344] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-19T15:57:46.868] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T15:57:51.918] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-19T15:58:03.068] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T16:12:26.737] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-19T16:12:27.372] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-19T16:12:28.150] [INFO] default - 获取用户列表的参数： {}
+[2019-04-19T16:12:28.583] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-19T16:12:29.084] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }
+[2019-04-19T16:14:18.933] [INFO] default - 获取借阅列表的参数： { user: '5cadc7a6fc0e55294c70d611', state: '0' }

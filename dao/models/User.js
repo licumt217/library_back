@@ -1,5 +1,6 @@
 
 const mongoose = require('../mongoose')
+const md5=require('md5')
 
 //创建一个schema
 let Schema = {
@@ -13,7 +14,7 @@ let Schema = {
     "password": {
         type:String,
         required: true,
-        default: "123456"
+        default: md5('123456')
     },
 
     "name": String,
