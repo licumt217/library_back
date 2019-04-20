@@ -8,6 +8,7 @@ const usersRouter = require('./routes/users');
 const booksRouter = require('./routes/books');
 const borrowsRouter = require('./routes/borrows');
 const borrowRecordsRouter = require('./routes/borrowRecords');
+const resourcesRouter = require('./routes/resources');
 
 const app = express();
 
@@ -22,5 +23,6 @@ app.use('/users', usersRouter);
 app.use('/books', booksRouter);
 app.use('/borrows', borrowsRouter);
 app.use('/borrowRecords', borrowRecordsRouter);
+app.use('/resources', resourcesRouter);
 
 module.exports = app;

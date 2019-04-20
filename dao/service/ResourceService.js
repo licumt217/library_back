@@ -1,11 +1,11 @@
 const log4js= require('../../config/log-config')
 const logger = log4js.getLogger() // 根据需要获取logger
 const errlogger = log4js.getLogger('err')
-let User=require('../models/User')
-const entityName="用户";
+let MainEntity=require('../models/Resource')
+const entityName="资源";
 let errorMsg="";
 
-let UserService={
+let MainService={
     save(entity){
         return new Promise((resolve,reject)=>{
             if(entity){
@@ -23,27 +23,10 @@ let UserService={
             }
         })
     },
-    find(whereObj){
-        return new Promise((resolve,reject)=>{
-
-            if(!whereObj){
-                whereObj={}
-            }
-            User.find(whereObj).then(data=>{
-                console.log('.......',data)
-                resolve(data)
-            }).catch(err=>{
-                errorMsg=`根据条件查询${entityName}异常！`
-                logger.info(errorMsg,err)
-                reject(errorMsg)
-            })
-
-        })
-    },
     remove(id){
         return new Promise((resolve,reject)=>{
 
-            User.remove({
+            MainEntity.remove({
                 _id:id
             }).then(data=>{
                 resolve(data)
@@ -58,7 +41,7 @@ let UserService={
     update(whereObj,updateObj){
         return new Promise((resolve,reject)=>{
 
-            User.update(whereObj,updateObj).then(data=>{
+            MainEntity.update(whereObj,updateObj).then(data=>{
                 resolve(data)
             }).catch(err=>{
                 errorMsg=`修改${entityName}信息异常！`
@@ -66,36 +49,27 @@ let UserService={
                 reject(errorMsg)
             })
 
+            MainEntity.remove
+
         })
     },
-    getById(id){
+    find(whereObj){
         return new Promise((resolve,reject)=>{
 
-            User.find({
-                _id:id
-            }).then(data=>{
-                if(data && data.length>0){
-                    resolve(data)
-                }else{
-                    errorMsg=`未找到${entityName}！`
-                    reject(errorMsg)
-                }
-
+            if(!whereObj){
+                whereObj={}
+            }
+            MainEntity.find(whereObj).then(data=>{
+                console.log('.......',data)
+                resolve(data)
             }).catch(err=>{
-                errorMsg=`查询${entityName}异常！`
+                errorMsg=`根据条件查询${entityName}异常！`
                 logger.info(errorMsg,err)
                 reject(errorMsg)
             })
 
         })
-    }
-
-
-
-
-
-
-
+    },
 
 
 }
@@ -105,4 +79,4 @@ let UserService={
 
 
 
-module.exports = UserService
+module.exports = MainService

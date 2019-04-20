@@ -1,0 +1,781 @@
+[2019-04-20T10:20:55.161] [INFO] default - 获取用户列表的参数： {}
+[2019-04-20T10:22:52.179] [INFO] default - 获取资源列表的参数： {}
+[2019-04-20T10:22:52.181] [INFO] default - 未找到用户！
+[2019-04-20T10:23:46.330] [INFO] default - 获取资源列表的参数： {}
+[2019-04-20T10:23:46.331] [INFO] default - 未找到用户！
+[2019-04-20T10:23:48.502] [INFO] default - 获取资源列表的参数： {}
+[2019-04-20T10:23:48.504] [INFO] default - 未找到用户！
+[2019-04-20T10:23:51.353] [INFO] default - 获取资源列表的参数： {}
+[2019-04-20T10:23:51.354] [INFO] default - 未找到用户！
+[2019-04-20T10:24:14.810] [INFO] default - 获取资源列表的参数： {}
+[2019-04-20T10:24:14.812] [INFO] default - 未找到用户！
+[2019-04-20T10:24:17.857] [INFO] default - 获取资源列表的参数： {}
+[2019-04-20T10:24:17.858] [INFO] default - 未找到用户！
+[2019-04-20T10:24:50.416] [INFO] default - 获取资源列表的参数： {}
+[2019-04-20T10:24:50.429] [INFO] default - 未找到用户！
+[2019-04-20T10:25:11.214] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:25:47.414] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:30:44.996] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:37:09.152] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:37:17.011] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:37:42.711] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:39:31.245] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:40:31.610] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:41:08.306] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:41:33.616] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:42:28.392] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:53:43.506] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:55:03.565] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:57:01.701] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:57:11.453] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:58:02.984] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:58:57.825] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T10:59:00.539] [INFO] default - 获取资源列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T11:16:06.908] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T11:16:11.711] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T11:16:37.920] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T11:16:40.431] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T11:16:42.911] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T11:16:51.571] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T11:19:35.900] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T11:19:39.050] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T11:20:02.923] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T11:20:05.759] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T11:22:14.353] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T12:13:03.901] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T13:45:37.318] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T13:45:38.888] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T13:48:00.503] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T13:48:02.073] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T13:48:51.241] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T13:48:53.327] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:02:54.633] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:02:56.312] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:03:07.828] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:03:30.920] [INFO] default - 新增资源参数： { name: '借阅管理',
+  url: '/borrow/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:03:30.936] [INFO] default - 新增资源异常！ { ValidationError: Resource validation failed: code: Path `code` is required.
+    at ValidationError.inspect (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validation.js:59:24)
+    at formatValue (internal/util/inspect.js:490:31)
+    at inspect (internal/util/inspect.js:191:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/layouts.js:65:57)
+    at app (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/appenders/dateFile.js:30:19)
+    at categoryAppenders.forEach (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:45:12)
+  errors:
+   { code:
+      { ValidatorError: Path `code` is required.
+          at new ValidatorError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validator.js:29:11)
+          at validate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:945:13)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:998:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:954:19)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/document.js:2106:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `code` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'code',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'Resource validation failed',
+  name: 'ValidationError' }
+[2019-04-20T14:03:30.940] [INFO] default - 新增资源异常！
+[2019-04-20T14:05:37.472] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:05:40.008] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:05:57.117] [INFO] default - 新增资源参数： { name: '借阅管理',
+  url: '/borrow/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:05:57.130] [INFO] default - 新增资源异常！ { ValidationError: Resource validation failed: code: Path `code` is required.
+    at ValidationError.inspect (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validation.js:59:24)
+    at formatValue (internal/util/inspect.js:490:31)
+    at inspect (internal/util/inspect.js:191:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/layouts.js:65:57)
+    at app (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/appenders/dateFile.js:30:19)
+    at categoryAppenders.forEach (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/Users/licumt217/Documents/projects/li/library_back/node_modules/log4js/lib/logger.js:45:12)
+  errors:
+   { code:
+      { ValidatorError: Path `code` is required.
+          at new ValidatorError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/validator.js:29:11)
+          at validate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:945:13)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:998:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:954:19)
+          at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/document.js:2106:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `code` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'code',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'Resource validation failed',
+  name: 'ValidationError' }
+[2019-04-20T14:05:57.134] [INFO] default - 新增资源异常！
+[2019-04-20T14:07:46.138] [INFO] default - 新增资源参数： { name: '借阅管理',
+  url: '/borrow/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:07:46.259] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:07:51.064] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:11:55.634] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:12:18.132] [INFO] default - 新增资源参数： { name: '借阅管理',
+  url: '/borrow/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:12:18.183] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:12:39.206] [INFO] default - 新增资源参数： { name: '图书管理',
+  url: '/book/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:12:39.244] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:13:04.669] [INFO] default - 新增资源参数： { name: '权限管理',
+  url: '/xx/xxx',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:13:04.710] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:13:18.132] [INFO] default - 新增资源参数： { name: '人员管理',
+  url: '/user/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:13:18.135] [INFO] default - TypeError: Cannot read property 'length' of undefined
+    at mainService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/resources.js:60:60)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-20T14:13:35.294] [INFO] default - 新增资源参数： { name: '人员管理',
+  url: '/user/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:13:35.298] [INFO] default - TypeError: Cannot read property 'length' of undefined
+    at mainService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/resources.js:60:60)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-20T14:15:16.122] [INFO] default - 新增资源参数： { name: '人员管理',
+  url: '/user/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:15:16.126] [INFO] default - TypeError: Cannot read property 'length' of undefined
+    at mainService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/resources.js:60:60)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-20T14:15:35.235] [INFO] default - 新增资源参数： { name: '人员管理',
+  url: '/user/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:15:35.237] [INFO] default - TypeError: Cannot read property 'length' of undefined
+    at mainService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/resources.js:60:60)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-20T14:15:48.400] [INFO] default - 新增资源参数： { name: '人员管理',
+  url: '/user/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:15:48.403] [INFO] default - TypeError: Cannot read property 'length' of undefined
+    at mainService.find.then.data (/Users/licumt217/Documents/projects/li/library_back/routes/resources.js:60:60)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-20T14:16:00.184] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:16:01.968] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:16:16.894] [INFO] default - 新增资源参数： { name: '人员管理',
+  url: '/user/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0NaN' }
+[2019-04-20T14:16:16.953] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:16:27.426] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:32:03.788] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:32:19.690] [INFO] default - 新增资源参数： { name: '图书管理',
+  url: '/book/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:32:19.740] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:32:33.258] [INFO] default - 新增资源参数： { name: '权限管理',
+  url: '/alfjsf/fsf',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:32:33.293] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:33:32.443] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:33:44.832] [INFO] default - 新增资源参数： { name: '图书管理',
+  url: '/bookfs/fsl',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:33:44.884] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:33:56.166] [INFO] default - 新增资源参数： { name: '权限管理',
+  url: 'flsjfls',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:33:56.204] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:36:49.784] [INFO] default - 新增资源参数： { name: 'fsljflsa',
+  url: 'fsljfs',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:36:49.868] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:39:09.743] [INFO] default - 新增资源参数： { name: 'fsf',
+  url: 'sf',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:39:09.825] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:40:55.414] [INFO] default - 新增资源参数： { name: 'fs',
+  url: 'sf',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:40:55.449] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: library.resources index: url_1 dup key: { : "sf" }
+    at Function.create (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb/lib/utils.js:149:22)
+    at coll.s.topology.insert (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb/lib/operations/collection_ops.js:859:39)
+    at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg:
+   'E11000 duplicate key error collection: library.resources index: url_1 dup key: { : "sf" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-04-20T14:40:55.450] [INFO] default - 新增资源异常！
+[2019-04-20T14:41:06.458] [INFO] default - 新增资源参数： { name: 'fsfsfs',
+  url: 'sfsfss',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:41:06.509] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:41:09.524] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:42:44.776] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:42:48.067] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:42:53.724] [INFO] default - 新增资源参数： { name: 'fs',
+  url: 'sf',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:42:53.781] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:42:59.490] [INFO] default - 新增资源参数： { name: 'fs',
+  url: 'fs',
+  icon: 'fs',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:42:59.493] [INFO] default - 资源已存在！
+[2019-04-20T14:43:02.614] [INFO] default - 新增资源参数： { name: 'fs1',
+  url: 'fs',
+  icon: 'fs',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T14:43:02.652] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:43:08.958] [INFO] default - 新增资源参数： { name: '111',
+  url: '111',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0002' }
+[2019-04-20T14:43:08.991] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:43:38.841] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:45:54.238] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:46:48.918] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:47:28.992] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:48:26.628] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:50:34.996] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:51:13.906] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:56:15.567] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:57:24.349] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:57:53.827] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T14:59:20.796] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:00:26.162] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:00:32.696] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:00:35.818] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:01:27.328] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:01:58.510] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:03:20.296] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:03:53.633] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:04:11.140] [INFO] default - 新增资源参数： { name: '图书管理',
+  url: '/book/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T15:04:11.196] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:04:24.514] [INFO] default - 新增资源参数： { name: '借阅管理',
+  url: '/borrow/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T15:04:24.553] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:04:42.070] [INFO] default - 新增资源参数： { name: '权限管理',
+  url: '/xx/xx',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T15:04:42.105] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:05:01.649] [INFO] default - 新增资源参数： { name: '人员管理',
+  url: '/user/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0003' }
+[2019-04-20T15:05:01.685] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:05:18.127] [INFO] default - 新增资源参数： { name: '角色管理',
+  url: '/role/list',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0003' }
+[2019-04-20T15:05:18.168] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:11:00.839] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:21:07.609] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:21:10.384] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:21:13.643] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code:
+   [ '{"title":"图书管理","expand":true,"code":"0001","nodeKey":1,"selected":true}' ] }
+[2019-04-20T15:21:23.684] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:21:26.455] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:21:29.107] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code:
+   [ '{"title":"图书管理","expand":true,"code":"0001","nodeKey":1,"selected":true}' ] }
+[2019-04-20T15:22:53.261] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:22:55.457] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:22:59.565] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T15:23:18.543] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T15:23:20.419] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0001' }
+[2019-04-20T15:23:21.734] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T15:23:25.347] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00030002' }
+[2019-04-20T15:23:25.971] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00030001' }
+[2019-04-20T15:23:26.941] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T15:23:27.491] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0002' }
+[2019-04-20T15:23:28.060] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0001' }
+[2019-04-20T15:23:28.724] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:13:04.837] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00030002' }
+[2019-04-20T17:13:05.282] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00030001' }
+[2019-04-20T17:13:05.825] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:13:06.331] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0002' }
+[2019-04-20T17:13:06.897] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0001' }
+[2019-04-20T17:14:51.921] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:14:54.201] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:14:55.876] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0001' }
+[2019-04-20T17:15:01.974] [INFO] default - 删除资源参数： { _id: '5cbac46b9c105d84ef5cfe7a' }
+[2019-04-20T17:15:01.992] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0001' }
+[2019-04-20T17:15:04.652] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0002' }
+[2019-04-20T17:15:05.949] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0001' }
+[2019-04-20T17:15:07.315] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0002' }
+[2019-04-20T17:15:08.387] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:15:11.378] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:16:03.902] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:16:06.635] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0002' }
+[2019-04-20T17:16:09.624] [INFO] default - 删除资源参数： { _id: '5cbac4789c105d84ef5cfe7b' }
+[2019-04-20T17:16:18.120] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:16:21.499] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00030002' }
+[2019-04-20T17:16:24.520] [INFO] default - 删除资源参数： { _id: '5cbac4ae9c105d84ef5cfe7e' }
+[2019-04-20T17:16:48.163] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:16:50.831] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:16:51.849] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:16:56.889] [INFO] default - 删除资源参数： { _id: '5cbac49d9c105d84ef5cfe7d' }
+[2019-04-20T17:17:02.960] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:17:06.929] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:17:12.090] [INFO] default - 新增资源参数： { name: '11',
+  url: '11',
+  icon: '11',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T17:17:12.139] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:17:17.716] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:17:22.365] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:17:22.909] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:17:24.355] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:17:25.319] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:17:26.109] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:17:26.836] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:18:28.148] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:18:30.379] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:18:36.129] [INFO] default - 删除资源参数： { _id: '5cbae3984e6f9c00f7df3c2b' }
+[2019-04-20T17:18:48.858] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:18:52.980] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:18:56.064] [INFO] default - 新增资源参数： { name: '11',
+  url: '11',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T17:18:56.104] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:18:57.569] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:18:59.847] [INFO] default - 删除资源参数： { _id: '5cbae4004e6f9c00f7df3c2c' }
+[2019-04-20T17:18:59.858] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:18:59.860] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:19:05.539] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:19:08.836] [INFO] default - 新增资源参数： { name: '1',
+  url: '1',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T17:19:08.872] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:19:12.124] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:19:15.748] [INFO] default - 新增资源参数： { name: '2',
+  url: '2',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T17:19:15.785] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:19:16.968] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:19:20.925] [INFO] default - 新增资源参数： { name: '11',
+  url: '11',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0004' }
+[2019-04-20T17:19:20.963] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:19:23.023] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0005' }
+[2019-04-20T17:19:26.188] [INFO] default - 删除资源参数： { _id: '5cbae4134e6f9c00f7df3c2e' }
+[2019-04-20T17:19:26.198] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:19:26.206] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0005' }
+[2019-04-20T17:19:28.392] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:19:32.046] [INFO] default - 新增资源参数： { name: '33',
+  url: '33',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0004' }
+[2019-04-20T17:19:32.087] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:19:33.847] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:19:37.665] [INFO] default - 删除资源参数： { _id: '5cbae4184e6f9c00f7df3c2f' }
+[2019-04-20T17:19:37.675] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:19:37.677] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:19:40.927] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:19:44.363] [INFO] default - 删除资源参数： { _id: '5cbae4244e6f9c00f7df3c30' }
+[2019-04-20T17:19:44.373] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:19:44.374] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:20:29.730] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:20:32.933] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:20:36.428] [INFO] default - 新增资源参数： { name: '11',
+  url: '11',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0004' }
+[2019-04-20T17:20:36.462] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:20:38.462] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:20:44.260] [INFO] default - 删除资源参数： { _id: '5cbae4644e6f9c00f7df3c31' }
+[2019-04-20T17:20:44.270] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:20:44.288] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:21:00.597] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:26:02.247] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:26:05.804] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:26:24.882] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:26:28.988] [INFO] default - 新增资源参数： { name: '11',
+  url: '11',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0004' }
+[2019-04-20T17:26:29.033] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:26:30.400] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:26:34.563] [INFO] default - 新增资源参数： { name: '12',
+  url: '12',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0004' }
+[2019-04-20T17:26:34.609] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:26:36.905] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:26:40.930] [INFO] default - 删除资源参数： { _id: '5cbae5c44e6f9c00f7df3c32' }
+[2019-04-20T17:26:40.939] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:26:40.964] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:26:47.832] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:26:48.623] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:26:49.392] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00040002' }
+[2019-04-20T17:26:52.807] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:26:54.016] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:26:58.419] [INFO] default - 新增资源参数： { name: '11',
+  url: '11',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0004' }
+[2019-04-20T17:26:58.468] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:27:00.879] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00040003' }
+[2019-04-20T17:27:01.840] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00040002' }
+[2019-04-20T17:27:02.592] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:27:08.558] [INFO] default - 删除资源参数： { _id: '5cbae5e24e6f9c00f7df3c34' }
+[2019-04-20T17:27:08.569] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:27:08.586] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:27:50.639] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:27:54.412] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:27:57.961] [INFO] default - 新增资源参数： { name: '11',
+  url: '11',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0004' }
+[2019-04-20T17:27:57.998] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:27:59.572] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:28:03.664] [INFO] default - 删除资源参数： { _id: '5cbae5ca4e6f9c00f7df3c33' }
+[2019-04-20T17:28:03.674] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:28:03.690] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:28:07.485] [INFO] default - 删除资源参数： { _id: '5cbae61d4e6f9c00f7df3c35' }
+[2019-04-20T17:28:07.494] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:28:07.508] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:28:09.569] [INFO] default - 删除资源参数： { _id: '5cbae40c4e6f9c00f7df3c2d' }
+[2019-04-20T17:28:09.577] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:28:09.597] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:28:11.788] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:28:12.462] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:28:45.539] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:28:47.987] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:29:38.415] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:30:01.836] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:30:06.126] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:30:23.776] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:30:27.048] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:30:27.751] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:30:29.182] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:30:31.010] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:31:39.898] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:31:54.048] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:31:59.667] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:32:03.427] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:32:14.043] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:33:17.609] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:33:28.962] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:33:32.081] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:33:34.001] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:33:34.444] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:33:38.374] [INFO] default - 新增资源参数： { name: '11',
+  url: '11',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T17:33:38.417] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:34:23.777] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:34:27.442] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:34:36.769] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:34:40.781] [INFO] default - 新增资源参数： { name: '111',
+  url: '111',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0004' }
+[2019-04-20T17:34:40.817] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:34:42.413] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:34:45.244] [INFO] default - 删除资源参数： { _id: '5cbae7b04e6f9c00f7df3c37' }
+[2019-04-20T17:34:45.252] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:34:45.266] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:34:49.765] [INFO] default - 删除资源参数： { _id: '5cbae7724e6f9c00f7df3c36' }
+[2019-04-20T17:34:49.774] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:34:49.787] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:34:52.434] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:35:28.111] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:35:30.586] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:35:34.721] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:35:35.288] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:35:38.296] [INFO] default - 新增资源参数： { name: '1',
+  url: '1',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T17:35:38.334] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:35:39.374] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:35:42.643] [INFO] default - 新增资源参数： { name: '11',
+  url: '11',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0004' }
+[2019-04-20T17:35:42.679] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:35:43.963] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:35:48.352] [INFO] default - 新增资源参数： { name: '12e',
+  url: 'e12',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0004' }
+[2019-04-20T17:35:48.382] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:35:49.922] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:35:52.706] [INFO] default - 删除资源参数： { _id: '5cbae7f44e6f9c00f7df3c3a' }
+[2019-04-20T17:35:52.719] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:35:52.732] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:35:55.655] [INFO] default - 删除资源参数： { _id: '5cbae7ee4e6f9c00f7df3c39' }
+[2019-04-20T17:35:55.665] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:35:55.677] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:35:57.826] [INFO] default - 删除资源参数： { _id: '5cbae7ea4e6f9c00f7df3c38' }
+[2019-04-20T17:35:57.834] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:35:57.847] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:36:00.570] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:36:06.629] [INFO] default - 新增资源参数： { name: '11',
+  url: '111',
+  icon: '11',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0003' }
+[2019-04-20T17:36:06.660] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:36:09.620] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:36:11.139] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:36:11.725] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00030001' }
+[2019-04-20T17:36:13.791] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:36:15.205] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:36:18.654] [INFO] default - 新增资源参数： { name: '2',
+  url: '2',
+  icon: '2',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T17:36:18.687] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:36:22.661] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:36:28.509] [INFO] default - 新增资源参数： { name: '33',
+  url: '33',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0004' }
+[2019-04-20T17:36:28.545] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:36:31.227] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:36:46.293] [INFO] default - 修改资源信息参数： { icon: '2',
+  activeName: '0.2525488808551821',
+  children: [],
+  _id: '5cbae8124e6f9c00f7df3c3c',
+  name: '2222222222222',
+  url: '2',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0',
+  code: '0004',
+  __v: 0,
+  _index: 2,
+  _rowKey: 6 }
+[2019-04-20T17:36:46.331] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:36:51.451] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:36:56.724] [INFO] default - 修改资源信息参数： { icon: '2',
+  activeName: '0.2525488808551821',
+  children: [],
+  _id: '5cbae8124e6f9c00f7df3c3c',
+  name: '2222222222222',
+  url: '232323',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0',
+  code: '0004',
+  __v: 0,
+  _index: 0,
+  _rowKey: 8 }
+[2019-04-20T17:36:56.752] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:36:58.552] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:37:02.418] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:37:03.528] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:37:10.981] [INFO] default - 修改资源信息参数： { icon: '223',
+  activeName: '0.2525488808551821',
+  children: [],
+  _id: '5cbae8124e6f9c00f7df3c3c',
+  name: '2222222222222',
+  url: '232323',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0',
+  code: '0004',
+  __v: 0,
+  _index: 0,
+  _rowKey: 12 }
+[2019-04-20T17:37:11.007] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:37:12.618] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:37:16.107] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:37:17.194] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:38:46.352] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:38:49.927] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:38:55.852] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:38:59.177] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:39:02.215] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:39:03.047] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:39:04.237] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:39:04.693] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00030001' }
+[2019-04-20T17:39:06.484] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:39:09.125] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:39:10.987] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:39:34.258] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:39:37.689] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:39:56.725] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:40:04.761] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:40:17.996] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:40:21.496] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:40:56.410] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:40:56.449] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:40:59.475] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:41:00.114] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00030001' }
+[2019-04-20T17:41:00.930] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:41:01.368] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00040001' }
+[2019-04-20T17:41:02.969] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:41:03.810] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00040001' }
+[2019-04-20T17:41:05.640] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:41:06.280] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00030001' }
+[2019-04-20T17:41:19.030] [INFO] default - 修改资源信息参数： { icon: '11',
+  activeName: '0.2525488808551821',
+  children: [],
+  _id: '5cbae8064e6f9c00f7df3c3b',
+  name: '人员管理',
+  url: '111',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0003',
+  code: '00030001',
+  __v: 0,
+  _index: 0,
+  _rowKey: 16 }
+[2019-04-20T17:41:19.068] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:41:19.091] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:41:22.615] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:41:32.433] [INFO] default - 修改资源信息参数： { icon: '223',
+  activeName: '0.2525488808551821',
+  children: [],
+  _id: '5cbae8124e6f9c00f7df3c3c',
+  name: '图书管理',
+  url: '232323',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0',
+  code: '0004',
+  __v: 0,
+  _index: 0,
+  _rowKey: 21 }
+[2019-04-20T17:41:32.466] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:41:32.487] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:41:35.223] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00040001' }
+[2019-04-20T17:41:37.587] [INFO] default - 删除资源参数： { _id: '5cbae81c4e6f9c00f7df3c3d' }
+[2019-04-20T17:41:37.596] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:41:47.510] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:41:54.155] [INFO] default - 新增资源参数： { name: '1',
+  url: '1',
+  icon: '1',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0004' }
+[2019-04-20T17:41:54.194] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:41:54.216] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:41:57.445] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:41:57.469] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:41:58.628] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:42:03.065] [INFO] default - 删除资源参数： { _id: '5cbae9624e6f9c00f7df3c3e' }
+[2019-04-20T17:42:03.077] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:42:03.093] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0004' }
+[2019-04-20T17:42:06.518] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00030001' }
+[2019-04-20T17:42:07.134] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:42:07.767] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '00030001' }
+[2019-04-20T17:42:08.342] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:42:09.078] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:42:11.814] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0003' }
+[2019-04-20T17:42:23.447] [INFO] default - 新增资源参数： { name: '角色管理',
+  url: '2',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0003' }
+[2019-04-20T17:42:23.490] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:42:23.517] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:42:28.220] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:42:38.396] [INFO] default - 新增资源参数： { name: '借阅管理',
+  url: '23',
+  icon: '',
+  opUserId: '5cadc7a6fc0e55294c70d611',
+  parentCode: '0' }
+[2019-04-20T17:42:38.430] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:42:38.449] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-20T17:42:40.756] [INFO] default - 获取资源树形列表的参数： { userId: '5cadc7a6fc0e55294c70d611' }
+[2019-04-20T17:42:40.774] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
