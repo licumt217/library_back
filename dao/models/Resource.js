@@ -42,6 +42,9 @@ let Schema = {
     },
     "children":{
         type:Array
+    },
+    "checked":{
+        type:Boolean
     }
 
 }
