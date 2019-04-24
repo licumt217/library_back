@@ -50,16 +50,10 @@ router.post('/add', function (req, res) {
 
                 theCode=String(theCode);
 
-                console.log('theCode:'+theCode)
-                console.log('len:'+theCode.length,len)
-
-
-
                 if(len!==theCode.length){
                     let len2Fix=len-theCode.length;
                     for(let i=0;i<len2Fix;i++){
 
-                        console.log("********")
                         theCode="0"+theCode;
                     }
                 }
@@ -72,9 +66,9 @@ router.post('/add', function (req, res) {
             }
         }).then((code)=>{
 
-            console.log(11111111,code)
-
             entity.code=code;
+
+            entity.activeName=entity.url;
 
             return mainService.save(entity).then(data=>{
                 res.send(Response.success(data));
@@ -83,10 +77,6 @@ router.post('/add', function (req, res) {
             logger.info(err)
             res.send(Response.businessException(err))
         })
-
-
-
-
 
     }).catch(err=>{
         logger.info(err)
@@ -133,6 +123,7 @@ router.post('/update', function (req, res) {
 
     let updateObj=JSON.parse(JSON.stringify(req.body));
 
+    updateObj.activeName=updateObj.url;
 
 
     mainService.update({
@@ -261,12 +252,6 @@ router.get('/listByRole', function (req, res, next) {
         res.send(Response.businessException(err))
     });
 
-
-
-
-
-
-
 });
 
 
@@ -288,9 +273,6 @@ router.get('/getChildrenAndSelf', function (req, res, next) {
         logger.info(err)
         res.send(Response.businessException(err))
     })
-
-
-
 
 });
 

@@ -5,6 +5,8 @@ const Entity = require('../dao/models/Role')
 const RoleResourceEntity = require('../dao/models/RoleResourceRelation')
 const mainService = require('../dao/service/RoleService')
 const roleResourceService = require('../dao/service/RoleResourceRelationService')
+const roleService = require('../dao/service/RoleService')
+const userRoleRelationService = require('../dao/service/UserRoleRelationService')
 const log4js = require('../config/log-config')
 const logger = log4js.getLogger() // 根据需要获取logger
 const entityName='角色'
@@ -117,6 +119,40 @@ router.get('/get', function (req, res, next) {
             res.send(Response.success(data[0]));
         }else{
             res.send(Response.businessException(`未找到对应${entityName}`))
+        }
+
+
+    }).catch(err => {
+        logger.info(err)
+        res.send(Response.businessException(err))
+    })
+
+});
+
+router.get('/getRoleByUserId', function (req, res, next) {
+
+    logger.info(`获取${entityName}根据用户编号的参数：`, req.query)
+
+    if(!req.query.userId){
+        res.send(Response.businessException(`用户编号不能为空`))
+    }
+
+    userRoleRelationService.find(req.query).then(data => {
+        if(data && data.length>0){
+            let roleId=data[0].roleId;
+
+            roleService.find({
+                _id:roleId
+            }).then(data=>{
+                if(data && data.length>0){
+                    res.send(Response.success(data[0]))
+                }else{
+                    res.send(Response.success({}))
+                }
+            })
+
+        }else{
+            res.send(Response.success({}))
         }
 
 

@@ -17,7 +17,8 @@ let Schema = {
     },
 
     "order": {//菜单排序
-        type:Number
+        type:Number,
+        default:0
     },
     "icon": {
         type:String,
@@ -26,7 +27,6 @@ let Schema = {
     "activeName":{//菜单序号，用户前端选中效果匹配
         type:String,
         required:true,
-        default: String(Math.random())
     },
     "code":{//
         type:String,

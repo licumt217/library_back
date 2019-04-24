@@ -3,9 +3,14 @@ require('../utils/datePrototypeUtils')
 const router = express.Router();
 const Response = require('../config/response')
 const User = require('../dao/models/User')
-const UserService = require('../dao/service/UserService')
+const Resource = require('../dao/models/Resource')
+const UserRoleRelation = require('../dao/models/UserRoleRelation')
+const MainService = require('../dao/service/UserService')
+const UserRoleService = require('../dao/service/UserRoleRelationService')
+const ResourceService = require('../dao/service/ResourceService')
 const log4js = require('../config/log-config')
 const logger = log4js.getLogger() // 根据需要获取logger
+const md5=require('md5')
 const entityName='用户'
 
 // 新增
@@ -13,7 +18,7 @@ router.post('/add', function (req, res) {
 
     logger.info(`新增${entityName}参数：`,req.body)
 
-    UserService.find({
+    MainService.find({
         username:req.body.username
     }).then(data=>{
         if(data && data.length>0){
@@ -24,7 +29,7 @@ router.post('/add', function (req, res) {
     }).then(()=>{
         let user = new User(req.body);
 
-        return UserService.save(user).then(data=>{
+        return MainService.save(user).then(data=>{
             res.send(Response.success(data));
         })
     }).catch(err=>{
@@ -35,6 +40,82 @@ router.post('/add', function (req, res) {
 })
 
 
+// 新增
+router.post('/init', function (req, res) {
+
+    logger.info(`初始化管理员账号等信息参数：`,req.body)
+
+    MainService.find({
+        username:'sysadmin'
+    }).then(data=>{
+        if(data && data.length>0){
+            return Promise.resolve(data[0])
+        }else{
+            return Promise.resolve()
+        }
+    }).then((data)=>{
+
+        if(data){
+            //初始化资源管理菜单，方便管理员后续操作`
+            let resource=new Resource({
+                "name":"资源管理",
+                "url":"/resource/list",
+                "order":1,
+                "activeName":"resource",
+                "code":"0001",
+                "parentCode":"0",
+                "opUserId":data._id
+            })
+
+
+            ResourceService.save(resource).then(data=>{
+                res.send(Response.success(data));
+            }).catch(err=>{
+                logger.info(err)
+                res.send(Response.businessException(err))
+            })
+        }else{
+            let user = new User({
+                username:'sysadmin',
+                type:2,
+                name:'超级管理员'
+            });
+
+            return MainService.save(user).then(data=>{
+//初始化资源管理菜单，方便管理员后续操作`
+                let resource=new Resource({
+                    "name":"资源管理",
+                    "url":"/resource/list",
+                    "order":1,
+                    "activeName":"resource",
+                    "code":"0001",
+                    "parentCode":"0",
+                    "opUserId":data._id
+                })
+
+
+                ResourceService.save(resource).then(data=>{
+                    res.send(Response.success(data));
+                }).catch(err=>{
+                    logger.info(err)
+                    res.send(Response.businessException(err))
+                })
+
+
+            })
+        }
+
+
+    }).catch(err=>{
+        logger.info(err)
+        res.send(Response.businessException(err))
+    })
+
+})
+
+
+
+
 // 删除
 router.post('/remove', function (req, res) {
 
@@ -43,7 +124,7 @@ router.post('/remove', function (req, res) {
     let userId=req.body._id
 
 
-    UserService.find({
+    MainService.find({
         _id:userId
     }).then(data=>{
         if(!data || data.length===0){
@@ -52,7 +133,7 @@ router.post('/remove', function (req, res) {
             return Promise.resolve()
         }
     }).then(()=>{
-        UserService.remove(userId).then(()=>{
+        MainService.remove(userId).then(()=>{
             res.send(Response.success());
         }).catch(err=>{
             logger.info(err)
@@ -82,7 +163,7 @@ router.post('/login', function (req, res) {
         username:username
     };
 
-    UserService.find(whereObj).then(data=>{
+    MainService.find(whereObj).then(data=>{
 
         if(data && data.length>0){
 
@@ -96,7 +177,7 @@ router.post('/login', function (req, res) {
             password:req.body.password
         };
 
-        return UserService.find(whereObj).then(data=>{
+        return MainService.find(whereObj).then(data=>{
             if(data && data.length>0){
                 res.send(Response.success(data[0]));
 
@@ -123,7 +204,7 @@ router.post('/update', function (req, res) {
     updateObj.username=null;
     updateObj.password=null;
 
-    UserService.update({
+    MainService.update({
         _id:updateObj._id
     },updateObj).then(()=>{
         res.send(Response.success());
@@ -162,10 +243,10 @@ router.post('/modifyPassword', function (req, res) {
 
     let whereObj={
         _id:updateObj._id,
-        password:updateObj.password
+        password:md5(updateObj.password)
     }
 
-    UserService.find(whereObj).then(data=>{
+    MainService.find(whereObj).then(data=>{
 
         if(data && data.length>0){
 
@@ -175,8 +256,8 @@ router.post('/modifyPassword', function (req, res) {
         }
     }).then(()=>{
 
-        UserService.update(whereObj,{
-            password:updateObj.newPassword,
+        MainService.update(whereObj,{
+            password:md5(updateObj.newPassword),
             passwordUptTime: new Date().toLocalDate()
         }).then(()=>{
             res.send(Response.success());
@@ -199,7 +280,7 @@ router.get('/list', function (req, res, next) {
 
     logger.info(`获取${entityName}列表的参数：`, req.body)
 
-    UserService.find().then(data => {
+    MainService.find().then(data => {
 
         res.send(Response.success(data));
 
@@ -209,5 +290,74 @@ router.get('/list', function (req, res, next) {
     })
 
 });
+
+
+/**
+ * 给人员授权角色
+ */
+router.post('/auth', function (req, res, next) {
+
+    logger.info(`获取${entityName}授权的参数：`, req.body)
+
+    let userId=req.body.userId;
+    let roleId=req.body.roleId;
+
+
+    UserRoleService.find({
+        userId:userId
+    }).then(data => {
+
+        //已有的话更新，否则新增
+        if(data && data.length>0){
+            data=data[0];
+
+            //none的话删除
+            if(roleId==='none'){
+                UserRoleService.remove(userId).then(data=>{
+                    res.send(Response.success())
+                }).catch(err=>{
+                    res.send(Response.businessException(err))
+                })
+            }else{
+                req.body.updateTime=new Date().toLocalDate();
+
+
+                UserRoleService.update({
+                    _id:data._id
+                },req.body).then(data=>{
+                    res.send(Response.success())
+                }).catch(err=>{
+                    res.send(Response.businessException(err))
+                })
+            }
+
+
+
+        }else{
+
+            let entity = new UserRoleRelation(req.body);
+            entity.updateTime=new Date().toLocalDate();
+
+
+            UserRoleService.save(entity).then(data=>{
+                res.send(Response.success())
+            }).catch(err=>{
+                console.log(1,err)
+                res.send(Response.businessException(err))
+            });
+
+        }
+
+
+    }).catch(err => {
+        logger.info(err)
+        res.send(Response.businessException(err))
+    })
+
+
+
+});
+
+
 
 module.exports = router;
