@@ -40,6 +40,28 @@ let MainService={
 
         })
     },
+    findById(id){
+        return new Promise((resolve,reject)=>{
+
+            MainEntity.findById(id).then(data=>{
+                logger.info(`根据id查询${entityName}:`,data)
+
+                if(data){
+                    resolve(data)
+                }else{
+                    errorMsg=`根据id未找到对应${entityName}！`
+                    logger.info(errorMsg)
+                    reject(errorMsg)
+                }
+
+            }).catch(err=>{
+                errorMsg=`根据id查询${entityName}异常！`
+                logger.info(errorMsg,err)
+                reject(errorMsg)
+            })
+
+        })
+    },
     remove(id){
         return new Promise((resolve,reject)=>{
 

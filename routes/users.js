@@ -198,11 +198,11 @@ router.post('/update', function (req, res) {
 
     logger.info(`修改${entityName}信息参数：`,req.body)
 
-    let updateObj=JSON.parse(JSON.stringify(req.body));
-
     //防止修改
-    updateObj.username=null;
-    updateObj.password=null;
+    delete req.body.username;
+    delete req.body.password;
+
+    let updateObj=JSON.parse(JSON.stringify(req.body));
 
     MainService.update({
         _id:updateObj._id
@@ -281,6 +281,23 @@ router.get('/list', function (req, res, next) {
     logger.info(`获取${entityName}列表的参数：`, req.body)
 
     MainService.find().then(data => {
+
+        res.send(Response.success(data));
+
+    }).catch(err => {
+        logger.info(err)
+        res.send(Response.businessException(err))
+    })
+
+});
+
+router.post('/findById', function (req, res, next) {
+
+    logger.info(`获取${entityName}实体的参数：`, req.body)
+
+    let id=req.body._id;
+
+    MainService.findById(id).then(data => {
 
         res.send(Response.success(data));
 

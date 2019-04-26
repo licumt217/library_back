@@ -142,14 +142,9 @@ router.get('/list', function (req, res, next) {
 
     let userId=req.query.userId;
 
-    userService.getById(userId).then(data=>{
+    userService.findById(userId).then(data=>{
 
-        let user=null;
-        if(data && data.length>0){
-            user=data[0]
-        }else{
-            res.send(Response.businessException('未找到对应用户'))
-        }
+        let user=data
 
         let type=user.type;
 

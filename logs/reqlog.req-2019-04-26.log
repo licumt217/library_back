@@ -1,0 +1,684 @@
+[2019-04-26T10:03:30.360] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:03:30.405] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-26T10:03:31.002] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:03:31.562] [INFO] default - 获取角色列表的参数： {}
+[2019-04-26T10:03:35.237] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:03:35.762] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:03:35.781] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-26T10:03:42.088] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:03:42.781] [INFO] default - 获取角色列表的参数： {}
+[2019-04-26T10:03:43.807] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:03:43.825] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-26T10:03:47.317] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0001' }
+[2019-04-26T10:04:05.937] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-26T10:04:17.201] [INFO] default - 新增资源参数： { name: '借阅管理',
+  url: '/borrow/list',
+  opUserId: '5cc014dd22cfa65f131eeb61',
+  parentCode: '0' }
+[2019-04-26T10:04:17.246] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:04:17.266] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-26T10:04:21.181] [INFO] default - 用户登录参数： { username: 'sysadmin',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-26T10:04:21.196] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:04:25.197] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:04:25.216] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-26T10:05:16.369] [INFO] default - 修改资源信息参数： { order: 0,
+  icon: 'ios-body',
+  children: [],
+  _id: '5cc033517740d16e07d99891',
+  name: '权限管理',
+  url: '/',
+  opUserId: '5cc014dd22cfa65f131eeb61',
+  parentCode: '0',
+  code: '0001',
+  activeName: '/',
+  __v: 0,
+  _index: 0,
+  _rowKey: 54 }
+[2019-04-26T10:05:16.414] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:05:16.435] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-26T10:05:19.194] [INFO] default - 用户登录参数： { username: 'sysadmin',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-26T10:05:19.209] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:06:23.972] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:06:23.992] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-26T10:06:37.307] [INFO] default - 修改资源信息参数： { order: 0,
+  icon: 'ios-photos',
+  children: [],
+  _id: '5cc0338c7740d16e07d99895',
+  name: '图书管理',
+  url: '/book/list',
+  opUserId: '5cc014dd22cfa65f131eeb61',
+  parentCode: '0',
+  code: '0002',
+  activeName: '/book/list',
+  __v: 0,
+  _index: 4,
+  _rowKey: 70 }
+[2019-04-26T10:06:37.337] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:06:37.358] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-26T10:06:40.334] [INFO] default - 用户登录参数： { username: 'sysadmin',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-26T10:06:40.347] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:06:55.958] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:06:55.982] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-26T10:07:06.511] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:07:41.891] [INFO] default - 新增用户参数： { username: 'qiang.li',
+  name: '李强',
+  type: '0',
+  studentNumber: '09064214',
+  jobNumber: '' }
+[2019-04-26T10:07:41.923] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:08:01.474] [INFO] default - 新增用户参数： { username: 'shuaijun.zhang',
+  name: '张帅军',
+  type: '0',
+  studentNumber: '09064213',
+  jobNumber: '' }
+[2019-04-26T10:08:01.503] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:08:04.816] [INFO] default - 获取角色列表的参数： {}
+[2019-04-26T10:08:17.578] [INFO] default - 新增角色参数： { name: '普通学生' }
+[2019-04-26T10:08:17.608] [INFO] default - 获取角色列表的参数： {}
+[2019-04-26T10:08:25.029] [INFO] default - 获取资源角色授权树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61',
+  roleId: '5cc268117740d16e07d99899' }
+[2019-04-26T10:08:35.065] [INFO] default - 获取角色授权的参数： { opUserId: '5cc014dd22cfa65f131eeb61',
+  roleId: '5cc268117740d16e07d99899',
+  resourceIdArray: [ '5cc267217740d16e07d99896' ] }
+[2019-04-26T10:08:35.097] [INFO] default - 获取角色列表的参数： {}
+[2019-04-26T10:08:38.058] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:08:40.472] [INFO] default - 获取角色列表的参数： {}
+[2019-04-26T10:08:40.484] [INFO] default - 获取角色根据用户编号的参数： { userId: '5cc267ed7740d16e07d99897' }
+[2019-04-26T10:08:42.950] [INFO] default - 获取用户授权的参数： { userId: '5cc267ed7740d16e07d99897',
+  roleId: '5cc268117740d16e07d99899' }
+[2019-04-26T10:08:42.979] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:08:44.891] [INFO] default - 获取角色列表的参数： {}
+[2019-04-26T10:08:44.901] [INFO] default - 获取角色根据用户编号的参数： { userId: '5cc268017740d16e07d99898' }
+[2019-04-26T10:08:46.459] [INFO] default - 获取用户授权的参数： { userId: '5cc268017740d16e07d99898',
+  roleId: '5cc268117740d16e07d99899' }
+[2019-04-26T10:08:46.486] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:08:47.539] [INFO] default - 获取角色列表的参数： {}
+[2019-04-26T10:08:47.550] [INFO] default - 获取角色根据用户编号的参数： { userId: '5cc267ed7740d16e07d99897' }
+[2019-04-26T10:08:48.825] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:08:50.759] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-26T10:08:56.244] [INFO] default - 获取借阅列表的参数： { user: '5cc014dd22cfa65f131eeb61', state: '0' }
+[2019-04-26T10:09:00.224] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-26T10:09:03.291] [INFO] default - 获取借阅列表的参数： { user: '5cc014dd22cfa65f131eeb61', state: '0' }
+[2019-04-26T10:09:05.320] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-26T10:09:07.862] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:09:09.711] [INFO] default - 获取角色列表的参数： {}
+[2019-04-26T10:09:12.564] [INFO] default - 获取资源角色授权树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61',
+  roleId: '5cc268117740d16e07d99899' }
+[2019-04-26T10:09:15.750] [INFO] default - 获取角色授权的参数： { opUserId: '5cc014dd22cfa65f131eeb61',
+  roleId: '5cc268117740d16e07d99899',
+  resourceIdArray: [ '5cc0338c7740d16e07d99895', '5cc267217740d16e07d99896' ] }
+[2019-04-26T10:09:15.778] [INFO] default - 获取角色列表的参数： {}
+[2019-04-26T10:09:19.430] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:09:30.736] [INFO] default - 用户登录参数： { username: 'qiang.li',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-26T10:09:30.749] [INFO] default - 获取资源树形列表的参数： { userId: '5cc267ed7740d16e07d99897' }
+[2019-04-26T10:25:26.665] [INFO] default - 用户登录参数： { username: 'qiang.li',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-26T10:25:26.715] [INFO] default - 获取资源树形列表的参数： { userId: '5cc267ed7740d16e07d99897' }
+[2019-04-26T10:25:33.581] [INFO] default - 获取借阅列表的参数： { user: '5cc267ed7740d16e07d99897', state: '0' }
+[2019-04-26T10:25:35.508] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-26T10:25:39.998] [INFO] default - 获取借阅列表的参数： { book: '5cb420b6a7b8c50c7cb005a7', state: '0' }
+[2019-04-26T10:25:42.993] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-26T10:25:43.062] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-26T10:25:49.306] [INFO] default - 新增借阅参数： { name: '红楼梦',
+  author: '曹雪芹',
+  user: '5cc267ed7740d16e07d99897',
+  endTime: '2019-04-29T16:00:00.000Z',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-26T10:25:49.389] [INFO] default - 获取借阅列表的参数： { user: '5cc267ed7740d16e07d99897', state: '0' }
+[2019-04-26T10:25:52.659] [INFO] default - 获取借阅列表的参数： { user: '5cc267ed7740d16e07d99897', state: '1' }
+[2019-04-26T10:25:53.862] [INFO] default - 获取借阅列表的参数： { user: '5cc267ed7740d16e07d99897', state: '0' }
+[2019-04-26T10:25:56.236] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-26T10:25:58.934] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-26T10:26:01.353] [INFO] default - 获取借阅列表的参数： { user: '5cc267ed7740d16e07d99897', state: '0' }
+[2019-04-26T10:26:07.354] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-26T10:26:14.442] [INFO] default - 修改借阅信息参数： { name: '红楼梦',
+  author: '曹雪芹',
+  user: '5cc267ed7740d16e07d99897',
+  endTime: '2019-05-09T16:00:00.000Z',
+  _id: '5cc26c2d32b0a1727876db7f',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-26T10:26:14.499] [INFO] default - 获取借阅列表的参数： { user: '5cc267ed7740d16e07d99897', state: '0' }
+[2019-04-26T10:26:23.683] [INFO] default - 归还借阅信息参数： { _id: '5cc26c2d32b0a1727876db7f' }
+[2019-04-26T10:26:23.699] [INFO] default - 获取借阅列表的参数： { user: '5cc267ed7740d16e07d99897', state: '0' }
+[2019-04-26T10:26:25.219] [INFO] default - 获取借阅列表的参数： { user: '5cc267ed7740d16e07d99897', state: '1' }
+[2019-04-26T10:26:31.546] [INFO] default - 获取借阅列表的参数： { user: '5cc267ed7740d16e07d99897', state: '0' }
+[2019-04-26T10:26:33.010] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-26T10:26:35.220] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-26T10:26:35.268] [INFO] default - 获取书籍实例的参数： { _id: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-26T10:26:39.359] [INFO] default - 新增借阅参数： { name: '红楼梦',
+  author: '曹雪芹',
+  user: '5cc267ed7740d16e07d99897',
+  endTime: '2019-04-28T16:00:00.000Z',
+  book: '5cb420c1a7b8c50c7cb005a8' }
+[2019-04-26T10:26:39.411] [INFO] default - 获取借阅列表的参数： { user: '5cc267ed7740d16e07d99897', state: '0' }
+[2019-04-26T10:26:40.971] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-26T10:26:42.761] [INFO] default - 获取借阅列表的参数： { user: '5cc267ed7740d16e07d99897', state: '0' }
+[2019-04-26T10:26:55.819] [INFO] default - 用户登录参数： { username: 'shuaijun.zhang',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-26T10:26:55.840] [INFO] default - 获取资源树形列表的参数： { userId: '5cc268017740d16e07d99898' }
+[2019-04-26T10:26:57.206] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-26T10:26:58.046] [INFO] default - 获取借阅列表的参数： { user: '5cc268017740d16e07d99898', state: '0' }
+[2019-04-26T10:27:28.415] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-26T10:27:30.624] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-26T10:27:31.758] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-26T10:27:31.808] [INFO] default - 获取书籍实例的参数： { _id: '5cb460baa7b8c50c7cb005a9' }
+[2019-04-26T10:27:35.887] [INFO] default - 新增借阅参数： { name: '三国演义',
+  author: '罗贯中',
+  user: '5cc268017740d16e07d99898',
+  endTime: '2019-04-28T16:00:00.000Z',
+  book: '5cb460baa7b8c50c7cb005a9' }
+[2019-04-26T10:27:35.962] [INFO] default - 获取借阅列表的参数： { user: '5cc268017740d16e07d99898', state: '0' }
+[2019-04-26T10:27:38.928] [INFO] default - 归还借阅信息参数： { _id: '5cc26c9732b0a1727876db84' }
+[2019-04-26T10:27:38.942] [INFO] default - 获取借阅列表的参数： { user: '5cc268017740d16e07d99898', state: '0' }
+[2019-04-26T10:27:44.150] [INFO] default - 获取借阅列表的参数： { user: '5cc268017740d16e07d99898', state: '1' }
+[2019-04-26T10:27:45.528] [INFO] default - 获取借阅列表的参数： { user: '5cc268017740d16e07d99898', state: '0' }
+[2019-04-26T10:27:47.216] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-26T10:27:48.992] [INFO] default - 获取借阅列表的参数： { book: '5cb9a87dff88612088b284df', state: '0' }
+[2019-04-26T10:27:49.037] [INFO] default - 获取书籍实例的参数： { _id: '5cb9a87dff88612088b284df' }
+[2019-04-26T10:27:53.059] [INFO] default - 新增借阅参数： { name: '7天速成h5',
+  author: 'ds',
+  user: '5cc268017740d16e07d99898',
+  endTime: '2019-04-29T16:00:00.000Z',
+  book: '5cb9a87dff88612088b284df' }
+[2019-04-26T10:27:53.116] [INFO] default - 获取借阅列表的参数： { user: '5cc268017740d16e07d99898', state: '0' }
+[2019-04-26T10:27:54.680] [INFO] default - 获取借阅列表的参数： { user: '5cc268017740d16e07d99898', state: '1' }
+[2019-04-26T10:28:05.767] [INFO] default - 用户登录参数： { username: 'sysadmin',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-26T10:28:05.798] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:51:50.608] [INFO] default - 用户登录参数： { username: 'sysadmin',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-26T10:51:50.657] [INFO] default - 获取资源树形列表的参数： { userId: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:51:50.664] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0 }
+[2019-04-26T10:51:56.960] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:56:34.532] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T10:59:20.839] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T10:59:20.859] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0 }
+[2019-04-26T11:00:10.632] [INFO] default - 获取用户实体的参数： { _id: '33' }
+[2019-04-26T11:00:10.634] [INFO] default - 根据id查询用户异常！ { CastError: Cast to ObjectId failed for value "33" at path "_id" for model "User"
+    at new CastError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/cast.js:29:11)
+    at ObjectId.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schema/objectid.js:242:11)
+    at ObjectId.SchemaType.applySetters (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:864:12)
+    at ObjectId.SchemaType._castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1267:15)
+    at ObjectId.SchemaType.castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1257:15)
+    at ObjectId.SchemaType.castForQueryWrapper (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1236:15)
+    at cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/cast.js:307:32)
+    at model.Query.Query.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:4433:12)
+    at model.Query.Query._castConditions (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1762:10)
+    at model.Query.<anonymous> (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:2015:8)
+    at model.Query._wrappedThunk [as _findOne] (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at process.nextTick (/Users/licumt217/Documents/projects/li/library_back/node_modules/kareem/index.js:369:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  message:
+   'Cast to ObjectId failed for value "33" at path "_id" for model "User"',
+  name: 'CastError',
+  stringValue: '"33"',
+  kind: 'ObjectId',
+  value: '33',
+  path: '_id',
+  reason: undefined,
+  model:
+   { [Function: model]
+     hooks: Kareem { _pres: [Map], _posts: [Map] },
+     base:
+      Mongoose {
+        connections: [Array],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        _pluralize: [Function: pluralize],
+        Schema: [Function],
+        model: [Function],
+        plugins: [Array] },
+     modelName: 'User',
+     model: [Function: model],
+     db:
+      NativeConnection {
+        base: [Mongoose],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        options: null,
+        otherDbs: [],
+        relatedDbs: {},
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        plugins: [],
+        '$internalEmitter': [EventEmitter],
+        _listening: false,
+        _connectionOptions: [Object],
+        name: 'library',
+        host: 'localhost',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        client: [MongoClient],
+        '$initialConnection': [Promise],
+        db: [Db] },
+     discriminators: undefined,
+     events:
+      EventEmitter {
+        _events: [Object: null prototype] {},
+        _eventsCount: 0,
+        _maxListeners: undefined },
+     '$appliedMethods': true,
+     '$appliedHooks': true,
+     _middleware: Kareem { _pres: [Map], _posts: [Map] },
+     '$__insertMany': [Function],
+     schema:
+      Schema {
+        obj: [Object],
+        paths: [Object],
+        aliases: {},
+        subpaths: {},
+        virtuals: [Object],
+        singleNestedPaths: {},
+        nested: {},
+        inherits: {},
+        callQueue: [],
+        _indexes: [],
+        methods: {},
+        methodOptions: {},
+        statics: {},
+        tree: [Object],
+        query: {},
+        childSchemas: [],
+        plugins: [Array],
+        '$id': 1,
+        s: [Object],
+        _userProvidedOptions: {},
+        options: [Object],
+        '$globalPluginsApplied': true,
+        _requiredpaths: [Array],
+        [Symbol(Mongoose.helpers.setParentPointers)]: true },
+     collection:
+      NativeCollection {
+        collection: [Collection],
+        opts: [Object],
+        name: 'users',
+        collectionName: 'users',
+        conn: [NativeConnection],
+        queue: [],
+        buffer: false,
+        emitter: [EventEmitter] },
+     Query: { [Function] base: [Query] },
+     '$init': Promise { [Circular] },
+     '$caught': true,
+     [Symbol(mongoose#Model)]: true } }
+[2019-04-26T11:00:10.642] [INFO] default - 根据id查询用户异常！
+[2019-04-26T11:00:15.142] [INFO] default - 获取用户实体的参数： { _id: '33' }
+[2019-04-26T11:00:15.143] [INFO] default - 根据id查询用户异常！ { CastError: Cast to ObjectId failed for value "33" at path "_id" for model "User"
+    at new CastError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/error/cast.js:29:11)
+    at ObjectId.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schema/objectid.js:242:11)
+    at ObjectId.SchemaType.applySetters (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:864:12)
+    at ObjectId.SchemaType._castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1267:15)
+    at ObjectId.SchemaType.castForQuery (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1257:15)
+    at ObjectId.SchemaType.castForQueryWrapper (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/schematype.js:1236:15)
+    at cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/cast.js:307:32)
+    at model.Query.Query.cast (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:4433:12)
+    at model.Query.Query._castConditions (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:1762:10)
+    at model.Query.<anonymous> (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/query.js:2015:8)
+    at model.Query._wrappedThunk [as _findOne] (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at process.nextTick (/Users/licumt217/Documents/projects/li/library_back/node_modules/kareem/index.js:369:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  message:
+   'Cast to ObjectId failed for value "33" at path "_id" for model "User"',
+  name: 'CastError',
+  stringValue: '"33"',
+  kind: 'ObjectId',
+  value: '33',
+  path: '_id',
+  reason: undefined,
+  model:
+   { [Function: model]
+     hooks: Kareem { _pres: [Map], _posts: [Map] },
+     base:
+      Mongoose {
+        connections: [Array],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        _pluralize: [Function: pluralize],
+        Schema: [Function],
+        model: [Function],
+        plugins: [Array] },
+     modelName: 'User',
+     model: [Function: model],
+     db:
+      NativeConnection {
+        base: [Mongoose],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        options: null,
+        otherDbs: [],
+        relatedDbs: {},
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        plugins: [],
+        '$internalEmitter': [EventEmitter],
+        _listening: false,
+        _connectionOptions: [Object],
+        name: 'library',
+        host: 'localhost',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        client: [MongoClient],
+        '$initialConnection': [Promise],
+        db: [Db] },
+     discriminators: undefined,
+     events:
+      EventEmitter {
+        _events: [Object: null prototype] {},
+        _eventsCount: 0,
+        _maxListeners: undefined },
+     '$appliedMethods': true,
+     '$appliedHooks': true,
+     _middleware: Kareem { _pres: [Map], _posts: [Map] },
+     '$__insertMany': [Function],
+     schema:
+      Schema {
+        obj: [Object],
+        paths: [Object],
+        aliases: {},
+        subpaths: {},
+        virtuals: [Object],
+        singleNestedPaths: {},
+        nested: {},
+        inherits: {},
+        callQueue: [],
+        _indexes: [],
+        methods: {},
+        methodOptions: {},
+        statics: {},
+        tree: [Object],
+        query: {},
+        childSchemas: [],
+        plugins: [Array],
+        '$id': 1,
+        s: [Object],
+        _userProvidedOptions: {},
+        options: [Object],
+        '$globalPluginsApplied': true,
+        _requiredpaths: [Array],
+        [Symbol(Mongoose.helpers.setParentPointers)]: true },
+     collection:
+      NativeCollection {
+        collection: [Collection],
+        opts: [Object],
+        name: 'users',
+        collectionName: 'users',
+        conn: [NativeConnection],
+        queue: [],
+        buffer: false,
+        emitter: [EventEmitter] },
+     Query: { [Function] base: [Query] },
+     '$init': Promise { [Circular] },
+     '$caught': true,
+     [Symbol(mongoose#Model)]: true } }
+[2019-04-26T11:00:15.146] [INFO] default - 根据id查询用户异常！
+[2019-04-26T11:01:04.345] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd211fa65f131eeb61' }
+[2019-04-26T11:01:04.348] [INFO] default - 根据id查询用户: null
+[2019-04-26T11:01:10.174] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd211fa65f131eeb61' }
+[2019-04-26T11:01:10.177] [INFO] default - 根据id查询用户: null
+[2019-04-26T11:03:00.336] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd211fa65f131eeb61' }
+[2019-04-26T11:03:00.351] [INFO] default - 根据id查询用户: null
+[2019-04-26T11:03:00.351] [INFO] default - 根据id未找到对应用户！
+[2019-04-26T11:03:00.352] [INFO] default - 根据id未找到对应用户！
+[2019-04-26T11:03:57.475] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:03:57.492] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0 }
+[2019-04-26T11:04:00.029] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:04:00.033] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0 }
+[2019-04-26T11:04:35.880] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:04:35.882] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0 }
+[2019-04-26T11:04:40.688] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:04:40.690] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0 }
+[2019-04-26T11:05:20.500] [INFO] default - 新增用户参数： { password: 'e10adc3949ba59abbe56e057f20f883e',
+  _id: '5cc014dd22cfa65f131eeb61',
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管哥哥' }
+[2019-04-26T11:05:20.508] [INFO] default - 用户已存在！
+[2019-04-26T11:05:46.501] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:05:46.504] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0 }
+[2019-04-26T11:05:55.498] [INFO] default - 修改用户信息参数： { password: 'e10adc3949ba59abbe56e057f20f883e',
+  _id: '5cc014dd22cfa65f131eeb61',
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管哥哥' }
+[2019-04-26T11:05:55.558] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:05:59.766] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:05:59.768] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: null,
+  __v: 0,
+  name: '超管哥哥' }
+[2019-04-26T11:06:05.216] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:06:05.219] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: null,
+  __v: 0,
+  name: '超管哥哥' }
+[2019-04-26T11:07:57.103] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:07:57.107] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: null,
+  __v: 0,
+  name: '超管哥哥' }
+[2019-04-26T11:08:41.206] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:08:41.221] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: null,
+  __v: 0,
+  name: '超管哥哥' }
+[2019-04-26T11:08:46.002] [INFO] default - 修改用户信息参数： { password: null,
+  _id: '5cc014dd22cfa65f131eeb61',
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管哥哥' }
+[2019-04-26T11:08:46.073] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:09:09.382] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:09:12.243] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:09:12.250] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管哥哥' }
+[2019-04-26T11:10:02.078] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:10:02.081] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管哥哥' }
+[2019-04-26T11:10:10.616] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:10:14.994] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:10:15.972] [INFO] default - 获取用户实体的参数： { _id: '5cc268017740d16e07d99898' }
+[2019-04-26T11:10:15.976] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 0,
+  _id: 5cc268017740d16e07d99898,
+  username: 'shuaijun.zhang',
+  name: '张帅军',
+  studentNumber: '09064213',
+  jobNumber: '',
+  __v: 0 }
+[2019-04-26T11:10:20.216] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:10:22.891] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:10:22.894] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管哥哥' }
+[2019-04-26T11:10:32.012] [INFO] default - 修改用户信息参数： { password: null,
+  _id: '5cc014dd22cfa65f131eeb61',
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:10:32.051] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:10:47.753] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:10:47.756] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: null,
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:10:53.658] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:10:58.933] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:12:18.257] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:12:18.272] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: null,
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:12:25.938] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:12:25.941] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: null,
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:12:28.065] [INFO] default - 修改用户信息参数： { password: null,
+  _id: '5cc014dd22cfa65f131eeb61',
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:12:28.140] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:12:51.755] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:12:53.204] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:12:53.211] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:12:58.352] [INFO] default - 修改用户信息参数： { password: null,
+  _id: '5cc014dd22cfa65f131eeb61',
+  username: 'sysadmin2',
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:12:58.412] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:15:41.155] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:15:42.592] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:15:42.599] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: null,
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:15:44.891] [INFO] default - 修改用户信息参数： { password: null,
+  _id: '5cc014dd22cfa65f131eeb61',
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:15:44.954] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:17:11.676] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:17:12.985] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:17:12.990] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:17:15.652] [INFO] default - 修改用户信息参数： { password: null,
+  _id: '5cc014dd22cfa65f131eeb61',
+  username: 'sysadmin2',
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:17:15.699] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:17:18.751] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:17:18.753] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:17:21.093] [INFO] default - 修改用户信息参数： { password: null,
+  _id: '5cc014dd22cfa65f131eeb61',
+  username: 'sysadmin2323',
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:17:21.139] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:17:22.698] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:17:22.700] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:17:25.109] [INFO] default - 修改用户信息参数： { password: null,
+  _id: '5cc014dd22cfa65f131eeb61',
+  username: 'sysadmin2',
+  __v: 0,
+  name: '超管员2' }
+[2019-04-26T11:17:25.150] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:17:26.688] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:17:26.690] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员2' }
+[2019-04-26T11:17:28.905] [INFO] default - 修改用户信息参数： { password: null,
+  _id: '5cc014dd22cfa65f131eeb61',
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:17:28.944] [INFO] default - 获取用户列表的参数： {}
+[2019-04-26T11:17:38.798] [INFO] default - 获取用户实体的参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-26T11:17:38.799] [INFO] default - 根据id查询用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:17:40.707] [INFO] default - 修改用户信息参数： { password: null,
+  _id: '5cc014dd22cfa65f131eeb61',
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-26T11:17:40.744] [INFO] default - 获取用户列表的参数： {}
