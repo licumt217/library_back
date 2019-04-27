@@ -88,6 +88,23 @@ let UserService={
         })
     },
 
+    findOne(whereObj){
+        return new Promise((resolve,reject)=>{
+
+            MainEntity.findOne(whereObj).then(data=>{
+                logger.info(`根据条件查询一个${entityName}:`,data)
+
+                resolve(data)
+
+            }).catch(err=>{
+                errorMsg=`根据条件查询一个${entityName}异常！`
+                logger.info(errorMsg,err)
+                reject(errorMsg)
+            })
+
+        })
+    },
+
 
 }
 
