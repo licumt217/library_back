@@ -5,21 +5,21 @@ const Entity = require('../dao/models/BorrowRecord')
 const mainService = require('../dao/service/BorrowRecordService')
 const log4js = require('../config/log-config')
 const logger = log4js.getLogger() // 根据需要获取logger
-const entityName='借阅记录'
+const entityName = '借阅记录'
 
 
-router.get('/list', function (req, res, next) {
+router.get('/list', async function (req, res, next) {
 
     logger.info(`获取${entityName}列表的参数：`, req.body)
 
-    mainService.find().then(data => {
+    try {
+        let data = await mainService.find()
 
         res.send(Response.success(data));
-
-    }).catch(err => {
+    } catch (err) {
         logger.info(err)
         res.send(Response.businessException(err))
-    })
+    }
 
 });
 

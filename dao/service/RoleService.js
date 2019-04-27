@@ -61,6 +61,22 @@ let MainService={
 
         })
     },
+    findOne(whereObj){
+        return new Promise((resolve,reject)=>{
+
+            MainEntity.findOne(whereObj).then(data=>{
+                logger.info(`根据id查询${entityName}:`,data)
+
+                resolve(data)
+
+            }).catch(err=>{
+                errorMsg=`根据id查询${entityName}异常！`
+                logger.info(errorMsg,err)
+                reject(errorMsg)
+            })
+
+        })
+    },
     remove(id){
         return new Promise((resolve,reject)=>{
 

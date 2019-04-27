@@ -39,6 +39,22 @@ let MainService={
 
         })
     },
+    findOne(whereObj){
+        return new Promise((resolve,reject)=>{
+
+            if(!whereObj){
+                whereObj={}
+            }
+            MainEntity.findOne(whereObj).then(data=>{
+                resolve(data)
+            }).catch(err=>{
+                errorMsg=`根据条件查询${entityName}异常！`
+                logger.info(errorMsg,err)
+                reject(errorMsg)
+            })
+
+        })
+    },
 
 
 
