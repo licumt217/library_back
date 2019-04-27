@@ -30,7 +30,6 @@ let UserService={
                 whereObj={}
             }
             MainEntity.find(whereObj).then(data=>{
-                console.log('.......',data)
                 resolve(data)
             }).catch(err=>{
                 errorMsg=`根据条件查询${entityName}异常！`
@@ -43,9 +42,7 @@ let UserService={
     remove(id){
         return new Promise((resolve,reject)=>{
 
-            MainEntity.remove({
-                _id:id
-            }).then(data=>{
+            MainEntity.findByIdAndDelete(id).then(data=>{
                 resolve(data)
             }).catch(err=>{
                 errorMsg=`删除${entityName}异常！`

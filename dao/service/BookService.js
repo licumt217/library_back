@@ -6,23 +6,27 @@ const entityName="书籍";
 let errorMsg="";
 
 let MainService={
+
     save(entity){
         return new Promise((resolve,reject)=>{
-            if(entity){
-                entity.save().then(data=>{
-                    resolve(data);
-                }).catch(err=>{
-                    errorMsg=`新增${entityName}异常！`
-                    logger.info(errorMsg,err)
-                    reject(errorMsg)
-                })
-            }else{
+            if(!entity){
                 errorMsg=`新增${entityName}不能为空！`
                 logger.info(errorMsg)
                 reject(errorMsg)
+                return;
             }
+
+            entity.save().then(data=>{
+                logger.info(`新增${entityName}结果：`,data);
+                resolve(data);
+            }).catch(err=>{
+                errorMsg=`新增${entityName}异常！`
+                logger.info(errorMsg,err)
+                reject(errorMsg)
+            })
         })
     },
+
     find(whereObj){
         return new Promise((resolve,reject)=>{
 
@@ -30,7 +34,7 @@ let MainService={
                 whereObj={}
             }
             MainEntity.find(whereObj).then(data=>{
-                console.log('.......',data)
+                logger.info(`根据条件查询${entityName}:`,data)
                 resolve(data)
             }).catch(err=>{
                 errorMsg=`根据条件查询${entityName}异常！`
@@ -65,9 +69,8 @@ let MainService={
     remove(id){
         return new Promise((resolve,reject)=>{
 
-            MainEntity.remove({
-                _id:id
-            }).then(data=>{
+            MainEntity.findByIdAndDelete(id).then(data=>{
+                logger.info(`根据id删除${entityName}结果：`,data)
                 resolve(data)
             }).catch(err=>{
                 errorMsg=`删除${entityName}异常！`
@@ -81,6 +84,7 @@ let MainService={
         return new Promise((resolve,reject)=>{
 
             MainEntity.update(whereObj,updateObj).then(data=>{
+                logger.info(`更新${entityName}结果：`,data)
                 resolve(data)
             }).catch(err=>{
                 errorMsg=`修改${entityName}信息异常！`

@@ -54,7 +54,7 @@ let MainService={
         })
     }
     ,
-    remove(userId){
+    removeByUserId(userId){
         return new Promise((resolve,reject)=>{
 
             MainEntity.remove({

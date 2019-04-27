@@ -199,7 +199,6 @@ router.post('/auth', function (req, res, next) {
             roleResourceService.save(entity).then(data=>{
                 res.send(Response.success())
             }).catch(err=>{
-                console.log(1,err)
                 res.send(Response.businessException(err))
             });
 

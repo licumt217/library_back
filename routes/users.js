@@ -330,7 +330,7 @@ router.post('/auth', function (req, res, next) {
 
             //none的话删除
             if(roleId==='none'){
-                UserRoleService.remove(userId).then(data=>{
+                UserRoleService.removeByUserId(userId).then(data=>{
                     res.send(Response.success())
                 }).catch(err=>{
                     res.send(Response.businessException(err))
@@ -359,7 +359,6 @@ router.post('/auth', function (req, res, next) {
             UserRoleService.save(entity).then(data=>{
                 res.send(Response.success())
             }).catch(err=>{
-                console.log(1,err)
                 res.send(Response.businessException(err))
             });
 

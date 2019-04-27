@@ -44,8 +44,6 @@ router.post('/add', function (req, res) {
                     }
                 }
 
-                console.log('max:'+max)
-
                 let theCode=max+1;
 
                 theCode=String(theCode);

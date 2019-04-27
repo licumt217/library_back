@@ -12,13 +12,11 @@ let MainService={
                 entity.save().then(data=>{
                     resolve(data);
                 }).catch(err=>{
-                    console.log(22)
                     errorMsg=`新增${entityName}异常！`
                     logger.info(errorMsg,err)
                     reject(errorMsg)
                 })
             }else{
-                console.log(33)
                 errorMsg=`新增${entityName}不能为空！`
                 logger.info(errorMsg)
                 reject(errorMsg)
@@ -33,7 +31,6 @@ let MainService={
             }
             MainEntity.find(whereObj)
                 .then(data=>{
-                    console.log('.......',data)
                     resolve(data)
                 }).catch(err=>{
                 errorMsg=`根据条件查询${entityName}异常！`

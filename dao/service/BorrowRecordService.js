@@ -30,7 +30,6 @@ let MainService={
                 whereObj={}
             }
             MainEntity.find(whereObj).then(data=>{
-                console.log('.......',data)
                 resolve(data)
             }).catch(err=>{
                 errorMsg=`根据条件查询${entityName}异常！`
