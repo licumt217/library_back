@@ -29,7 +29,7 @@ router.post('/add', async function (req, res) {
 
         if (data) {
 
-            res.send(Response.businessException(`${entityName}已存在！`！'))
+            res.send(Response.businessException(`${entityName}已存在！`))
 
         } else {
 

@@ -22,7 +22,7 @@ router.post('/add', async function (req, res) {
     try {
         let data = await mainService.findOne(whereObj);
 
-        if (!data) {
+        if (data) {
             res.send(Response.businessException(`${entityName}已存在！`))
         } else {
             let entity = new Entity(req.body);

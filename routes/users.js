@@ -122,7 +122,7 @@ router.post('/remove', async function (req, res) {
 
             await MainService.remove(userId)
 
-            res.send(Resource.success())
+            res.send(Response.success())
 
         } else {
             res.send(Response.businessException(`${entityName}不存在！`))
@@ -200,7 +200,7 @@ router.post('/update', async function (req, res) {
 
         await MainService.update(whereObj, updateObj)
 
-        res.send(Resource.success())
+        res.send(Response.success())
 
     } catch (err) {
 

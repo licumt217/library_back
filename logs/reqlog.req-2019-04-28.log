@@ -1,0 +1,1233 @@
+[2019-04-28T17:13:31.247] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-28T17:13:31.266] [INFO] default - 根据条件查询书籍: [ { _id: 5cb420b6a7b8c50c7cb005a7,
+    name: '西游记后传',
+    author: '吴承恩',
+    __v: 0 },
+  { _id: 5cb420c1a7b8c50c7cb005a8,
+    name: '红楼梦',
+    author: '曹雪芹',
+    __v: 0 },
+  { _id: 5cb460baa7b8c50c7cb005a9,
+    name: '三国演义',
+    author: '罗贯中',
+    __v: 0 },
+  { _id: 5cb460c7a7b8c50c7cb005aa,
+    name: '水浒传',
+    author: '施耐庵',
+    __v: 0 },
+  { _id: 5cb460d5a7b8c50c7cb005ab,
+    name: '大唐双龙传',
+    author: '黄易',
+    __v: 0 },
+  { _id: 5cb9a87dff88612088b284df,
+    name: '7天速成h5',
+    author: 'ds',
+    __v: 0 },
+  { _id: 5cc41046ed60cfad62eaa0bd,
+    name: '云尊',
+    author: '天蚕土豆',
+    __v: 0 } ]
+[2019-04-28T17:13:34.891] [INFO] default - 用户登录参数： { username: 'sysadmin',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-28T17:13:34.897] [INFO] default - 根据条件查询一个用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-28T17:13:34.899] [INFO] default - 根据条件查询一个用户: null
+[2019-04-28T17:13:41.512] [INFO] default - 用户登录参数： { username: 'sysadmin',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-28T17:13:41.514] [INFO] default - 根据条件查询一个用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-28T17:13:41.515] [INFO] default - 根据条件查询一个用户: null
+[2019-04-28T17:13:48.896] [INFO] default - 用户登录参数： { username: 'sysadmin',
+  password: '202cb962ac59075b964b07152d234b70' }
+[2019-04-28T17:13:48.898] [INFO] default - 根据条件查询一个用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-28T17:13:48.900] [INFO] default - 根据条件查询一个用户: null
+[2019-04-28T17:13:59.694] [INFO] default - 用户登录参数： { username: 'sysadmin',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-28T17:13:59.695] [INFO] default - 根据条件查询一个用户: { password: null,
+  type: 2,
+  _id: 5cc014dd22cfa65f131eeb61,
+  username: 'sysadmin',
+  __v: 0,
+  name: '超管员' }
+[2019-04-28T17:13:59.697] [INFO] default - 根据条件查询一个用户: null
+[2019-04-28T17:14:49.170] [INFO] default - 用户登录参数： { username: 'qiang.li',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-28T17:14:49.172] [INFO] default - 根据条件查询一个用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 0,
+  _id: 5cc267ed7740d16e07d99897,
+  username: 'qiang.li',
+  name: '李强',
+  studentNumber: '09064214',
+  jobNumber: '',
+  __v: 0 }
+[2019-04-28T17:14:49.174] [INFO] default - 根据条件查询一个用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 0,
+  _id: 5cc267ed7740d16e07d99897,
+  username: 'qiang.li',
+  name: '李强',
+  studentNumber: '09064214',
+  jobNumber: '',
+  __v: 0 }
+[2019-04-28T17:14:49.193] [INFO] default - 获取资源树形列表的参数： { userId: '5cc267ed7740d16e07d99897' }
+[2019-04-28T17:14:49.197] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 0,
+  _id: 5cc267ed7740d16e07d99897,
+  username: 'qiang.li',
+  name: '李强',
+  studentNumber: '09064214',
+  jobNumber: '',
+  __v: 0 }
+[2019-04-28T17:14:53.332] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-28T17:14:53.335] [INFO] default - 根据条件查询书籍: [ { _id: 5cb420b6a7b8c50c7cb005a7,
+    name: '西游记后传',
+    author: '吴承恩',
+    __v: 0 },
+  { _id: 5cb420c1a7b8c50c7cb005a8,
+    name: '红楼梦',
+    author: '曹雪芹',
+    __v: 0 },
+  { _id: 5cb460baa7b8c50c7cb005a9,
+    name: '三国演义',
+    author: '罗贯中',
+    __v: 0 },
+  { _id: 5cb460c7a7b8c50c7cb005aa,
+    name: '水浒传',
+    author: '施耐庵',
+    __v: 0 },
+  { _id: 5cb460d5a7b8c50c7cb005ab,
+    name: '大唐双龙传',
+    author: '黄易',
+    __v: 0 },
+  { _id: 5cb9a87dff88612088b284df,
+    name: '7天速成h5',
+    author: 'ds',
+    __v: 0 },
+  { _id: 5cc41046ed60cfad62eaa0bd,
+    name: '云尊',
+    author: '天蚕土豆',
+    __v: 0 } ]
+[2019-04-28T17:14:55.008] [INFO] default - 获取借阅列表的参数： { user: '5cc267ed7740d16e07d99897', state: '0' }
+[2019-04-28T17:14:55.024] [INFO] default - 根据条件查询借阅关系结果： [ { state: 0,
+    isRenew: false,
+    _id: 5cc26c5f32b0a1727876db82,
+    user:
+     { password: 'e10adc3949ba59abbe56e057f20f883e',
+       type: 0,
+       _id: 5cc267ed7740d16e07d99897,
+       username: 'qiang.li',
+       name: '李强',
+       studentNumber: '09064214',
+       jobNumber: '',
+       __v: 0 },
+    endTime: 2019-04-28T16:00:00.000Z,
+    book:
+     { _id: 5cb420c1a7b8c50c7cb005a8,
+       name: '红楼梦',
+       author: '曹雪芹',
+       __v: 0 },
+    startTime: 2019-04-26T02:26:39.361Z,
+    __v: 0 } ]
+[2019-04-28T17:14:56.497] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-28T17:14:56.500] [INFO] default - 根据条件查询书籍: [ { _id: 5cb420b6a7b8c50c7cb005a7,
+    name: '西游记后传',
+    author: '吴承恩',
+    __v: 0 },
+  { _id: 5cb420c1a7b8c50c7cb005a8,
+    name: '红楼梦',
+    author: '曹雪芹',
+    __v: 0 },
+  { _id: 5cb460baa7b8c50c7cb005a9,
+    name: '三国演义',
+    author: '罗贯中',
+    __v: 0 },
+  { _id: 5cb460c7a7b8c50c7cb005aa,
+    name: '水浒传',
+    author: '施耐庵',
+    __v: 0 },
+  { _id: 5cb460d5a7b8c50c7cb005ab,
+    name: '大唐双龙传',
+    author: '黄易',
+    __v: 0 },
+  { _id: 5cb9a87dff88612088b284df,
+    name: '7天速成h5',
+    author: 'ds',
+    __v: 0 },
+  { _id: 5cc41046ed60cfad62eaa0bd,
+    name: '云尊',
+    author: '天蚕土豆',
+    __v: 0 } ]
+[2019-04-28T17:14:57.270] [INFO] default - 获取借阅列表的参数： { user: '5cc267ed7740d16e07d99897', state: '0' }
+[2019-04-28T17:14:57.276] [INFO] default - 根据条件查询借阅关系结果： [ { state: 0,
+    isRenew: false,
+    _id: 5cc26c5f32b0a1727876db82,
+    user:
+     { password: 'e10adc3949ba59abbe56e057f20f883e',
+       type: 0,
+       _id: 5cc267ed7740d16e07d99897,
+       username: 'qiang.li',
+       name: '李强',
+       studentNumber: '09064214',
+       jobNumber: '',
+       __v: 0 },
+    endTime: 2019-04-28T16:00:00.000Z,
+    book:
+     { _id: 5cb420c1a7b8c50c7cb005a8,
+       name: '红楼梦',
+       author: '曹雪芹',
+       __v: 0 },
+    startTime: 2019-04-26T02:26:39.361Z,
+    __v: 0 } ]
+[2019-04-28T17:14:57.850] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-28T17:14:57.853] [INFO] default - 根据条件查询书籍: [ { _id: 5cb420b6a7b8c50c7cb005a7,
+    name: '西游记后传',
+    author: '吴承恩',
+    __v: 0 },
+  { _id: 5cb420c1a7b8c50c7cb005a8,
+    name: '红楼梦',
+    author: '曹雪芹',
+    __v: 0 },
+  { _id: 5cb460baa7b8c50c7cb005a9,
+    name: '三国演义',
+    author: '罗贯中',
+    __v: 0 },
+  { _id: 5cb460c7a7b8c50c7cb005aa,
+    name: '水浒传',
+    author: '施耐庵',
+    __v: 0 },
+  { _id: 5cb460d5a7b8c50c7cb005ab,
+    name: '大唐双龙传',
+    author: '黄易',
+    __v: 0 },
+  { _id: 5cb9a87dff88612088b284df,
+    name: '7天速成h5',
+    author: 'ds',
+    __v: 0 },
+  { _id: 5cc41046ed60cfad62eaa0bd,
+    name: '云尊',
+    author: '天蚕土豆',
+    __v: 0 } ]
+[2019-04-28T17:15:16.220] [INFO] default - 更改用户密码参数： { _id: '5cc267ed7740d16e07d99897',
+  password: '123456',
+  newPassword: '123',
+  confirmPassword: '123' }
+[2019-04-28T17:15:16.223] [INFO] default - 根据条件查询一个用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 0,
+  _id: 5cc267ed7740d16e07d99897,
+  username: 'qiang.li',
+  name: '李强',
+  studentNumber: '09064214',
+  jobNumber: '',
+  __v: 0 }
+[2019-04-28T17:15:20.669] [INFO] default - 用户登录参数： { username: 'qiang.li',
+  password: '202cb962ac59075b964b07152d234b70' }
+[2019-04-28T17:15:20.671] [INFO] default - 根据条件查询一个用户: { password: '202cb962ac59075b964b07152d234b70',
+  type: 0,
+  _id: 5cc267ed7740d16e07d99897,
+  username: 'qiang.li',
+  name: '李强',
+  studentNumber: '09064214',
+  jobNumber: '',
+  __v: 0,
+  passwordUptTime: 2019-04-28T17:15:16.223Z }
+[2019-04-28T17:15:20.673] [INFO] default - 根据条件查询一个用户: { password: '202cb962ac59075b964b07152d234b70',
+  type: 0,
+  _id: 5cc267ed7740d16e07d99897,
+  username: 'qiang.li',
+  name: '李强',
+  studentNumber: '09064214',
+  jobNumber: '',
+  __v: 0,
+  passwordUptTime: 2019-04-28T17:15:16.223Z }
+[2019-04-28T17:15:20.685] [INFO] default - 获取资源树形列表的参数： { userId: '5cc267ed7740d16e07d99897' }
+[2019-04-28T17:15:20.687] [INFO] default - 根据id查询用户: { password: '202cb962ac59075b964b07152d234b70',
+  type: 0,
+  _id: 5cc267ed7740d16e07d99897,
+  username: 'qiang.li',
+  name: '李强',
+  studentNumber: '09064214',
+  jobNumber: '',
+  __v: 0,
+  passwordUptTime: 2019-04-28T17:15:16.223Z }
+[2019-04-28T17:15:35.963] [INFO] default - 更改用户密码参数： { _id: '5cc267ed7740d16e07d99897',
+  password: '123',
+  newPassword: '123456',
+  confirmPassword: '123456' }
+[2019-04-28T17:15:35.965] [INFO] default - 根据条件查询一个用户: { password: '202cb962ac59075b964b07152d234b70',
+  type: 0,
+  _id: 5cc267ed7740d16e07d99897,
+  username: 'qiang.li',
+  name: '李强',
+  studentNumber: '09064214',
+  jobNumber: '',
+  __v: 0,
+  passwordUptTime: 2019-04-28T17:15:16.223Z }
+[2019-04-28T17:15:42.491] [INFO] default - 用户登录参数： { username: 'qiang.li',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-28T17:15:42.493] [INFO] default - 根据条件查询一个用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 0,
+  _id: 5cc267ed7740d16e07d99897,
+  username: 'qiang.li',
+  name: '李强',
+  studentNumber: '09064214',
+  jobNumber: '',
+  __v: 0,
+  passwordUptTime: 2019-04-28T17:15:35.965Z }
+[2019-04-28T17:15:42.495] [INFO] default - 根据条件查询一个用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 0,
+  _id: 5cc267ed7740d16e07d99897,
+  username: 'qiang.li',
+  name: '李强',
+  studentNumber: '09064214',
+  jobNumber: '',
+  __v: 0,
+  passwordUptTime: 2019-04-28T17:15:35.965Z }
+[2019-04-28T17:15:42.509] [INFO] default - 获取资源树形列表的参数： { userId: '5cc267ed7740d16e07d99897' }
+[2019-04-28T17:15:42.511] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 0,
+  _id: 5cc267ed7740d16e07d99897,
+  username: 'qiang.li',
+  name: '李强',
+  studentNumber: '09064214',
+  jobNumber: '',
+  __v: 0,
+  passwordUptTime: 2019-04-28T17:15:35.965Z }
+[2019-04-28T17:21:29.546] [INFO] default - 初始化管理员账号等信息参数： {}
+[2019-04-28T17:21:29.551] [INFO] default - 根据条件查询一个用户: null
+[2019-04-28T17:21:29.563] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: library.resources index: name_1 dup key: { : "资源管理" }
+    at Function.create (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb/lib/utils.js:149:22)
+    at coll.s.topology.insert (/Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb/lib/operations/collection_ops.js:859:39)
+    at /Users/licumt217/Documents/projects/li/library_back/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg:
+   'E11000 duplicate key error collection: library.resources index: name_1 dup key: { : "资源管理" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-04-28T17:21:29.565] [INFO] default - 新增资源异常！
+[2019-04-28T17:23:45.665] [INFO] default - 用户登录参数： { username: 'sysadmin',
+  password: 'e10adc3949ba59abbe56e057f20f883e' }
+[2019-04-28T17:23:45.667] [INFO] default - 根据条件查询一个用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc57099ae19964b04406027,
+  username: 'sysadmin',
+  name: '超级管理员',
+  __v: 0 }
+[2019-04-28T17:23:45.668] [INFO] default - 根据条件查询一个用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc57099ae19964b04406027,
+  username: 'sysadmin',
+  name: '超级管理员',
+  __v: 0 }
+[2019-04-28T17:23:45.680] [INFO] default - 获取资源树形列表的参数： { userId: '5cc57099ae19964b04406027' }
+[2019-04-28T17:23:45.681] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc57099ae19964b04406027,
+  username: 'sysadmin',
+  name: '超级管理员',
+  __v: 0 }
+[2019-04-28T17:23:48.278] [INFO] default - 获取资源树形列表的参数： { userId: '5cc57099ae19964b04406027' }
+[2019-04-28T17:23:48.280] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc57099ae19964b04406027,
+  username: 'sysadmin',
+  name: '超级管理员',
+  __v: 0 }
+[2019-04-28T17:23:48.304] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-28T17:23:49.040] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T17:23:50.186] [INFO] default - 获取角色列表的参数： {}
+[2019-04-28T17:23:51.067] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T17:23:51.504] [INFO] default - 获取资源树形列表的参数： { userId: '5cc57099ae19964b04406027' }
+[2019-04-28T17:23:51.507] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc57099ae19964b04406027,
+  username: 'sysadmin',
+  name: '超级管理员',
+  __v: 0 }
+[2019-04-28T17:23:51.526] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-28T17:23:52.920] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T17:23:56.019] [INFO] default - 删除用户参数： { _id: '5cc014dd22cfa65f131eeb61' }
+[2019-04-28T17:23:56.021] [INFO] default - 根据条件查询一个用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 0,
+  _id: 5cc014dd22cfa65f131eeb61 }
+[2019-04-28T17:23:56.024] [INFO] default - TypeError: Resource.success is not a function
+    at /Users/licumt217/Documents/projects/li/library_back/routes/users.js:125:31
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-28T18:07:03.645] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:07:10.224] [INFO] default - 获取资源树形列表的参数： { userId: '5cc57099ae19964b04406027' }
+[2019-04-28T18:07:10.232] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc57099ae19964b04406027,
+  username: 'sysadmin',
+  name: '超级管理员',
+  __v: 0 }
+[2019-04-28T18:07:10.276] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-28T18:07:12.208] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-28T18:07:17.445] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-28T18:07:21.920] [INFO] default - 新增资源参数： { name: '1',
+  url: '1',
+  opUserId: '5cc57099ae19964b04406027',
+  parentCode: '0' }
+[2019-04-28T18:07:26.344] [INFO] default - 新增资源参数： { name: '11',
+  url: '11',
+  opUserId: '5cc57099ae19964b04406027',
+  parentCode: '0' }
+[2019-04-28T18:10:01.770] [INFO] default - 新增资源参数： { name: '1',
+  url: '1',
+  opUserId: '5cc57099ae19964b04406027',
+  parentCode: '0' }
+[2019-04-28T18:10:01.883] [INFO] default - 获取资源树形列表的参数： { userId: '5cc57099ae19964b04406027' }
+[2019-04-28T18:10:01.891] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc57099ae19964b04406027,
+  username: 'sysadmin',
+  name: '超级管理员',
+  __v: 0 }
+[2019-04-28T18:10:01.938] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-28T18:10:06.707] [INFO] default - 修改资源信息参数： { order: 0,
+  icon: 'ios-paper',
+  children: [],
+  _id: '5cc57bf9b92502524627663e',
+  name: '12',
+  url: '12',
+  opUserId: '5cc57099ae19964b04406027',
+  parentCode: '0',
+  code: '0004',
+  activeName: '1',
+  __v: 0,
+  _index: 6,
+  _rowKey: 7 }
+[2019-04-28T18:10:06.762] [INFO] default - 获取资源树形列表的参数： { userId: '5cc57099ae19964b04406027' }
+[2019-04-28T18:10:06.765] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc57099ae19964b04406027,
+  username: 'sysadmin',
+  name: '超级管理员',
+  __v: 0 }
+[2019-04-28T18:10:06.796] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-28T18:10:11.446] [INFO] default - 删除资源参数： { _id: '5cc57bf9b92502524627663e' }
+[2019-04-28T18:10:11.448] [INFO] default - 根据id查询资源: { order: 0,
+  icon: 'ios-paper',
+  children: [],
+  _id: 5cc57bf9b92502524627663e,
+  name: '12',
+  url: '12',
+  opUserId: '5cc57099ae19964b04406027',
+  parentCode: '0',
+  code: '0004',
+  activeName: '12',
+  __v: 0 }
+[2019-04-28T18:10:11.462] [INFO] default - 获取资源树形列表的参数： { userId: '5cc57099ae19964b04406027' }
+[2019-04-28T18:10:11.464] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc57099ae19964b04406027,
+  username: 'sysadmin',
+  name: '超级管理员',
+  __v: 0 }
+[2019-04-28T18:10:11.466] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-28T18:10:11.490] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-28T18:10:14.521] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:10:25.778] [INFO] default - 新增用户参数： { username: '111111',
+  name: '11',
+  type: '0',
+  studentNumber: '11',
+  jobNumber: '' }
+[2019-04-28T18:10:25.779] [INFO] default - 根据条件查询一个用户: null
+[2019-04-28T18:10:25.837] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:10:27.945] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:10:27.947] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 0,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '11',
+  studentNumber: '11',
+  jobNumber: '',
+  __v: 0 }
+[2019-04-28T18:10:39.163] [INFO] default - 修改用户信息参数： { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: '1',
+  _id: '5cc57c11b92502524627663f',
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:10:39.166] [INFO] default - TypeError: Resource.success is not a function
+    at /Users/licumt217/Documents/projects/li/library_back/routes/users.js:203:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-28T18:10:48.801] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:10:48.803] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:11:52.092] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:11:52.094] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:12:02.063] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:12:05.393] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:12:11.914] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:12:11.916] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:12:32.090] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:12:32.093] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:12:46.481] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:12:46.484] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:13:32.405] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:13:32.407] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:16:04.725] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:16:04.727] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:16:20.140] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:16:20.142] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:16:55.455] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:16:55.458] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:17:41.038] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:17:41.040] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:18:18.933] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:18:18.935] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:18:34.643] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:18:34.645] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:18:36.428] [INFO] default - 获取用户实体的参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:18:36.432] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:18:38.692] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:18:48.385] [INFO] default - 新增用户参数： { username: '111111',
+  name: '111',
+  type: 0,
+  studentNumber: '11',
+  jobNumber: '' }
+[2019-04-28T18:18:48.387] [INFO] default - 根据条件查询一个用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:18:51.955] [INFO] default - 新增用户参数： { username: '11111111',
+  name: '1111',
+  type: 0,
+  studentNumber: '11',
+  jobNumber: '' }
+[2019-04-28T18:18:51.957] [INFO] default - 根据条件查询一个用户: null
+[2019-04-28T18:18:51.994] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:18:56.172] [INFO] default - 获取用户实体的参数： { _id: '5cc57e0bb925025246276640' }
+[2019-04-28T18:18:56.174] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 0,
+  _id: 5cc57e0bb925025246276640,
+  username: '11111111',
+  name: '1111',
+  studentNumber: '11',
+  jobNumber: '',
+  __v: 0 }
+[2019-04-28T18:19:00.303] [INFO] default - 修改用户信息参数： { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: '5cc57e0bb925025246276640',
+  username: '11111111',
+  name: '1111',
+  studentNumber: '11',
+  jobNumber: '222',
+  __v: 0 }
+[2019-04-28T18:19:00.305] [INFO] default - TypeError: Resource.success is not a function
+    at /Users/licumt217/Documents/projects/li/library_back/routes/users.js:203:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-28T18:19:05.785] [INFO] default - 修改用户信息参数： { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: '5cc57e0bb925025246276640',
+  username: '11111111',
+  name: '1111',
+  studentNumber: '11',
+  jobNumber: '222',
+  __v: 0 }
+[2019-04-28T18:19:05.787] [INFO] default - TypeError: Resource.success is not a function
+    at /Users/licumt217/Documents/projects/li/library_back/routes/users.js:203:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-04-28T18:19:50.095] [INFO] default - 获取用户实体的参数： { _id: '5cc57e0bb925025246276640' }
+[2019-04-28T18:19:50.125] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57e0bb925025246276640,
+  username: '11111111',
+  name: '1111',
+  studentNumber: '11',
+  jobNumber: '222',
+  __v: 0 }
+[2019-04-28T18:19:53.960] [INFO] default - 修改用户信息参数： { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: '5cc57e0bb925025246276640',
+  username: '11111111',
+  name: '1111',
+  studentNumber: '11',
+  jobNumber: '222222233',
+  __v: 0 }
+[2019-04-28T18:19:54.040] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:19:56.482] [INFO] default - 获取用户实体的参数： { _id: '5cc57e0bb925025246276640' }
+[2019-04-28T18:19:56.485] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57e0bb925025246276640,
+  username: '11111111',
+  name: '1111',
+  studentNumber: '11',
+  jobNumber: '222222233',
+  __v: 0 }
+[2019-04-28T18:19:59.620] [INFO] default - 修改用户信息参数： { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 0,
+  _id: '5cc57e0bb925025246276640',
+  username: '11111111',
+  name: '1111',
+  studentNumber: '11',
+  jobNumber: '222222233',
+  __v: 0 }
+[2019-04-28T18:19:59.668] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:20:03.438] [INFO] default - 删除用户参数： { _id: '5cc57e0bb925025246276640' }
+[2019-04-28T18:20:03.440] [INFO] default - 根据条件查询一个用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 0,
+  _id: 5cc57e0bb925025246276640,
+  username: '11111111',
+  name: '1111',
+  studentNumber: '11',
+  jobNumber: '222222233',
+  __v: 0 }
+[2019-04-28T18:20:03.459] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:20:05.171] [INFO] default - 获取角色列表的参数： {}
+[2019-04-28T18:20:05.203] [INFO] default - 获取角色根据用户编号的参数： { userId: '5cc57c11b92502524627663f' }
+[2019-04-28T18:20:07.934] [INFO] default - 获取用户授权的参数： { userId: '5cc57c11b92502524627663f',
+  roleId: '5cc268117740d16e07d99899' }
+[2019-04-28T18:20:07.997] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:20:09.602] [INFO] default - 获取角色列表的参数： {}
+[2019-04-28T18:20:09.617] [INFO] default - 获取角色根据用户编号的参数： { userId: '5cc57c11b92502524627663f' }
+[2019-04-28T18:20:09.620] [INFO] default - 根据id查询角色: { _id: 5cc268117740d16e07d99899,
+  name: '普通学生',
+  updateTime: 2019-04-26T10:08:17.580Z,
+  __v: 0 }
+[2019-04-28T18:20:11.043] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:20:14.453] [INFO] default - 删除用户参数： { _id: '5cc57c11b92502524627663f' }
+[2019-04-28T18:20:14.455] [INFO] default - 根据条件查询一个用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 1,
+  _id: 5cc57c11b92502524627663f,
+  username: '111111',
+  name: '2211',
+  studentNumber: '11',
+  jobNumber: '22',
+  __v: 0 }
+[2019-04-28T18:20:14.465] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:20:16.750] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-28T18:20:16.754] [INFO] default - 根据条件查询书籍: [ { _id: 5cb420b6a7b8c50c7cb005a7,
+    name: '西游记后传',
+    author: '吴承恩',
+    __v: 0 },
+  { _id: 5cb420c1a7b8c50c7cb005a8,
+    name: '红楼梦',
+    author: '曹雪芹',
+    __v: 0 },
+  { _id: 5cb460baa7b8c50c7cb005a9,
+    name: '三国演义',
+    author: '罗贯中',
+    __v: 0 },
+  { _id: 5cb460c7a7b8c50c7cb005aa,
+    name: '水浒传',
+    author: '施耐庵',
+    __v: 0 },
+  { _id: 5cb460d5a7b8c50c7cb005ab,
+    name: '大唐双龙传',
+    author: '黄易',
+    __v: 0 },
+  { _id: 5cb9a87dff88612088b284df,
+    name: '7天速成h5',
+    author: 'ds',
+    __v: 0 },
+  { _id: 5cc41046ed60cfad62eaa0bd,
+    name: '云尊',
+    author: '天蚕土豆',
+    __v: 0 } ]
+[2019-04-28T18:20:19.791] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:20:21.111] [INFO] default - 获取资源树形列表的参数： { userId: '5cc57099ae19964b04406027' }
+[2019-04-28T18:20:21.113] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc57099ae19964b04406027,
+  username: 'sysadmin',
+  name: '超级管理员',
+  __v: 0 }
+[2019-04-28T18:20:21.158] [INFO] default - 获取资源getChildrenAndSelf列表的参数： { code: '0' }
+[2019-04-28T18:20:22.224] [INFO] default - 获取用户列表的参数： {}
+[2019-04-28T18:20:23.783] [INFO] default - 获取角色列表的参数： {}
+[2019-04-28T18:20:27.019] [INFO] default - 新增角色参数： { name: '22' }
+[2019-04-28T18:20:27.021] [INFO] default - 根据id查询角色: null
+[2019-04-28T18:20:27.060] [INFO] default - 获取角色列表的参数： {}
+[2019-04-28T18:20:30.429] [INFO] default - 修改角色信息参数： { _id: '5cc57e6bb0655053faf846a4',
+  name: '2223',
+  updateTime: '2019-04-28T18:20:27.021Z',
+  __v: 0,
+  _index: 2,
+  _rowKey: 49 }
+[2019-04-28T18:20:30.473] [INFO] default - 获取角色列表的参数： {}
+[2019-04-28T18:20:34.657] [INFO] default - 获取资源角色授权树形列表的参数： { userId: '5cc57099ae19964b04406027',
+  roleId: '5cc57e6bb0655053faf846a4' }
+[2019-04-28T18:20:34.660] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc57099ae19964b04406027,
+  username: 'sysadmin',
+  name: '超级管理员',
+  __v: 0 }
+[2019-04-28T18:20:38.400] [INFO] default - 获取角色授权的参数： { opUserId: '5cc57099ae19964b04406027',
+  roleId: '5cc57e6bb0655053faf846a4',
+  resourceIdArray: [ '5cc033727740d16e07d99893', '5cc033807740d16e07d99894' ] }
+[2019-04-28T18:20:38.447] [INFO] default - 获取角色列表的参数： {}
+[2019-04-28T18:20:39.884] [INFO] default - 获取资源角色授权树形列表的参数： { userId: '5cc57099ae19964b04406027',
+  roleId: '5cc57e6bb0655053faf846a4' }
+[2019-04-28T18:20:39.887] [INFO] default - 根据id查询用户: { password: 'e10adc3949ba59abbe56e057f20f883e',
+  type: 2,
+  _id: 5cc57099ae19964b04406027,
+  username: 'sysadmin',
+  name: '超级管理员',
+  __v: 0 }
+[2019-04-28T18:20:41.121] [INFO] default - 获取角色列表的参数： {}
+[2019-04-28T18:20:43.102] [INFO] default - 删除角色参数： { _id: '5cc57e6bb0655053faf846a4' }
+[2019-04-28T18:20:43.104] [INFO] default - 根据id查询角色: { _id: 5cc57e6bb0655053faf846a4,
+  name: '2223',
+  updateTime: 2019-04-28T18:20:30.429Z,
+  __v: 0 }
+[2019-04-28T18:20:43.115] [INFO] default - 获取角色列表的参数： {}
+[2019-04-28T18:20:44.555] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-28T18:20:44.557] [INFO] default - 根据条件查询书籍: [ { _id: 5cb420b6a7b8c50c7cb005a7,
+    name: '西游记后传',
+    author: '吴承恩',
+    __v: 0 },
+  { _id: 5cb420c1a7b8c50c7cb005a8,
+    name: '红楼梦',
+    author: '曹雪芹',
+    __v: 0 },
+  { _id: 5cb460baa7b8c50c7cb005a9,
+    name: '三国演义',
+    author: '罗贯中',
+    __v: 0 },
+  { _id: 5cb460c7a7b8c50c7cb005aa,
+    name: '水浒传',
+    author: '施耐庵',
+    __v: 0 },
+  { _id: 5cb460d5a7b8c50c7cb005ab,
+    name: '大唐双龙传',
+    author: '黄易',
+    __v: 0 },
+  { _id: 5cb9a87dff88612088b284df,
+    name: '7天速成h5',
+    author: 'ds',
+    __v: 0 },
+  { _id: 5cc41046ed60cfad62eaa0bd,
+    name: '云尊',
+    author: '天蚕土豆',
+    __v: 0 } ]
+[2019-04-28T18:20:48.460] [INFO] default - 新增书籍参数： { name: '2323', author: '23' }
+[2019-04-28T18:20:48.462] [INFO] default - 根据条件查询书籍: []
+[2019-04-28T18:20:48.464] [INFO] default - 新增书籍结果： { _id: 5cc57e80b0655053faf846a6,
+  name: '2323',
+  author: '23',
+  __v: 0 }
+[2019-04-28T18:20:48.509] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-28T18:20:48.513] [INFO] default - 根据条件查询书籍: [ { _id: 5cb420b6a7b8c50c7cb005a7,
+    name: '西游记后传',
+    author: '吴承恩',
+    __v: 0 },
+  { _id: 5cb420c1a7b8c50c7cb005a8,
+    name: '红楼梦',
+    author: '曹雪芹',
+    __v: 0 },
+  { _id: 5cb460baa7b8c50c7cb005a9,
+    name: '三国演义',
+    author: '罗贯中',
+    __v: 0 },
+  { _id: 5cb460c7a7b8c50c7cb005aa,
+    name: '水浒传',
+    author: '施耐庵',
+    __v: 0 },
+  { _id: 5cb460d5a7b8c50c7cb005ab,
+    name: '大唐双龙传',
+    author: '黄易',
+    __v: 0 },
+  { _id: 5cb9a87dff88612088b284df,
+    name: '7天速成h5',
+    author: 'ds',
+    __v: 0 },
+  { _id: 5cc41046ed60cfad62eaa0bd,
+    name: '云尊',
+    author: '天蚕土豆',
+    __v: 0 },
+  { _id: 5cc57e80b0655053faf846a6,
+    name: '2323',
+    author: '23',
+    __v: 0 } ]
+[2019-04-28T18:20:52.410] [INFO] default - 修改书籍信息参数： { _id: '5cc57e80b0655053faf846a6',
+  name: '2323',
+  author: '2323',
+  __v: 0,
+  _index: 7,
+  _rowKey: 75 }
+[2019-04-28T18:20:52.412] [INFO] default - 更新书籍结果： { n: 1, nModified: 1, ok: 1 }
+[2019-04-28T18:20:52.447] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-28T18:20:52.450] [INFO] default - 根据条件查询书籍: [ { _id: 5cb420b6a7b8c50c7cb005a7,
+    name: '西游记后传',
+    author: '吴承恩',
+    __v: 0 },
+  { _id: 5cb420c1a7b8c50c7cb005a8,
+    name: '红楼梦',
+    author: '曹雪芹',
+    __v: 0 },
+  { _id: 5cb460baa7b8c50c7cb005a9,
+    name: '三国演义',
+    author: '罗贯中',
+    __v: 0 },
+  { _id: 5cb460c7a7b8c50c7cb005aa,
+    name: '水浒传',
+    author: '施耐庵',
+    __v: 0 },
+  { _id: 5cb460d5a7b8c50c7cb005ab,
+    name: '大唐双龙传',
+    author: '黄易',
+    __v: 0 },
+  { _id: 5cb9a87dff88612088b284df,
+    name: '7天速成h5',
+    author: 'ds',
+    __v: 0 },
+  { _id: 5cc41046ed60cfad62eaa0bd,
+    name: '云尊',
+    author: '天蚕土豆',
+    __v: 0 },
+  { _id: 5cc57e80b0655053faf846a6,
+    name: '2323',
+    author: '2323',
+    __v: 0 } ]
+[2019-04-28T18:20:55.580] [INFO] default - 删除书籍参数： { _id: '5cc57e80b0655053faf846a6' }
+[2019-04-28T18:20:55.583] [INFO] default - 根据条件查询书籍: [ { _id: 5cc57e80b0655053faf846a6,
+    name: '2323',
+    author: '2323',
+    __v: 0 } ]
+[2019-04-28T18:20:55.585] [INFO] default - 根据id删除书籍结果： { _id: 5cc57e80b0655053faf846a6,
+  name: '2323',
+  author: '2323',
+  __v: 0 }
+[2019-04-28T18:20:55.596] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-28T18:20:55.598] [INFO] default - 根据条件查询书籍: [ { _id: 5cb420b6a7b8c50c7cb005a7,
+    name: '西游记后传',
+    author: '吴承恩',
+    __v: 0 },
+  { _id: 5cb420c1a7b8c50c7cb005a8,
+    name: '红楼梦',
+    author: '曹雪芹',
+    __v: 0 },
+  { _id: 5cb460baa7b8c50c7cb005a9,
+    name: '三国演义',
+    author: '罗贯中',
+    __v: 0 },
+  { _id: 5cb460c7a7b8c50c7cb005aa,
+    name: '水浒传',
+    author: '施耐庵',
+    __v: 0 },
+  { _id: 5cb460d5a7b8c50c7cb005ab,
+    name: '大唐双龙传',
+    author: '黄易',
+    __v: 0 },
+  { _id: 5cb9a87dff88612088b284df,
+    name: '7天速成h5',
+    author: 'ds',
+    __v: 0 },
+  { _id: 5cc41046ed60cfad62eaa0bd,
+    name: '云尊',
+    author: '天蚕土豆',
+    __v: 0 } ]
+[2019-04-28T18:20:57.582] [INFO] default - 获取借阅列表的参数： { user: '5cc57099ae19964b04406027', state: '0' }
+[2019-04-28T18:20:57.585] [INFO] default - 根据条件查询借阅关系结果： []
+[2019-04-28T18:20:59.814] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-28T18:20:59.816] [INFO] default - 根据条件查询书籍: [ { _id: 5cb420b6a7b8c50c7cb005a7,
+    name: '西游记后传',
+    author: '吴承恩',
+    __v: 0 },
+  { _id: 5cb420c1a7b8c50c7cb005a8,
+    name: '红楼梦',
+    author: '曹雪芹',
+    __v: 0 },
+  { _id: 5cb460baa7b8c50c7cb005a9,
+    name: '三国演义',
+    author: '罗贯中',
+    __v: 0 },
+  { _id: 5cb460c7a7b8c50c7cb005aa,
+    name: '水浒传',
+    author: '施耐庵',
+    __v: 0 },
+  { _id: 5cb460d5a7b8c50c7cb005ab,
+    name: '大唐双龙传',
+    author: '黄易',
+    __v: 0 },
+  { _id: 5cb9a87dff88612088b284df,
+    name: '7天速成h5',
+    author: 'ds',
+    __v: 0 },
+  { _id: 5cc41046ed60cfad62eaa0bd,
+    name: '云尊',
+    author: '天蚕土豆',
+    __v: 0 } ]
+[2019-04-28T18:21:02.390] [INFO] default - 获取借阅列表的参数： { book: '5cc41046ed60cfad62eaa0bd', state: '0' }
+[2019-04-28T18:21:02.392] [INFO] default - 根据条件查询借阅关系结果： []
+[2019-04-28T18:21:02.458] [INFO] default - 获取书籍实例的参数： { _id: '5cc41046ed60cfad62eaa0bd' }
+[2019-04-28T18:21:02.460] [INFO] default - 根据id查询书籍: { _id: 5cc41046ed60cfad62eaa0bd,
+  name: '云尊',
+  author: '天蚕土豆',
+  __v: 0 }
+[2019-04-28T18:21:04.600] [INFO] default - 新增借阅参数： { name: '云尊',
+  author: '天蚕土豆',
+  user: '5cc57099ae19964b04406027',
+  endTime: '2019-04-28T10:21:02.415Z',
+  book: '5cc41046ed60cfad62eaa0bd' }
+[2019-04-28T18:21:04.603] [INFO] default - 根据条件查询借阅关系结果： null
+[2019-04-28T18:21:04.606] [INFO] default - 新增借阅关系结果： { state: 0,
+  isRenew: false,
+  _id: 5cc57e90b0655053faf846a7,
+  user: 5cc57099ae19964b04406027,
+  endTime: 2019-04-28T10:21:02.415Z,
+  book: 5cc41046ed60cfad62eaa0bd,
+  startTime: 2019-04-28T10:21:04.604Z,
+  __v: 0 }
+[2019-04-28T18:21:04.666] [INFO] default - 获取借阅列表的参数： { user: '5cc57099ae19964b04406027', state: '0' }
+[2019-04-28T18:21:04.680] [INFO] default - 根据条件查询借阅关系结果： [ { state: 0,
+    isRenew: false,
+    _id: 5cc57e90b0655053faf846a7,
+    user:
+     { password: 'e10adc3949ba59abbe56e057f20f883e',
+       type: 2,
+       _id: 5cc57099ae19964b04406027,
+       username: 'sysadmin',
+       name: '超级管理员',
+       __v: 0 },
+    endTime: 2019-04-28T10:21:02.415Z,
+    book:
+     { _id: 5cc41046ed60cfad62eaa0bd,
+       name: '云尊',
+       author: '天蚕土豆',
+       __v: 0 },
+    startTime: 2019-04-28T10:21:04.604Z,
+    __v: 0 } ]
+[2019-04-28T18:21:06.690] [INFO] default - 获取书籍实例的参数： { _id: '5cc41046ed60cfad62eaa0bd' }
+[2019-04-28T18:21:06.692] [INFO] default - 根据id查询书籍: { _id: 5cc41046ed60cfad62eaa0bd,
+  name: '云尊',
+  author: '天蚕土豆',
+  __v: 0 }
+[2019-04-28T18:21:10.081] [INFO] default - 修改借阅信息参数： { name: '云尊',
+  author: '天蚕土豆',
+  user: '5cc57099ae19964b04406027',
+  endTime: '2019-04-29T16:00:00.000Z',
+  _id: '5cc57e90b0655053faf846a7',
+  book: '5cc41046ed60cfad62eaa0bd' }
+[2019-04-28T18:21:10.083] [INFO] default - 修改借阅关系结果： { n: 1, nModified: 1, ok: 1 }
+[2019-04-28T18:21:10.139] [INFO] default - 获取借阅列表的参数： { user: '5cc57099ae19964b04406027', state: '0' }
+[2019-04-28T18:21:10.146] [INFO] default - 根据条件查询借阅关系结果： [ { state: 0,
+    isRenew: true,
+    _id: 5cc57e90b0655053faf846a7,
+    user:
+     { password: 'e10adc3949ba59abbe56e057f20f883e',
+       type: 2,
+       _id: 5cc57099ae19964b04406027,
+       username: 'sysadmin',
+       name: '超级管理员',
+       __v: 0 },
+    endTime: 2019-04-29T16:00:00.000Z,
+    book:
+     { _id: 5cc41046ed60cfad62eaa0bd,
+       name: '云尊',
+       author: '天蚕土豆',
+       __v: 0 },
+    startTime: 2019-04-28T10:21:04.604Z,
+    __v: 0 } ]
+[2019-04-28T18:21:14.236] [INFO] default - 归还借阅信息参数： { _id: '5cc57e90b0655053faf846a7' }
+[2019-04-28T18:21:14.240] [INFO] default - 根据条件查询借阅关系结果： { state: 0,
+  isRenew: true,
+  _id: 5cc57e90b0655053faf846a7,
+  user:
+   { password: 'e10adc3949ba59abbe56e057f20f883e',
+     type: 2,
+     _id: 5cc57099ae19964b04406027,
+     username: 'sysadmin',
+     name: '超级管理员',
+     __v: 0 },
+  endTime: 2019-04-29T16:00:00.000Z,
+  book:
+   { _id: 5cc41046ed60cfad62eaa0bd,
+     name: '云尊',
+     author: '天蚕土豆',
+     __v: 0 },
+  startTime: 2019-04-28T10:21:04.604Z,
+  __v: 0 }
+[2019-04-28T18:21:14.243] [INFO] default - 修改借阅关系结果： { n: 1, nModified: 1, ok: 1 }
+[2019-04-28T18:21:14.256] [INFO] default - 获取借阅列表的参数： { user: '5cc57099ae19964b04406027', state: '0' }
+[2019-04-28T18:21:14.258] [INFO] default - 根据条件查询借阅关系结果： []
+[2019-04-28T18:21:15.480] [INFO] default - 获取借阅列表的参数： { user: '5cc57099ae19964b04406027', state: '1' }
+[2019-04-28T18:21:15.484] [INFO] default - 根据条件查询借阅关系结果： [ { state: 1,
+    isRenew: true,
+    _id: 5cc57e90b0655053faf846a7,
+    user:
+     { password: 'e10adc3949ba59abbe56e057f20f883e',
+       type: 2,
+       _id: 5cc57099ae19964b04406027,
+       username: 'sysadmin',
+       name: '超级管理员',
+       __v: 0 },
+    endTime: 2019-04-29T16:00:00.000Z,
+    book:
+     { _id: 5cc41046ed60cfad62eaa0bd,
+       name: '云尊',
+       author: '天蚕土豆',
+       __v: 0 },
+    startTime: 2019-04-28T10:21:04.604Z,
+    __v: 0,
+    backTime: 2019-04-28T10:21:14.241Z } ]
+[2019-04-28T18:21:19.701] [INFO] default - 获取借阅列表的参数： { user: '5cc57099ae19964b04406027', state: '0' }
+[2019-04-28T18:21:19.703] [INFO] default - 根据条件查询借阅关系结果： []
+[2019-04-28T18:21:21.441] [INFO] default - 获取书籍列表的参数： {}
+[2019-04-28T18:21:21.444] [INFO] default - 根据条件查询书籍: [ { _id: 5cb420b6a7b8c50c7cb005a7,
+    name: '西游记后传',
+    author: '吴承恩',
+    __v: 0 },
+  { _id: 5cb420c1a7b8c50c7cb005a8,
+    name: '红楼梦',
+    author: '曹雪芹',
+    __v: 0 },
+  { _id: 5cb460baa7b8c50c7cb005a9,
+    name: '三国演义',
+    author: '罗贯中',
+    __v: 0 },
+  { _id: 5cb460c7a7b8c50c7cb005aa,
+    name: '水浒传',
+    author: '施耐庵',
+    __v: 0 },
+  { _id: 5cb460d5a7b8c50c7cb005ab,
+    name: '大唐双龙传',
+    author: '黄易',
+    __v: 0 },
+  { _id: 5cb9a87dff88612088b284df,
+    name: '7天速成h5',
+    author: 'ds',
+    __v: 0 },
+  { _id: 5cc41046ed60cfad62eaa0bd,
+    name: '云尊',
+    author: '天蚕土豆',
+    __v: 0 } ]
+[2019-04-28T18:21:22.975] [INFO] default - 获取借阅列表的参数： { book: '5cb420c1a7b8c50c7cb005a8', state: '0' }
+[2019-04-28T18:21:22.980] [INFO] default - 根据条件查询借阅关系结果： [ { state: 0,
+    isRenew: false,
+    _id: 5cc26c5f32b0a1727876db82,
+    user:
+     { password: 'e10adc3949ba59abbe56e057f20f883e',
+       type: 0,
+       _id: 5cc267ed7740d16e07d99897,
+       username: 'qiang.li',
+       name: '李强',
+       studentNumber: '09064214',
+       jobNumber: '',
+       __v: 0,
+       passwordUptTime: 2019-04-28T17:15:35.965Z },
+    endTime: 2019-04-28T16:00:00.000Z,
+    book:
+     { _id: 5cb420c1a7b8c50c7cb005a8,
+       name: '红楼梦',
+       author: '曹雪芹',
+       __v: 0 },
+    startTime: 2019-04-26T02:26:39.361Z,
+    __v: 0 } ]
+[2019-04-28T18:21:24.045] [INFO] default - 获取借阅列表的参数： { book: '5cb460baa7b8c50c7cb005a9', state: '0' }
+[2019-04-28T18:21:24.047] [INFO] default - 根据条件查询借阅关系结果： []
+[2019-04-28T18:21:24.090] [INFO] default - 获取书籍实例的参数： { _id: '5cb460baa7b8c50c7cb005a9' }
+[2019-04-28T18:21:24.093] [INFO] default - 根据id查询书籍: { _id: 5cb460baa7b8c50c7cb005a9,
+  name: '三国演义',
+  author: '罗贯中',
+  __v: 0 }
+[2019-04-28T18:21:25.695] [INFO] default - 新增借阅参数： { name: '三国演义',
+  author: '罗贯中',
+  user: '5cc57099ae19964b04406027',
+  endTime: '2019-04-28T10:21:24.056Z',
+  book: '5cb460baa7b8c50c7cb005a9' }
+[2019-04-28T18:21:25.697] [INFO] default - 根据条件查询借阅关系结果： null
+[2019-04-28T18:21:25.699] [INFO] default - 新增借阅关系结果： { state: 0,
+  isRenew: false,
+  _id: 5cc57ea5b0655053faf846aa,
+  user: 5cc57099ae19964b04406027,
+  endTime: 2019-04-28T10:21:24.056Z,
+  book: 5cb460baa7b8c50c7cb005a9,
+  startTime: 2019-04-28T10:21:25.697Z,
+  __v: 0 }
+[2019-04-28T18:21:25.747] [INFO] default - 获取借阅列表的参数： { user: '5cc57099ae19964b04406027', state: '0' }
+[2019-04-28T18:21:25.755] [INFO] default - 根据条件查询借阅关系结果： [ { state: 0,
+    isRenew: false,
+    _id: 5cc57ea5b0655053faf846aa,
+    user:
+     { password: 'e10adc3949ba59abbe56e057f20f883e',
+       type: 2,
+       _id: 5cc57099ae19964b04406027,
+       username: 'sysadmin',
+       name: '超级管理员',
+       __v: 0 },
+    endTime: 2019-04-28T10:21:24.056Z,
+    book:
+     { _id: 5cb460baa7b8c50c7cb005a9,
+       name: '三国演义',
+       author: '罗贯中',
+       __v: 0 },
+    startTime: 2019-04-28T10:21:25.697Z,
+    __v: 0 } ]
+[2019-04-28T18:21:28.090] [INFO] default - 归还借阅信息参数： { _id: '5cc57ea5b0655053faf846aa' }
+[2019-04-28T18:21:28.094] [INFO] default - 根据条件查询借阅关系结果： { state: 0,
+  isRenew: false,
+  _id: 5cc57ea5b0655053faf846aa,
+  user:
+   { password: 'e10adc3949ba59abbe56e057f20f883e',
+     type: 2,
+     _id: 5cc57099ae19964b04406027,
+     username: 'sysadmin',
+     name: '超级管理员',
+     __v: 0 },
+  endTime: 2019-04-28T10:21:24.056Z,
+  book:
+   { _id: 5cb460baa7b8c50c7cb005a9,
+     name: '三国演义',
+     author: '罗贯中',
+     __v: 0 },
+  startTime: 2019-04-28T10:21:25.697Z,
+  __v: 0 }
+[2019-04-28T18:21:28.096] [INFO] default - 修改借阅关系结果： { n: 1, nModified: 1, ok: 1 }
+[2019-04-28T18:21:28.109] [INFO] default - 获取借阅列表的参数： { user: '5cc57099ae19964b04406027', state: '0' }
+[2019-04-28T18:21:28.111] [INFO] default - 根据条件查询借阅关系结果： []
+[2019-04-28T18:21:29.000] [INFO] default - 获取借阅列表的参数： { user: '5cc57099ae19964b04406027', state: '1' }
+[2019-04-28T18:21:29.007] [INFO] default - 根据条件查询借阅关系结果： [ { state: 1,
+    isRenew: true,
+    _id: 5cc57e90b0655053faf846a7,
+    user:
+     { password: 'e10adc3949ba59abbe56e057f20f883e',
+       type: 2,
+       _id: 5cc57099ae19964b04406027,
+       username: 'sysadmin',
+       name: '超级管理员',
+       __v: 0 },
+    endTime: 2019-04-29T16:00:00.000Z,
+    book:
+     { _id: 5cc41046ed60cfad62eaa0bd,
+       name: '云尊',
+       author: '天蚕土豆',
+       __v: 0 },
+    startTime: 2019-04-28T10:21:04.604Z,
+    __v: 0,
+    backTime: 2019-04-28T10:21:14.241Z },
+  { state: 1,
+    isRenew: false,
+    _id: 5cc57ea5b0655053faf846aa,
+    user:
+     { password: 'e10adc3949ba59abbe56e057f20f883e',
+       type: 2,
+       _id: 5cc57099ae19964b04406027,
+       username: 'sysadmin',
+       name: '超级管理员',
+       __v: 0 },
+    endTime: 2019-04-28T10:21:24.056Z,
+    book:
+     { _id: 5cb460baa7b8c50c7cb005a9,
+       name: '三国演义',
+       author: '罗贯中',
+       __v: 0 },
+    startTime: 2019-04-28T10:21:25.697Z,
+    __v: 0,
+    backTime: 2019-04-28T10:21:28.095Z } ]
+[2019-04-28T18:21:31.618] [INFO] default - 获取借阅列表的参数： { user: '5cc57099ae19964b04406027', state: '0' }
+[2019-04-28T18:21:31.621] [INFO] default - 根据条件查询借阅关系结果： []
