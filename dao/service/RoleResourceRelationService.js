@@ -40,6 +40,7 @@ let MainService={
 
         })
     },
+
     findOne(whereObj){
         return new Promise((resolve,reject)=>{
 

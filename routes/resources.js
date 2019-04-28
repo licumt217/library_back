@@ -7,272 +7,250 @@ const userService = require('../dao/service/UserService')
 const roleResourceRelationService = require('../dao/service/RoleResourceRelationService')
 const log4js = require('../config/log-config')
 const logger = log4js.getLogger() // 根据需要获取logger
-const entityName='资源'
-
-
+const entityName = '资源'
 
 
 // 新增
-router.post('/add', function (req, res) {
+router.post('/add', async function (req, res) {
 
-    logger.info(`新增${entityName}参数：`,req.body)
+    logger.info(`新增${entityName}参数：`, req.body)
 
-    mainService.find({
-        name:req.body.name
-    }).then(data=>{
-        if(data && data.length>0){
-            return Promise.reject(`${entityName}已存在！`)
-        }else{
-            return Promise.resolve()
-        }
-    }).then(()=>{
-        let entity = new Entity(req.body);
+    let whereObj = {
+        name: req.body.name
+    }
 
+    try {
+        let data = await mainService.findOne(whereObj);
 
-        mainService.find({
-            parentCode:req.body.parentCode
-        }).then(data=>{
-            if(data && data.length>0){
+        if (!data) {
+            res.send(Response.businessException(`${entityName}已存在！`))
+        } else {
+            let entity = new Entity(req.body);
 
-                let max=0;
-                let len=data[0].code.length;
-
-                for(let i=0;i<data.length;i++){
-                    let ele=data[i];
-                    if(Number(ele.code)>max){
-                        max=Number(ele.code)
-                    }
-                }
-
-                let theCode=max+1;
-
-                theCode=String(theCode);
-
-                if(len!==theCode.length){
-                    let len2Fix=len-theCode.length;
-                    for(let i=0;i<len2Fix;i++){
-
-                        theCode="0"+theCode;
-                    }
-                }
-
-
-
-                return Promise.resolve(theCode)
-            }else{
-                return Promise.resolve(req.body.parentCode.length===1?'0001':req.body.parentCode+'0001')
+            whereObj = {
+                parentCode: req.body.parentCode
             }
-        }).then((code)=>{
 
-            entity.code=code;
+            data = await mainService.find(whereObj)
 
-            entity.activeName=entity.url;
+            let theCode = null;
 
-            return mainService.save(entity).then(data=>{
-                res.send(Response.success(data));
-            })
-        }).catch(err=>{
-            logger.info(err)
-            res.send(Response.businessException(err))
-        })
+            if (data && data.length > 0) {
 
-    }).catch(err=>{
+                let max = 0;
+                let len = data[0].code.length;
+
+                for (let i = 0; i < data.length; i++) {
+                    let ele = data[i];
+                    if (Number(ele.code) > max) {
+                        max = Number(ele.code)
+                    }
+                }
+
+                theCode = max + 1;
+
+                theCode = String(theCode);
+
+                if (len !== theCode.length) {
+                    let len2Fix = len - theCode.length;
+                    for (let i = 0; i < len2Fix; i++) {
+
+                        theCode = "0" + theCode;
+                    }
+                }
+
+            } else {
+                theCode = req.body.parentCode.length === 1 ? '0001' : req.body.parentCode + '0001'
+            }
+
+
+            entity.code = theCode;
+
+            entity.activeName = entity.url;
+
+            data = await mainService.save(entity)
+
+            res.send(Response.success(data));
+        }
+    } catch (err) {
         logger.info(err)
         res.send(Response.businessException(err))
-    })
+    }
+
 
 })
 
 
 // 删除
-router.post('/remove', function (req, res) {
+router.post('/remove', async function (req, res) {
 
-    logger.info(`删除${entityName}参数：`,req.body)
+    logger.info(`删除${entityName}参数：`, req.body)
 
-    let id=req.body._id
+    let id = req.body._id
 
+    try {
+        let data = await mainService.findById(id);
 
-    mainService.find({
-        _id:id
-    }).then(data=>{
-        if(!data || data.length===0){
-            return Promise.reject(`${entityName}不存在！`)
-        }else{
-            return Promise.resolve()
-        }
-    }).then(()=>{
-        mainService.remove(id).then(()=>{
+        if (!data) {
+            res.send(Response.businessException(`${entityName}不存在！`))
+        } else {
+            await mainService.remove(id)
+
             res.send(Response.success());
-        }).catch(err=>{
-            logger.info(err)
-            res.send(Response.businessException(err))
-        })
-    }).catch(err=>{
+        }
+    } catch (err) {
         logger.info(err)
         res.send(Response.businessException(err))
-    })
+    }
 
 })
 
 
-router.post('/update', function (req, res) {
+router.post('/update', async function (req, res) {
 
-    logger.info(`修改${entityName}信息参数：`,req.body)
+    logger.info(`修改${entityName}信息参数：`, req.body)
 
-    let updateObj=JSON.parse(JSON.stringify(req.body));
+    let updateObj = JSON.parse(JSON.stringify(req.body));
 
-    updateObj.activeName=updateObj.url;
+    updateObj.activeName = updateObj.url;
 
+    let whereObj = {
+        _id: req.body._id
+    }
 
-    mainService.update({
-        _id:req.body._id
-    },updateObj).then(()=>{
+    try {
+        await mainService.update(whereObj, updateObj);
+
         res.send(Response.success());
-    }).catch(err=>{
+    } catch (err) {
         logger.info(err)
         res.send(Response.businessException(err))
-    })
+    }
+
+
 })
 
-router.get('/list', function (req, res, next) {
+router.get('/list', async function (req, res, next) {
 
     logger.info(`获取${entityName}列表的参数：`, req.query)
 
-    let userId=req.query.userId;
+    let userId = req.query.userId;
 
-    userService.findById(userId).then(data=>{
+    try {
+        let data = await userService.findById(userId);
 
-        let user=data
-
-        let type=user.type;
+        let type = data.type;
 
         //超管返回所有，其它人根据权限获取
-        if(type===2){
-            mainService.find({}).then(data => {
-                res.send(Response.success(data));
+        if (type === 2) {
 
-            }).catch(err => {
-                logger.info(err)
-                res.send(Response.businessException(err))
-            })
-        }else{
+            data = await mainService.find();
 
+            res.send(Response.success(data));
+
+        } else {
+            //TODO
         }
-
-
-    }).catch(err=>{
+    } catch (err) {
         logger.info(err)
         res.send(Response.businessException(err))
-    });
-
-
+    }
 
 
 });
 
 
-router.get('/listByLevel', function (req, res, next) {
+router.get('/listByLevel', async function (req, res, next) {
 
     logger.info(`获取${entityName}树形列表的参数：`, req.query)
 
-    let userId=req.query.userId;
+    let userId = req.query.userId;
 
-    mainService.listByLevel(userId).then(data=>{
+    try {
+        let data = await mainService.listByLevel(userId);
+
         res.send(Response.success(data));
-    }).catch(err=>{
+    } catch (err) {
         logger.info(err)
         res.send(Response.businessException(err))
-    });
+    }
 
 });
 
 
-
-
-router.get('/listByRole', function (req, res, next) {
+router.get('/listByRole', async function (req, res, next) {
 
     logger.info(`获取${entityName}角色授权树形列表的参数：`, req.query)
 
-    let {userId,roleId}=req.query;
+    let {userId, roleId} = req.query;
 
-    mainService.listByLevel(userId).then(allResourceArray=>{
+    let whereObj = {
+        roleId: roleId
+    }
 
-        //获取授权的菜单
+    try {
+        let allResourceArray = await mainService.listByLevel(userId)
 
-        roleResourceRelationService.find({
-            roleId:roleId
-        }).then(data=>{
+        let data = await roleResourceRelationService.findOne(whereObj)
 
-            if(data && data.length>0){
-                let authResourceIdArray=data[0].resourceIdArray;
+        if (data) {
+            let authResourceIdArray = data.resourceIdArray;
 
 
-                for(let i=0;i<authResourceIdArray.length;i++){
+            for (let i = 0; i < authResourceIdArray.length; i++) {
 
-                    for(let j=0;j<allResourceArray.length;j++){
+                for (let j = 0; j < allResourceArray.length; j++) {
 
-                        if(allResourceArray[j].children.length===0){
-                            if(authResourceIdArray[i]===allResourceArray[j]._id.toString()){
-                                allResourceArray[j].checked=true;
+                    if (allResourceArray[j].children.length === 0) {
+                        if (authResourceIdArray[i] === allResourceArray[j]._id.toString()) {
+                            allResourceArray[j].checked = true;
+                        }
+                    } else {
+                        for (let m = 0; m < allResourceArray[j].children.length; m++) {
+                            if (authResourceIdArray[i] === allResourceArray[j].children[m]._id.toString()) {
+                                allResourceArray[j].children[m].checked = true;
                             }
-                        }else{
-                            for(let m=0;m<allResourceArray[j].children.length;m++){
-                                if(authResourceIdArray[i]===allResourceArray[j].children[m]._id.toString()){
-                                    allResourceArray[j].children[m].checked=true;
-                                }
-                            }
-
                         }
 
-
                     }
-                }
 
-                res.send(Response.success(allResourceArray))
-            }else{
-                res.send(Response.success(allResourceArray))
+
+                }
             }
 
-        }).catch(err=>{
-            res.send(Response.businessException("根据角色获取授权菜单异常！"))
-        })
 
+        }
 
-
-
-    }).catch(err=>{
+        res.send(Response.success(allResourceArray))
+    } catch (err) {
         logger.info(err)
         res.send(Response.businessException(err))
-    });
+    }
+
 
 });
 
 
-
-
-
-router.get('/getChildrenAndSelf', function (req, res, next) {
+router.get('/getChildrenAndSelf', async function (req, res, next) {
 
     logger.info(`获取${entityName}getChildrenAndSelf列表的参数：`, req.query)
 
-    let code=req.query.code;
+    let code = req.query.code;
 
-    mainService.find({
+    let whereObj = {
         code: new RegExp('^' + code)
-    }).then(data => {
-        res.send(Response.success(data));
+    }
 
-    }).catch(err => {
+    try {
+        let data = await mainService.find(whereObj);
+        res.send(Response.success(data));
+    } catch (err) {
         logger.info(err)
         res.send(Response.businessException(err))
-    })
+    }
+
 
 });
-
-
-
-
-
 
 
 module.exports = router;
